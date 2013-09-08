@@ -19,6 +19,21 @@ sudo apt-get install chromium-browser
 sudo apt-get install python-pip
 
 # install git
+sudo apt-get install git gitk
 
+# install curl
+sudo apt-get install curl
+
+# install imagemagick
+sudo apt-get install imagemagick
+
+# install editors
+sudo apt-get install vim emacs
+
+# install databases
+sudo apt-get install sqlite3 mongodb postgresql postgresql-contrib pgadmin3 libpq-dev
+
+# install screen
+sudo apt-get install screen
 
 

@@ -52,30 +52,18 @@ To login to the VM you will also need [ssh](http://en.wikipedia.org/wiki/Secure_
 
 * [R](http://www.r-project.org/) (R Studio optional)
 * [Python 2.7](http://docs.python.org/2.7/)
-* [IPython](http://ipython.org/)
-* [pip]() and [easy_install]()
-* [Chromium]()
-* [git]() and [gitk]()
+* [pip](https://pypi.python.org/pypi/pip) and [easy_install](http://pythonhosted.org/distribute/easy_install.html)
+* [Chromium](http://www.chromium.org/Home)
+* [git](http://git-scm.com/) and [gitk](http://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
+* [curl](http://curl.haxx.se/)
+* [imagemagick](http://www.imagemagick.org/script/index.php)
+* [SQLite3](http://www.sqlite.org/)
+* [Postgres](http://www.postgresql.org/)
+* [MongoDB](http://www.mongodb.org/)
+* [Vim](http://www.vim.org/)
+* [Emacs](http://www.gnu.org/software/emacs/)
+* [screen](http://www.gnu.org/software/screen/)
 
- 
-curl 
-
-
-make 
-ssh 
-
-imagemagick 
-postgresql-contrib 
-libpq-dev 
-postgresql 
-pgadmin3 
-vim
-icedtea-plugin
-sqlite3
-pip
-r
-python
-freetype
 pyqt
 zmq
 dh-make
@@ -93,37 +81,27 @@ xmlto
 ### Python
 
 #### Scientific Packages
-* IPython
-* numpy
-* matplotlib
-* scipy
-* scikit-learn
-* pandas
-* statsmodels
-* networkx
-* nltk
-* pymc
-* virtualenv
-* virtualenvwrapper
+* [IPython](http://ipython.org/)
+* [numpy](http://www.numpy.org/)
+* [matplotlib](http://matplotlib.org/)
+* [scipy](http://www.scipy.org/)
+* [scikit-learn](http://scikit-learn.org/stable/)
+* [pandas](http://pandas.pydata.org/)
+* [statsmodels](http://statsmodels.sourceforge.net/)
+* [networkx](http://networkx.github.io/)
+* [nltk](http://nltk.org/)
+* [pymc](http://pymc-devs.github.io/pymc/)
+* [patsy](http://patsy.readthedocs.org/en/latest/overview.html)
+* [virtualenv](https://pypi.python.org/pypi/virtualenv)
+* [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/)
 
 #### Utility packages
-* nose
-* flask
-* sqlalchemy
-* beautifulsoup4
-* pymongo
-* requests
-
-pyzmq
-
-
-
-
-pyparsing
-python-dateutil
-
-pika
-patsy
+* [nose](http://nose.readthedocs.org/en/latest/)
+* [flask](http://flask.pocoo.org/)
+* [sqlalchemy](http://www.sqlalchemy.org/)
+* [beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/)
+* [pymongo](http://api.mongodb.org/python/current/)
+* [requests](http://docs.python-requests.org/en/latest/)
 
 
 ### R

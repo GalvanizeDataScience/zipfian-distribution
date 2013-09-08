@@ -41,6 +41,8 @@ echo "Installing networkx"
 pip install networkx
 echo "Installing Pymc"
 pip install pymc
+echo "Installing patsy"
+pip install patsy
 echo "Installing nltk"
 pip install nltk
 echo "... And downloading the data/corpus"
@@ -55,5 +57,5 @@ echo "Installing Beautiful Soup 4"
 pip install beautifulsoup4
 echo "Installing PyMongo"
 pip install pymongo
-echo "Installing Flask"
-
+echo "Installing SQL Alchemy"
+pip install sqlalchemy
