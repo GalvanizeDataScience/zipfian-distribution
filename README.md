@@ -8,7 +8,7 @@ The Zipfian Distribution itself is a [Vagrant](http://www.vagrantup.com/) box ba
 
 The shell scripts are all written for Ubuntu and utilize `apt-get`, which makes them great to spin up machines in the cloud with [Rackspace](http://www.rackspace.com/cloud/servers/) or [AWS](http://aws.amazon.com/ec2/) (or any other cloud provider).  But this dependency severely limits the portability of them to any other OS.  The Python and R libraries are installed using [pip](https://pypi.python.org/pypi/pip) and [CRAN](http://cran.r-project.org/), and should work on any platform.
 
-Read [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) docs for a user guide.
+Read [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) docs for a more advanced treatment of customizing the box.
 
 __NOTE: Python 2.7 is the default version for this distribution__
 

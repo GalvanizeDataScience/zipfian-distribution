@@ -21,7 +21,7 @@ fi
 
 # install scientific Python libraries
 echo "Installing Scipy"
-sudo apt-get install python-scipy libblas-dev liblapack-dev gfortran freetype*
+sudo apt-get install -y python-scipy libblas-dev liblapack-dev gfortran freetype*
 sudo easy_install -U distribute
 echo "export BLAS=/usr/lib/libblas.so" >> ~/.profile
 echo "export LAPACK=/usr/lib/liblapack.so" >> ~/.profile
