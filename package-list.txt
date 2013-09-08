@@ -1,0 +1,140 @@
+* R (R Studio optional)
+* Python 2.7
+* IPython
+* pip and easy_install
+* Chromium Stable
+
+* fortran 
+* sublie text 2
+* git
+* gitk
+
+build-essential 
+openssl 
+libreadline6 
+libreadline6-dev 
+curl 
+git-core 
+zlib1g 
+zlib1g-dev 
+libyaml-dev 
+libsqlite3-0 
+libsqlite3-dev 
+libxslt1-dev
+libkrb5-dev
+libldap2-dev
+libmysqlclient-dev
+libsasl2-dev
+libxml2-dev
+python-dev
+python-setuptools
+liblzo2-dev
+libzip-dev
+libfuse-dev
+libssl-dev
+libxml2-dev 
+libxslt-dev 
+libc6-dev 
+ncurses-dev 
+automake 
+libtool 
+bison 
+ncurses-term 
+libnotify-bin 
+
+autoconf 
+make 
+ssh 
+openjdk-6-jdk 
+git-doc 
+imagemagick 
+postgresql-contrib 
+libpq-dev 
+postgresql 
+pgadmin3 
+vim
+icedtea-plugin
+sqlite3
+pip
+r
+python
+freetype
+pyqt
+zmq
+dh-make
+debhelper
+devscripts
+reprepro
+subversion
+gcc-c++
+fuse
+protobuf-compiler
+sharutils
+asciidoc
+xmlto
+
+### Python
+
+sql alchemy
+statsmodel
+scikit-learn
+pymc
+* virtualenv
+* virtualenvwrapper
+* numpy
+* scipy
+* ipython
+* ipython notebook
+nbconvert
+pyzmq
+pygments
+nose
+sympy
+pandas
+matplotlib
+flask
+networkx
+nltk
+tornado
+
+readline
+six
+pyparsing
+python-dateutil
+pytz
+pika
+patsy
+jinja2
+pygments
+sphinx
+
+### R
+
+Coming Soon!
+
+### Hadoop Ecosystem
+
+For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.apache.org/) to ease the installation process.
+
+* Apache Maven
+* Apache Ant
+* Apache Zookeeper 3.4.5
+* Apache Flume 1.3.1
+* Apache HBase 0.94.5
+* Apache Pig 0.11.1
+* Apache Hive 0.10.0
+* Apache Sqoop 2 (AKA 1.99.2)
+* Apache Oozie 3.3.2
+* Apache Whirr 0.8.2
+* Apache Mahout 0.7
+* Apache Solr (SolrCloud) 4.2.1
+* Apache Crunch (incubating) 0.5.0
+* Apache HCatalog 0.5.0
+* Apache Giraph 1.0.0
+* LinkedIn DataFu 0.0.6
+* Cloudera Hue 2.3.0
+* Apache Spark
+* Cascading (Coming Soon)
+* Pycascading (Coming Soon)
+* Storm (Coming Soon)
+ 
