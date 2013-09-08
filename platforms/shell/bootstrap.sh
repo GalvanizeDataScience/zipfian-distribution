@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # install Ubuntu libraries
-./ubuntu.sh
+lib/ubuntu.sh
 
 # install Python libraries
-./python.sh
+lib/python.sh
 
 # install Hadoop Ecosystem
-./hadoop-ecosystem.sh
+lib/hadoop-ecosystem.sh

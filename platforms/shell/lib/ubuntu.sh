@@ -36,4 +36,7 @@ sudo apt-get install sqlite3 mongodb postgresql postgresql-contrib pgadmin3 libp
 # install screen
 sudo apt-get install screen
 
+# install scala
+sudo apt-get install scala
+
 

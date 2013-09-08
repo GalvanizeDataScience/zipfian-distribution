@@ -2,11 +2,11 @@
 
 [![Zipfian Distribution](http://media.smashingmagazine.com/wp-content/uploads/2012/05/Monster-Main.jpg)](http://uxdesign.smashingmagazine.com/2012/05/16/stop-redesigning-start-tuning-your-site/)
 
-An Open Source development environment for getting up and running with data science quickly on any platform (scroll to [quickstart](#quickstart) if you are impatient)!  This repository contains shell scripts to install neccessary packages and programs on Ubuntu 12.04 LTS, as well as libraries for doing data analysis in Python, R, and Hadoop.  All libraries have tested to play nice together and Python packages are installed in a [virtualenv](https://pypi.python.org/pypi/virtualenv). 
+An Open Source development environment for getting up and running with data science quickly on any platform (scroll to [quickstart](#quickstart) if you are impatient)!  This repository contains shell scripts to install neccessary packages and programs on Ubuntu 12.04 LTS, as well as libraries for doing data analysis in Python, R, and Hadoop.  All libraries have been tested to play nice together and Python packages are installed in a [virtualenv](https://pypi.python.org/pypi/virtualenv). 
 
-The Zipfian Distribution itself is a [Vagrant](http://www.vagrantup.com/) box meant to be a self contained environment runnable on any platform supported by [Virtual Box](https://www.virtualbox.org/) (which is most all of them).  This is the quickest way to get started and most stable. __This is the recommended path of least resistence__ 
+The Zipfian Distribution itself is a [Vagrant](http://www.vagrantup.com/) box based on Ubuntu 12.04 LTS and meant to be a self contained environment runnable on any platform supported by [Virtual Box](https://www.virtualbox.org/) (which is most all of them).  This is the quickest way to get started and most stable. __This is the recommended path of least resistence__ 
 
-The shell scripts are all written for Ubuntu and utilize `apt-get`, which makes them great to spin up machines in the cloud with [Rackspace](http://www.rackspace.com/cloud/servers/) or [AWS](http://aws.amazon.com/ec2/) (or any other cloud provider).  But severely limits the portability of them to any other OS.  The Python and R libraries are installed using [pip](https://pypi.python.org/pypi/pip) and [CRAN](http://cran.r-project.org/), and should work on any platform.
+The shell scripts are all written for Ubuntu and utilize `apt-get`, which makes them great to spin up machines in the cloud with [Rackspace](http://www.rackspace.com/cloud/servers/) or [AWS](http://aws.amazon.com/ec2/) (or any other cloud provider).  But this dependency severely limits the portability of them to any other OS.  The Python and R libraries are installed using [pip](https://pypi.python.org/pypi/pip) and [CRAN](http://cran.r-project.org/), and should work on any platform.
 
 Read [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) docs for a user guide.
 
@@ -15,6 +15,21 @@ __NOTE: Python 2.7 is the default version for this distribution__
 <a name="quickstart"></a>
 ## Quickstart
 
+### Mac OSX
+
+`wget 
+
+### Windows
+
+1. Install [Cygwin](http://cygwin.com/install.html)
+
+2. From the Cygwin prompt: `source <(wget -O-)`  
+
+### Linux
+ 
+__This Vagrant VM contains approximately XXX of additional files/libraries and takes around minutes... now is a good time to grab a snack__
+
+<a name="dependencies"></a>
 ## Dependencies
 
 The only dependency for Vagrant is Virtual Box.  So to get up and running with the Zipfian Distribution you will need to install these two things.  That is all.
@@ -46,6 +61,26 @@ To login to the VM you will also need [ssh](http://en.wikipedia.org/wiki/Secure_
 
 ### `vagrant/`
 
+## Slow start
+
+### Download the Dependencies
+
+[Here!](#dependencies)
+
+### Get the Vagrantfile
+
+### Bootstrap the VM
+
+### SSH into your Machine!
+
+__NOTE: The Vagrant Box has X11 forwarding enabled, allowing you to run graphical applications (i.e. browser, IPython notebooks, R Studio, etc.) in the VM and have the windows run on the host machine__  
+
+## Vagrant
+
+### Customizing your Box!
+
+
+
 ## Package List
 
 ### Ubuntu
@@ -63,20 +98,6 @@ To login to the VM you will also need [ssh](http://en.wikipedia.org/wiki/Secure_
 * [Vim](http://www.vim.org/)
 * [Emacs](http://www.gnu.org/software/emacs/)
 * [screen](http://www.gnu.org/software/screen/)
-
-pyqt
-zmq
-dh-make
-debhelper
-devscripts
-reprepro
-subversion
-gcc-c++
-fuse
-protobuf-compiler
-sharutils
-asciidoc
-xmlto
 
 ### Python
 
@@ -103,7 +124,6 @@ xmlto
 * [pymongo](http://api.mongodb.org/python/current/)
 * [requests](http://docs.python-requests.org/en/latest/)
 
-
 ### R
 
 Coming Soon!
@@ -112,30 +132,28 @@ Coming Soon!
 
 For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.apache.org/) to ease the installation process.
 
-* Apache Maven
-* Apache Ant
-* Apache Zookeeper 3.4.5
-* Apache Flume 1.3.1
-* Apache HBase 0.94.5
-* Apache Pig 0.11.1
-* Apache Hive 0.10.0
-* Apache Sqoop 2 (AKA 1.99.2)
-* Apache Oozie 3.3.2
-* Apache Whirr 0.8.2
-* Apache Mahout 0.7
-* Apache Solr (SolrCloud) 4.2.1
-* Apache Crunch (incubating) 0.5.0
-* Apache HCatalog 0.5.0
-* Apache Giraph 1.0.0
-* LinkedIn DataFu 0.0.6
-* Cloudera Hue 2.3.0
-* Apache Spark
+* [Apache Maven](http://maven.apache.org/)
+* [Apache Ant](http://ant.apache.org/)
+* [Apache Zookeeper 3.4.5](http://zookeeper.apache.org/)
+* [Apache Flume 1.3.1](http://flume.apache.org/)
+* [Apache HBase 0.94.5](http://hbase.apache.org/)
+* [Apache Pig 0.11.1](http://pig.apache.org/)
+* [Apache Hive 0.10.0](http://hive.apache.org/)
+* [Apache Sqoop 2 (AKA 1.99.2)](http://sqoop.apache.org/)
+* [Apache Oozie 3.3.2](http://oozie.apache.org/)
+* [Apache Whirr 0.8.2](http://whirr.apache.org/)
+* [Apache Mahout 0.7](http://mahout.apache.org/)
+* [Apache Solr](http://lucene.apache.org/solr/) ([SolrCloud](http://wiki.apache.org/solr/SolrCloud)) 4.2.1
+* [Apache Crunch (incubating) 0.5.0](http://crunch.apache.org/)
+* [Apache HCatalog 0.5.0](http://hive.apache.org/hcatalog/)
+* [Apache Giraph 1.0.0](http://giraph.apache.org/)
+* [LinkedIn DataFu 0.0.6](http://data.linkedin.com/opensource/datafu)
+* [Cloudera Hue 2.3.0](http://cloudera.github.io/hue/)
+* [Apache Spark 7.3](http://spark.incubator.apache.org/)
 * Cascading (Coming Soon)
 * Pycascading (Coming Soon)
 * Storm (Coming Soon)
  
-## Vagrant
-
 ## Resources/References
 
 Here are a list of great sites and tutorials that inspired this project:
@@ -158,14 +176,54 @@ Here are a list of great sites and tutorials that inspired this project:
 
 * [Apache Bigtop](http://blog.cloudera.com/blog/2013/06/apache-bigtop-the-fedora-of-hadoop-built-on-hadoop2/)
 
-## License
+* [Apache Spark Guide](http://spark.incubator.apache.org/docs/latest/)
 
-(The MIT License)
+## Road map (In no particular order)
 
-Copyright (c) 2013 Zipfian, Inc.
+* Convert shell scripts to use [Chef](http://www.opscode.com/chef/) or [Puppet](http://puppetlabs.com/) for increased portability of the individual scripts.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+* Write documentation/tutorials on how to run specific non-standard libraries installs (i.e. Spark). 
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* Add R packages and [R studio](http://www.rstudio.com/)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+* Add [Cascading](http://www.cascading.org/)
+
+* Add [Storm](http://storm-project.net/)
+
+* Write automated tests for cross library compatibility
+
+* Create [Homebrew](http://brew.sh/) package for single line install
+
+* Create [Cygwin](http://cygwin.com/packages/) package
+
+* Create Linux packages for the common package managers
+
+## Contributing
+
+Contributions are much appreciated and this repository is meant to be a living document.  Open issues or submit [pull requests](https://help.github.com/articles/creating-a-pull-request) if you have a favorite library I missed or new platform to run this on.
+
+1. Fork it.
+2. Create a branch (`git checkout -b my_zipfian`)
+3. Commit your changes (`git commit -am "Added The Biggest Data"`)
+4. Push to the branch (`git push origin my_zipfian`)
+5. Open a [Pull Request](https://github.com/zipfian/zipfian-distribution/pulls)
+6. Enjoy a some [GIFs](http://giphy.com/) while waiting
+
+## Community
+
+Keep track of development and community news.
+
+* Follow [@zipfianacademy on Twitter](http://twitter.com/zipfianacademy).
+* Read and subscribe to the [The Zipfian Academy Blog](http://blog.zipfianacademy.com).
+* Have a question that's not a feature request or bug report? Email Jonathan: jonathan __[AT]__ zipfianacademy __[DOT]__ com
+
+## Author
+
+**Jonathan Dinu**
+
++ [http://twitter.com/clearspandex](http://twitter.com/clearspandex)
++ [http://github.com/Jay-Oh-eN](https://github.com/Jay-Oh-eN)
+
+## Copyright and license
+
+Copyright (c) 2013 Zipfian, Inc. under [the Apache 2.0 license](LICENSE).
