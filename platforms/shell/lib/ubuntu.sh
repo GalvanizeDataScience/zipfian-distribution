@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# install C/C++ compiler before we do anything 
+sudo apt-get install -y gcc g++
+
 # installing R: http://craig-russell.co.uk/2012/05/08/install-r-on-ubuntu.html#.UixVVWQ4VjY
 # add package to apt
 gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
@@ -7,6 +10,10 @@ gpg -a --export E084DAB9 | sudo apt-key add -
 
 sudo chmod u+wx /etc/apt/sources.list
 sudo echo "deb http://cran.ma.imperial.ac.uk/bin/linux/ubuntu precise/" >> /etc/apt/sources.list
+
+# add sbt to package repository
+wget http://apt.typesafe.com/repo-deb-build-0002.deb
+sudo dpkg -i repo-deb-build-0002.deb
 
 # install R using apt-get
 sudo apt-get update && sudo apt-get upgrade
@@ -39,4 +46,6 @@ sudo apt-get install -y screen
 # install scala
 sudo apt-get install -y scala
 
+# install sbt
+sudo apt-get install -y sbt
 

@@ -17,17 +17,21 @@ __NOTE: Python 2.7 is the default version for this distribution__
 
 ### Mac OSX
 
-`wget 
+`bash <(curl -s http://zipfianacademy.com/downloads/zipfian-distribution/install/mac-osx.sh)`
+
+<strong><em style="color: red">IMPORTANT: Run this command from the directory in which you want to download and initialize the Vagrantfile and associated VM.  This should be in the root directory of your project/git repository.  Only run this command once as it downloads large files.  If you would like to use the Vagrant box for other projects, simply copy the Vagrantfile to root of those other projects.</em><strong> 
 
 ### Windows
 
 1. Install [Cygwin](http://cygwin.com/install.html)
 
-2. From the Cygwin prompt: `source <(wget -O-)`  
+2. From the Cygwin prompt: `source <(wget -O- URL for SCRIPT)`  
 
 ### Linux
+
+Coming Soon!
  
-__This Vagrant VM contains approximately XXX of additional files/libraries and takes around minutes... now is a good time to grab a snack__
+__This Vagrant VM contains approximately XXX of additional files/libraries and takes around YYY minutes... now is a good time to grab a snack__
 
 <a name="dependencies"></a>
 ## Dependencies

@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # install Java for Hadoop and its ecosystem
 sudo apt-get install -y openjdk-7-jre
 
@@ -34,8 +36,8 @@ mkdir lib
 cd lib
 sudo wget http://spark-project.org/download/spark-0.7.3-prebuilt-cdh4.tgz
 sudo tar -zxvf spark-0.7.3-prebuilt-cdh4.tgz
-sudo cd spark-0.7.3/
-sudo sbt/sbt package
+cd spark-0.7.3/
+sbt/sbt package
 
 # create an alias to run spark from anywhere in the directory tree
 CUR_DIR=$(pwd)
