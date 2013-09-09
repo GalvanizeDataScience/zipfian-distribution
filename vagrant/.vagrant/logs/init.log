@@ -2738,4 +2738,3045 @@ Installing collected packages: matplotlib, python-dateutil, tornado, pyparsing, 
     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
-    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/mplutils.o build/temp.linux-x86_64-2.7/src/agg_py_transforms.o build/temp.linux-x86_64-2.7/src/_backend_agg.o build/temp.linux-x86_64-2.7/agg2
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/mplutils.o build/temp.linux-x86_64-2.7/src/agg_py_transforms.o build/temp.linux-x86_64-2.7/src/_backend_agg.o build/temp.linux-x86_64-2.7/agg24/src/agg_bezier_arc.o build/temp.linux-x86_64-2.7/agg24/src/agg_curves.o build/temp.linux-x86_64-2.7/agg24/src/agg_image_filters.o build/temp.linux-x86_64-2.7/agg24/src/agg_trans_affine.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_contour.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_dash.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_stroke.o build/temp.linux-x86_64-2.7/agg24/src/agg_vpgen_segmentator.o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -lfreetype -lz -lstdc++ -lm -o build/lib.linux-x86_64-2.7/matplotlib/backends/_backend_agg.so
+    Skipping installation of /usr/local/lib/python2.7/dist-packages/mpl_toolkits/__init__.py (namespace package)
+    
+    Installing /usr/local/lib/python2.7/dist-packages/matplotlib-1.3.0-py2.7-nspkg.pth
+  Running setup.py install for python-dateutil
+    
+  Running setup.py install for tornado
+    
+    warning: no previously-included files matching '_auto2to3*' found anywhere in distribution
+  Running setup.py install for pyparsing
+    
+  Running setup.py install for six
+    
+Successfully installed matplotlib python-dateutil tornado pyparsing six
+Cleaning up...
+Requirement already satisfied (use --upgrade to upgrade): scipy in /usr/lib/python2.7/dist-packages
+Cleaning up...
+Installing Scikit-learn
+Downloading/unpacking scikit-learn
+  Running setup.py egg_info for package scikit-learn
+    Partial import of sklearn during the build process.
+    
+Installing collected packages: scikit-learn
+  Running setup.py install for scikit-learn
+    Partial import of sklearn during the build process.
+    blas_opt_info:
+    blas_mkl_info:
+      libraries mkl,vml,guide not found in /usr/local/lib
+      libraries mkl,vml,guide not found in /usr/lib
+      libraries mkl,vml,guide not found in /usr/lib/x86_64-linux-gnu
+      NOT AVAILABLE
+    
+    atlas_blas_threads_info:
+    Setting PTATLAS=ATLAS
+      libraries ptf77blas,ptcblas,atlas not found in /usr/local/lib
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib/x86_64-linux-gnu
+      NOT AVAILABLE
+    
+    atlas_blas_info:
+      libraries f77blas,cblas,atlas not found in /usr/local/lib
+      libraries f77blas,cblas,atlas not found in /usr/lib
+      libraries f77blas,cblas,atlas not found in /usr/lib/x86_64-linux-gnu
+      NOT AVAILABLE
+    
+    /usr/lib/python2.7/dist-packages/numpy/distutils/system_info.py:1423: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      warnings.warn(AtlasNotFoundError.__doc__)
+    blas_info:
+      libraries blas not found in /usr/local/lib
+      FOUND:
+        libraries = ['blas']
+        library_dirs = ['/usr/lib']
+        language = f77
+    
+      FOUND:
+        libraries = ['blas']
+        library_dirs = ['/usr/lib']
+        define_macros = [('NO_ATLAS_INFO', 1)]
+        language = f77
+    
+    sklearn/setup.py:77: UserWarning:
+        Blas (http://www.netlib.org/blas/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [blas]) or by setting
+        the BLAS environment variable.
+      warnings.warn(BlasNotFoundError.__doc__)
+    unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+    unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+    build_src
+    building library "libsvm-skl" sources
+    building library "cblas" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.utils.sparsetools._min_spanning_tree" sources
+    building extension "sklearn.utils.sparsetools._traversal" sources
+    building extension "sklearn.utils.sparsetools._graph_tools" sources
+    building extension "sklearn.utils.arraybuilder" sources
+    building extension "sklearn.utils.sparsefuncs" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils.random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.metrics/cluster.expected_mutual_info_fast" sources
+    building extension "sklearn._hmmc" sources
+    building extension "sklearn._isotonic" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.utils.sparsetools._min_spanning_tree" sources
+    building extension "sklearn.utils.sparsetools._traversal" sources
+    building extension "sklearn.utils.sparsetools._graph_tools" sources
+    building extension "sklearn.utils.arraybuilder" sources
+    building extension "sklearn.utils.sparsefuncs" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils.random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    building 'libsvm-skl' library
+    compiling C++ sources
+    C compiler: g++ -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -c'
+    g++: sklearn/svm/src/libsvm/libsvm_template.cpp
+    ar: adding 1 object files to build/temp.linux-x86_64-2.7/liblibsvm-skl.a
+    building 'cblas' library
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -c'
+    gcc: sklearn/src/cblas/cblas_srotg.c
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/cblas_dnrm2.c
+    gcc: sklearn/src/cblas/ATL_sreftrsvUTN.c
+    gcc: sklearn/src/cblas/ATL_dreftrsvUTU.c
+    gcc: sklearn/src/cblas/ATL_sreftrsvLNN.c
+    gcc: sklearn/src/cblas/cblas_dger.c
+    sklearn/src/cblas/cblas_dger.c: In function 'cblas_dger':
+    sklearn/src/cblas/cblas_dger.c:73:7: warning: implicit declaration of function 'cblas_xerbla' [-Wimplicit-function-declaration]
+    sklearn/src/cblas/cblas_dger.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/cblas_srot.c
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/cblas_strsv.c
+    sklearn/src/cblas/cblas_strsv.c: In function 'cblas_strsv':
+    sklearn/src/cblas/cblas_strsv.c:73:7: warning: implicit declaration of function 'cblas_xerbla' [-Wimplicit-function-declaration]
+    sklearn/src/cblas/cblas_strsv.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/ATL_sreftrsvLNU.c
+    gcc: sklearn/src/cblas/cblas_drotg.c
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/ATL_srefrot.c
+    gcc: sklearn/src/cblas/ATL_drefger.c
+    gcc: sklearn/src/cblas/ATL_sreftrsvLTU.c
+    gcc: sklearn/src/cblas/ATL_dreftrsvLTU.c
+    gcc: sklearn/src/cblas/ATL_drefgemvT.c
+    gcc: sklearn/src/cblas/cblas_scopy.c
+    sklearn/src/cblas/cblas_scopy.c: In function 'cblas_scopy':
+    sklearn/src/cblas/cblas_scopy.c:46:10: warning: implicit declaration of function 'ATL_srefcopy' [-Wimplicit-function-declaration]
+    sklearn/src/cblas/cblas_scopy.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/ATL_drefcopy.c
+    gcc: sklearn/src/cblas/cblas_dscal.c
+    gcc: sklearn/src/cblas/ATL_srefrotg.c
+    gcc: sklearn/src/cblas/ATL_dreftrsvUNU.c
+    gcc: sklearn/src/cblas/cblas_dtrsv.c
+    sklearn/src/cblas/cblas_dtrsv.c: In function 'cblas_dtrsv':
+    sklearn/src/cblas/cblas_dtrsv.c:73:7: warning: implicit declaration of function 'cblas_xerbla' [-Wimplicit-function-declaration]
+    sklearn/src/cblas/cblas_dtrsv.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/ATL_dreftrsvLNN.c
+    gcc: sklearn/src/cblas/cblas_drot.c
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/ATL_dreftrsvUNN.c
+    gcc: sklearn/src/cblas/ATL_drefrot.c
+    gcc: sklearn/src/cblas/ATL_srefcopy.c
+    gcc: sklearn/src/cblas/cblas_xerbla.c
+    sklearn/src/cblas/cblas_xerbla.c: In function 'cblas_xerbla':
+    sklearn/src/cblas/cblas_xerbla.c:52:4: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+    sklearn/src/cblas/cblas_xerbla.c:52:4: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+    gcc: sklearn/src/cblas/ATL_dreftrsvUTN.c
+    gcc: sklearn/src/cblas/cblas_ddot.c
+    gcc: sklearn/src/cblas/ATL_dreftrsvLNU.c
+    gcc: sklearn/src/cblas/ATL_sreftrsvUNN.c
+    gcc: sklearn/src/cblas/cblas_dgemv.c
+    sklearn/src/cblas/cblas_dgemv.c: In function 'cblas_dgemv':
+    sklearn/src/cblas/cblas_dgemv.c:79:7: warning: implicit declaration of function 'cblas_xerbla' [-Wimplicit-function-declaration]
+    sklearn/src/cblas/cblas_dgemv.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/ATL_sreftrsvUNU.c
+    gcc: sklearn/src/cblas/cblas_errprn.c
+    gcc: sklearn/src/cblas/ATL_drefrotg.c
+    gcc: sklearn/src/cblas/cblas_daxpy.c
+    gcc: sklearn/src/cblas/ATL_drefgemv.c
+    gcc: sklearn/src/cblas/ATL_sreftrsvUTU.c
+    gcc: sklearn/src/cblas/cblas_dcopy.c
+    sklearn/src/cblas/cblas_dcopy.c: In function 'cblas_dcopy':
+    sklearn/src/cblas/cblas_dcopy.c:46:10: warning: implicit declaration of function 'ATL_drefcopy' [-Wimplicit-function-declaration]
+    sklearn/src/cblas/cblas_dcopy.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: 'ATL_AlignOffset' defined but not used [-Wunused-function]
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: 'ATL_Align2Ptr' defined but not used [-Wunused-function]
+    gcc: sklearn/src/cblas/ATL_sreftrsv.c
+    gcc: sklearn/src/cblas/ATL_dreftrsv.c
+    gcc: sklearn/src/cblas/ATL_dreftrsvLTN.c
+    gcc: sklearn/src/cblas/ATL_drefgemvN.c
+    gcc: sklearn/src/cblas/ATL_sreftrsvLTN.c
+    ar: adding 44 object files to build/temp.linux-x86_64-2.7/libcblas.a
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    resetting extension 'sklearn.svm.liblinear' language from 'f77' to 'c++'.
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    customize GnuFCompiler
+    Could not locate executable g77
+    Could not locate executable f77
+    customize IntelFCompiler
+    Could not locate executable ifort
+    Could not locate executable ifc
+    customize LaheyFCompiler
+    Could not locate executable lf95
+    customize PGroupFCompiler
+    Could not locate executable pgf90
+    Could not locate executable pgf77
+    customize AbsoftFCompiler
+    Could not locate executable f90
+    customize NAGFCompiler
+    Found executable /usr/bin/f95
+    customize VastFCompiler
+    customize CompaqFCompiler
+    Could not locate executable fort
+    customize IntelItaniumFCompiler
+    Could not locate executable efort
+    Could not locate executable efc
+    customize IntelEM64TFCompiler
+    customize Gnu95FCompiler
+    Found executable /usr/bin/gfortran
+    customize Gnu95FCompiler
+    customize Gnu95FCompiler using build_ext
+    building 'sklearn.__check_build._check_build' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/__check_build/_check_build.c
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/__check_build/_check_build.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/__check_build/_check_build.so
+    building 'sklearn.svm.libsvm' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -Isklearn/svm/src/libsvm -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/svm/libsvm.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/svm/libsvm.o -Lbuild/temp.linux-x86_64-2.7 -llibsvm-skl -o build/lib.linux-x86_64-2.7/sklearn/svm/libsvm.so
+    building 'sklearn.svm.liblinear' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Isklearn/svm/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/svm/liblinear.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    compiling C++ sources
+    C compiler: g++ -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Isklearn/svm/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    g++: sklearn/svm/src/liblinear/tron.cpp
+    g++: sklearn/svm/src/liblinear/linear.cpp
+    sklearn/svm/src/liblinear/linear.cpp: In function 'void solve_l2r_l1l2_svr(const problem*, double*, const parameter*, int)':
+    sklearn/svm/src/liblinear/linear.cpp:1173:3: warning: 'Gnorm1_init' may be used uninitialized in this function [-Wuninitialized]
+    sklearn/svm/src/liblinear/linear.cpp: In function 'void train_one(const problem*, const parameter*, double*, double, double)':
+    sklearn/svm/src/liblinear/linear.cpp:1630:3: warning: 'Gnorm1_init' may be used uninitialized in this function [-Wuninitialized]
+    sklearn/svm/src/liblinear/linear.cpp:1426:9: note: 'Gnorm1_init' was declared here
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/svm/liblinear.o build/temp.linux-x86_64-2.7/sklearn/svm/src/liblinear/linear.o build/temp.linux-x86_64-2.7/sklearn/svm/src/liblinear/tron.o -Lbuild/temp.linux-x86_64-2.7 -lblas -o build/lib.linux-x86_64-2.7/sklearn/svm/liblinear.so
+    building 'sklearn.svm.libsvm_sparse' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -Isklearn/svm/src/libsvm -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/svm/libsvm_sparse.c
+    sklearn/svm/libsvm_sparse.c: In function '__pyx_pf_7sklearn_3svm_13libsvm_sparse_libsvm_sparse_train':
+    sklearn/svm/libsvm_sparse.c:2188:3: warning: passing argument 2 of 'copy_support' from incompatible pointer type [enabled by default]
+    sklearn/svm/src/libsvm/libsvm_sparse_helper.c:309:6: note: expected 'struct svm_model *' but argument is of type 'struct svm_csr_model *'
+    sklearn/svm/libsvm_sparse.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/svm/libsvm_sparse.o -Lbuild/temp.linux-x86_64-2.7 -llibsvm-skl -o build/lib.linux-x86_64-2.7/sklearn/svm/libsvm_sparse.so
+    building 'sklearn.datasets._svmlight_format' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/datasets/_svmlight_format.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/datasets/_svmlight_format.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/datasets/_svmlight_format.so
+    building 'sklearn.feature_extraction._hashing' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/feature_extraction/_hashing.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/feature_extraction/_hashing.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/feature_extraction/_hashing.so
+    building 'sklearn.cluster._hierarchical' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/cluster/_hierarchical.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/cluster/_hierarchical.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/cluster/_hierarchical.so
+    building 'sklearn.cluster._k_means' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Isklearn/src/cblas -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/cluster/_k_means.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/sklearn/cluster/_k_means.o -L/usr/lib -Lbuild/temp.linux-x86_64-2.7 -lcblas -lm -lgfortran -o build/lib.linux-x86_64-2.7/sklearn/cluster/_k_means.so
+    building 'sklearn.ensemble._gradient_boosting' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/ensemble/_gradient_boosting.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/ensemble/_gradient_boosting.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/ensemble/_gradient_boosting.so
+    building 'sklearn.utils.sparsetools._min_spanning_tree' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/sparsetools/_min_spanning_tree.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/sparsetools/_min_spanning_tree.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/utils/sparsetools/_min_spanning_tree.so
+    building 'sklearn.utils.sparsetools._traversal' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/sparsetools/_traversal.c
+    sklearn/utils/sparsetools/_traversal.c: In function '__Pyx_GetBuffer':
+    sklearn/utils/sparsetools/_traversal.c:10909:15: warning: unused variable 'getbuffer_cobj' [-Wunused-variable]
+    sklearn/utils/sparsetools/_traversal.c: In function '__Pyx_ReleaseBuffer':
+    sklearn/utils/sparsetools/_traversal.c:10949:15: warning: unused variable 'releasebuffer_cobj' [-Wunused-variable]
+    sklearn/utils/sparsetools/_traversal.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/sparsetools/_traversal.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/utils/sparsetools/_traversal.so
+    building 'sklearn.utils.sparsetools._graph_tools' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/sparsetools/_graph_tools.c
+    sklearn/utils/sparsetools/_graph_tools.c: In function '__Pyx_GetBuffer':
+    sklearn/utils/sparsetools/_graph_tools.c:8680:15: warning: unused variable 'getbuffer_cobj' [-Wunused-variable]
+    sklearn/utils/sparsetools/_graph_tools.c: In function '__Pyx_ReleaseBuffer':
+    sklearn/utils/sparsetools/_graph_tools.c:8720:15: warning: unused variable 'releasebuffer_cobj' [-Wunused-variable]
+    sklearn/utils/sparsetools/_graph_tools.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/sparsetools/_graph_tools.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/utils/sparsetools/_graph_tools.so
+    building 'sklearn.utils.arraybuilder' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/arraybuilder.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/arraybuilder.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/utils/arraybuilder.so
+    building 'sklearn.utils.sparsefuncs' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/sparsefuncs.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/sparsefuncs.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/utils/sparsefuncs.so
+    building 'sklearn.utils.arrayfuncs' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Isklearn/src/cblas -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/arrayfuncs.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/sklearn/utils/arrayfuncs.o -L/usr/lib -Lbuild/temp.linux-x86_64-2.7 -lcblas -lm -lgfortran -o build/lib.linux-x86_64-2.7/sklearn/utils/arrayfuncs.so
+    building 'sklearn.utils.murmurhash' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-Isklearn/utils/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/murmurhash.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    compiling C++ sources
+    C compiler: g++ -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC
+    
+    compile options: '-Isklearn/utils/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    g++: sklearn/utils/src/MurmurHash3.cpp
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/murmurhash.o build/temp.linux-x86_64-2.7/sklearn/utils/src/MurmurHash3.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/utils/murmurhash.so
+    building 'sklearn.utils.lgamma' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-Isklearn/utils/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/lgamma.c
+    gcc: sklearn/utils/src/gamma.c
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/lgamma.o build/temp.linux-x86_64-2.7/sklearn/utils/src/gamma.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/utils/lgamma.so
+    building 'sklearn.utils.graph_shortest_path' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/graph_shortest_path.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/graph_shortest_path.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/utils/graph_shortest_path.so
+    building 'sklearn.utils.seq_dataset' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/seq_dataset.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/seq_dataset.o -Lbuild/temp.linux-x86_64-2.7 -o build/lib.linux-x86_64-2.7/sklearn/utils/seq_dataset.so
+    building 'sklearn.utils.weight_vector' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/weight_vector.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/weight_vector.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/utils/weight_vector.so
+    building 'sklearn.utils.random' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/random.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/random.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/utils/random.so
+    building 'sklearn.utils._logistic_sigmoid' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/utils/_logistic_sigmoid.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/utils/_logistic_sigmoid.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/utils/_logistic_sigmoid.so
+    building 'sklearn.neighbors.ball_tree' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/neighbors/ball_tree.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/neighbors/ball_tree.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/neighbors/ball_tree.so
+    building 'sklearn.neighbors.kd_tree' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/neighbors/kd_tree.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    sklearn/neighbors/kd_tree.c: In function '__pyx_f_7sklearn_9neighbors_7kd_tree_10BinaryTree__recursive_build':
+    sklearn/neighbors/kd_tree.c:18572:49: warning: '__pyx_v_j' may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/neighbors/kd_tree.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/neighbors/kd_tree.so
+    building 'sklearn.neighbors.dist_metrics' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include/numpy -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/neighbors/dist_metrics.c
+    sklearn/neighbors/dist_metrics.c: In function '__pyx_f_7sklearn_9neighbors_12dist_metrics_18SEuclideanDistance_dist':
+    sklearn/neighbors/dist_metrics.c:5657:94: warning: passing argument 1 of '__pyx_f_7sklearn_9neighbors_12dist_metrics_18SEuclideanDistance_rdist' from incompatible pointer type [enabled by default]
+    sklearn/neighbors/dist_metrics.c:5532:54: note: expected 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_SEuclideanDistance *' but argument is of type 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_DistanceMetric *'
+    sklearn/neighbors/dist_metrics.c: In function '__pyx_f_7sklearn_9neighbors_12dist_metrics_17MinkowskiDistance_dist':
+    sklearn/neighbors/dist_metrics.c:6310:93: warning: passing argument 1 of '__pyx_f_7sklearn_9neighbors_12dist_metrics_17MinkowskiDistance_rdist' from incompatible pointer type [enabled by default]
+    sklearn/neighbors/dist_metrics.c:6231:54: note: expected 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_MinkowskiDistance *' but argument is of type 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_DistanceMetric *'
+    sklearn/neighbors/dist_metrics.c: In function '__pyx_f_7sklearn_9neighbors_12dist_metrics_18WMinkowskiDistance_dist':
+    sklearn/neighbors/dist_metrics.c:6852:94: warning: passing argument 1 of '__pyx_f_7sklearn_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist' from incompatible pointer type [enabled by default]
+    sklearn/neighbors/dist_metrics.c:6737:54: note: expected 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_WMinkowskiDistance *' but argument is of type 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_DistanceMetric *'
+    sklearn/neighbors/dist_metrics.c: In function '__pyx_f_7sklearn_9neighbors_12dist_metrics_19MahalanobisDistance_dist':
+    sklearn/neighbors/dist_metrics.c:7520:95: warning: passing argument 1 of '__pyx_f_7sklearn_9neighbors_12dist_metrics_19MahalanobisDistance_rdist' from incompatible pointer type [enabled by default]
+    sklearn/neighbors/dist_metrics.c:7350:54: note: expected 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_MahalanobisDistance *' but argument is of type 'struct __pyx_obj_7sklearn_9neighbors_12dist_metrics_DistanceMetric *'
+    sklearn/neighbors/dist_metrics.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/neighbors/dist_metrics.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/neighbors/dist_metrics.so
+    building 'sklearn.neighbors.typedefs' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/neighbors/typedefs.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/neighbors/typedefs.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/neighbors/typedefs.so
+    building 'sklearn.metrics.pairwise_fast' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/metrics/pairwise_fast.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/metrics/pairwise_fast.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/metrics/pairwise_fast.so
+    building 'sklearn.tree._tree' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    extra options: '-O3'
+    gcc: sklearn/tree/_tree.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    sklearn/tree/_tree.c: In function '__pyx_f_7sklearn_4tree_5_tree_14RandomSplitter_node_split':
+    sklearn/tree/_tree.c:9753:26: warning: '__pyx_v_best_threshold' may be used uninitialized in this function [-Wuninitialized]
+    sklearn/tree/_tree.c:9744:24: warning: '__pyx_v_best_feature' may be used uninitialized in this function [-Wuninitialized]
+    sklearn/tree/_tree.c: In function '__pyx_f_7sklearn_4tree_5_tree_12BestSplitter_node_split':
+    sklearn/tree/_tree.c:8510:26: warning: '__pyx_v_best_threshold' may be used uninitialized in this function [-Wuninitialized]
+    sklearn/tree/_tree.c:8501:24: warning: '__pyx_v_best_feature' may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/tree/_tree.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/tree/_tree.so
+    building 'sklearn.metrics/cluster.expected_mutual_info_fast' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/metrics/cluster/expected_mutual_info_fast.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/metrics/cluster/expected_mutual_info_fast.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/metrics/cluster/expected_mutual_info_fast.so
+    building 'sklearn._hmmc' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/_hmmc.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/_hmmc.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/_hmmc.so
+    building 'sklearn._isotonic' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/_isotonic.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/_isotonic.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/_isotonic.so
+    building 'sklearn.linear_model.cd_fast' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Isklearn/src/cblas -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/linear_model/cd_fast.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/sklearn/linear_model/cd_fast.o -L/usr/lib -Lbuild/temp.linux-x86_64-2.7 -lcblas -lm -lgfortran -o build/lib.linux-x86_64-2.7/sklearn/linear_model/cd_fast.so
+    building 'sklearn.linear_model.sgd_fast' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: sklearn/linear_model/sgd_fast.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/sklearn/linear_model/sgd_fast.o -Lbuild/temp.linux-x86_64-2.7 -lm -o build/lib.linux-x86_64-2.7/sklearn/linear_model/sgd_fast.so
+    
+Successfully installed scikit-learn
+Cleaning up...
+Installing pandas
+Downloading/unpacking pandas
+  Running setup.py egg_info for package pandas
+    
+    warning: no files found matching 'TODO.rst'
+    warning: no files found matching 'setupegg.py'
+    no previously-included directories found matching 'doc/build'
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.pyd' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '.git*' found anywhere in distribution
+    warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+    warning: no previously-included files matching '*.png' found anywhere in distribution
+Requirement already satisfied (use --upgrade to upgrade): python-dateutil in /usr/local/lib/python2.7/dist-packages (from pandas)
+Downloading/unpacking pytz>=2011k (from pandas)
+  Running setup.py egg_info for package pytz
+    
+    warning: no files found matching '*.pot' under directory 'pytz'
+    warning: no previously-included files found matching 'test_zdump.py'
+Requirement already satisfied (use --upgrade to upgrade): numpy>=1.6.1 in /usr/lib/python2.7/dist-packages (from pandas)
+Requirement already satisfied (use --upgrade to upgrade): six in /usr/local/lib/python2.7/dist-packages (from python-dateutil->pandas)
+Installing collected packages: pandas, pytz
+  Running setup.py install for pandas
+    building 'pandas.index' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/index.c -o build/temp.linux-x86_64-2.7/pandas/index.o
+    In file included from pandas/src/klib/khash_python.h:3:0,
+                     from pandas/index.c:318:
+    pandas/src/klib/khash.h: In function 'kh_del_str':
+    pandas/src/klib/khash.h:573:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int32':
+    pandas/src/klib/khash.h:574:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int64':
+    pandas/src/klib/khash.h:575:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/index.c:318:0:
+    pandas/src/klib/khash_python.h: In function 'kh_del_float64':
+    pandas/src/klib/khash_python.h:13:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pymap':
+    pandas/src/klib/khash_python.h:38:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pyset':
+    pandas/src/klib/khash_python.h:44:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_strbox':
+    pandas/src/klib/khash_python.h:49:1: warning: statement with no effect [-Wunused-value]
+    pandas/index.c: In function '__pyx_f_6pandas_5index__bin_search':
+    pandas/index.c:7583:13: warning: '__pyx_v_mid' may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/datetime/np_datetime.c -o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime.o
+    /usr/include/python2.7/datetime.h:188:25: warning: 'PyDateTimeAPI' defined but not used [-Wunused-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/datetime/np_datetime_strings.c -o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime_strings.o
+    pandas/src/datetime/np_datetime_strings.c:127:1: warning: 'get_gmtime' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/index.o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime.o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime_strings.o -o build/lib.linux-x86_64-2.7/pandas/index.so
+    building 'pandas.algos' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/algos.c -o build/temp.linux-x86_64-2.7/pandas/algos.o
+    In file included from pandas/src/klib/khash_python.h:3:0,
+                     from pandas/algos.c:328:
+    pandas/src/klib/khash.h: In function 'kh_del_str':
+    pandas/src/klib/khash.h:573:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int32':
+    pandas/src/klib/khash.h:574:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int64':
+    pandas/src/klib/khash.h:575:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/algos.c:328:0:
+    pandas/src/klib/khash_python.h: In function 'kh_del_float64':
+    pandas/src/klib/khash_python.h:13:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pymap':
+    pandas/src/klib/khash_python.h:38:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pyset':
+    pandas/src/klib/khash_python.h:44:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_strbox':
+    pandas/src/klib/khash_python.h:49:1: warning: statement with no effect [-Wunused-value]
+    pandas/algos.c: In function '__pyx_pf_6pandas_5algos_54roll_window.isra.253':
+    pandas/algos.c:26727:21: warning: '__pyx_pybuffernd_tot_wgt.diminfo[0].shape' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c:26818:23: warning: '__pyx_pybuffernd_tot_wgt.diminfo[0].strides' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c: In function '__pyx_pf_6pandas_5algos_452group_ohlc_float32.isra.74':
+    pandas/algos.c:118605:213: warning: '__pyx_v_vclose' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c:118715:22: warning: '__pyx_v_vlow' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c:118737:22: warning: '__pyx_v_vhigh' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c:118572:213: warning: '__pyx_v_vopen' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c: In function '__pyx_pf_6pandas_5algos_450group_ohlc_float64.isra.75':
+    pandas/algos.c:117789:213: warning: '__pyx_v_vclose' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c:117899:22: warning: '__pyx_v_vlow' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c:117921:22: warning: '__pyx_v_vhigh' may be used uninitialized in this function [-Wuninitialized]
+    pandas/algos.c:117756:213: warning: '__pyx_v_vopen' may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/algos.o -o build/lib.linux-x86_64-2.7/pandas/algos.so
+    building 'pandas.lib' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/lib.c -o build/temp.linux-x86_64-2.7/pandas/lib.o
+    pandas/lib.c: In function '__pyx_pf_6pandas_3lib_52maybe_booleans_to_slice.isra.159':
+    pandas/lib.c:10054:15: warning: '__pyx_v_end' may be used uninitialized in this function [-Wuninitialized]
+    pandas/lib.c:10052:15: warning: '__pyx_v_start' may be used uninitialized in this function [-Wuninitialized]
+    In file included from pandas/lib.c:326:0:
+    pandas/src/parse_helper.h: In function 'to_double':
+    pandas/src/parse_helper.h:13:29: warning: 'p_end' may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/lib.o -o build/lib.linux-x86_64-2.7/pandas/lib.so
+    building 'pandas.tslib' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/tslib.c -o build/temp.linux-x86_64-2.7/pandas/tslib.o
+    In file included from pandas/src/klib/khash_python.h:3:0,
+                     from pandas/tslib.c:325:
+    pandas/src/klib/khash.h: In function 'kh_del_str':
+    pandas/src/klib/khash.h:573:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int32':
+    pandas/src/klib/khash.h:574:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int64':
+    pandas/src/klib/khash.h:575:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/tslib.c:325:0:
+    pandas/src/klib/khash_python.h: In function 'kh_del_float64':
+    pandas/src/klib/khash_python.h:13:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pymap':
+    pandas/src/klib/khash_python.h:38:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pyset':
+    pandas/src/klib/khash_python.h:44:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_strbox':
+    pandas/src/klib/khash_python.h:49:1: warning: statement with no effect [-Wunused-value]
+    pandas/tslib.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    pandas/tslib.c:7895:18: warning: '__pyx_f_6pandas_5tslib__tz_format' defined but not used [-Wunused-function]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/datetime/np_datetime.c -o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime.o
+    /usr/include/python2.7/datetime.h:188:25: warning: 'PyDateTimeAPI' defined but not used [-Wunused-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/datetime/np_datetime_strings.c -o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime_strings.o
+    pandas/src/datetime/np_datetime_strings.c:127:1: warning: 'get_gmtime' defined but not used [-Wunused-function]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/period.c -o build/temp.linux-x86_64-2.7/pandas/src/period.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/tslib.o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime.o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime_strings.o build/temp.linux-x86_64-2.7/pandas/src/period.o -o build/lib.linux-x86_64-2.7/pandas/tslib.so
+    building 'pandas.parser' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/parser.c -o build/temp.linux-x86_64-2.7/pandas/parser.o
+    In file included from pandas/src/klib/khash_python.h:3:0,
+                     from pandas/parser.c:318:
+    pandas/src/klib/khash.h: In function 'kh_del_str':
+    pandas/src/klib/khash.h:573:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int32':
+    pandas/src/klib/khash.h:574:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int64':
+    pandas/src/klib/khash.h:575:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/parser.c:318:0:
+    pandas/src/klib/khash_python.h: In function 'kh_del_float64':
+    pandas/src/klib/khash_python.h:13:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pymap':
+    pandas/src/klib/khash_python.h:38:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pyset':
+    pandas/src/klib/khash_python.h:44:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_strbox':
+    pandas/src/klib/khash_python.h:49:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/parser.c:320:0:
+    pandas/src/parser/tokenizer.h: At top level:
+    pandas/src/parser/tokenizer.h:226:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__ufunc_api.h:226:1: warning: '_import_umath' defined but not used [-Wunused-function]
+    pandas/parser.c:18252:18: warning: '__pyx_f_6pandas_6parser__get_na_mask' defined but not used [-Wunused-function]
+    pandas/parser.c: In function '__pyx_f_6pandas_6parser_10TextReader__get_header':
+    pandas/parser.c:6388:61: warning: '__pyx_v_data_line' may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/parser/tokenizer.c -o build/temp.linux-x86_64-2.7/pandas/src/parser/tokenizer.o
+    In file included from pandas/src/parser/tokenizer.h:35:0,
+                     from pandas/src/parser/tokenizer.c:20:
+    pandas/src/klib/khash.h: In function 'kh_del_str':
+    pandas/src/klib/khash.h:573:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int32':
+    pandas/src/klib/khash.h:574:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int64':
+    pandas/src/klib/khash.h:575:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/src/parser/tokenizer.c:20:0:
+    pandas/src/parser/tokenizer.h: At top level:
+    pandas/src/parser/tokenizer.h:226:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+    pandas/src/parser/tokenizer.c:166:11: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+    pandas/src/parser/tokenizer.c: In function 'parser_buffer_bytes':
+    pandas/src/parser/tokenizer.c:562:11: warning: unused variable 'src' [-Wunused-variable]
+    pandas/src/parser/tokenizer.c: In function 'to_longlong_thousands':
+    pandas/src/parser/tokenizer.c:1725:11: warning: unused variable 'p_end' [-Wunused-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/parser/io.c -o build/temp.linux-x86_64-2.7/pandas/src/parser/io.o
+    In file included from pandas/src/parser/tokenizer.h:35:0,
+                     from pandas/src/parser/io.h:2,
+                     from pandas/src/parser/io.c:1:
+    pandas/src/klib/khash.h: In function 'kh_del_str':
+    pandas/src/klib/khash.h:573:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int32':
+    pandas/src/klib/khash.h:574:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int64':
+    pandas/src/klib/khash.h:575:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/src/parser/io.h:2:0,
+                     from pandas/src/parser/io.c:1:
+    pandas/src/parser/tokenizer.h: At top level:
+    pandas/src/parser/tokenizer.h:226:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/parser.o build/temp.linux-x86_64-2.7/pandas/src/parser/tokenizer.o build/temp.linux-x86_64-2.7/pandas/src/parser/io.o -o build/lib.linux-x86_64-2.7/pandas/parser.so
+    building 'pandas.hashtable' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/hashtable.c -o build/temp.linux-x86_64-2.7/pandas/hashtable.o
+    In file included from pandas/src/klib/khash_python.h:3:0,
+                     from pandas/hashtable.c:317:
+    pandas/src/klib/khash.h: In function 'kh_del_str':
+    pandas/src/klib/khash.h:573:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int32':
+    pandas/src/klib/khash.h:574:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash.h: In function 'kh_del_int64':
+    pandas/src/klib/khash.h:575:1: warning: statement with no effect [-Wunused-value]
+    In file included from pandas/hashtable.c:317:0:
+    pandas/src/klib/khash_python.h: In function 'kh_del_float64':
+    pandas/src/klib/khash_python.h:13:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pymap':
+    pandas/src/klib/khash_python.h:38:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_pyset':
+    pandas/src/klib/khash_python.h:44:1: warning: statement with no effect [-Wunused-value]
+    pandas/src/klib/khash_python.h: In function 'kh_del_strbox':
+    pandas/src/klib/khash_python.h:49:1: warning: statement with no effect [-Wunused-value]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/hashtable.o -o build/lib.linux-x86_64-2.7/pandas/hashtable.so
+    building 'pandas._sparse' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/sparse.c -o build/temp.linux-x86_64-2.7/pandas/src/sparse.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/src/sparse.o -lm -o build/lib.linux-x86_64-2.7/pandas/_sparse.so
+    building 'pandas.json' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/ujson/python -Ipandas/src/ujson/lib -Ipandas/src/datetime -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/ujson/python/ujson.c -o build/temp.linux-x86_64-2.7/pandas/src/ujson/python/ujson.o -D_GNU_SOURCE
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/ujson/python -Ipandas/src/ujson/lib -Ipandas/src/datetime -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/ujson/python/objToJSON.c -o build/temp.linux-x86_64-2.7/pandas/src/ujson/python/objToJSON.o -D_GNU_SOURCE
+    pandas/src/ujson/python/objToJSON.c:168:14: warning: 'PyIntToINT32' defined but not used [-Wunused-function]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/ujson/python -Ipandas/src/ujson/lib -Ipandas/src/datetime -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/ujson/python/JSONtoObj.c -o build/temp.linux-x86_64-2.7/pandas/src/ujson/python/JSONtoObj.o -D_GNU_SOURCE
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/ujson/python -Ipandas/src/ujson/lib -Ipandas/src/datetime -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/ujson/lib/ultrajsonenc.c -o build/temp.linux-x86_64-2.7/pandas/src/ujson/lib/ultrajsonenc.o -D_GNU_SOURCE
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/ujson/python -Ipandas/src/ujson/lib -Ipandas/src/datetime -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/ujson/lib/ultrajsondec.c -o build/temp.linux-x86_64-2.7/pandas/src/ujson/lib/ultrajsondec.o -D_GNU_SOURCE
+    pandas/src/ujson/lib/ultrajsondec.c:78:13: warning: 'ClearError' defined but not used [-Wunused-function]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/ujson/python -Ipandas/src/ujson/lib -Ipandas/src/datetime -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/datetime/np_datetime.c -o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime.o -D_GNU_SOURCE
+    /usr/include/python2.7/datetime.h:188:25: warning: 'PyDateTimeAPI' defined but not used [-Wunused-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ipandas/src/ujson/python -Ipandas/src/ujson/lib -Ipandas/src/datetime -Ipandas/src/klib -Ipandas/src -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c pandas/src/datetime/np_datetime_strings.c -o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime_strings.o -D_GNU_SOURCE
+    pandas/src/datetime/np_datetime_strings.c:127:1: warning: 'get_gmtime' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pandas/src/ujson/python/ujson.o build/temp.linux-x86_64-2.7/pandas/src/ujson/python/objToJSON.o build/temp.linux-x86_64-2.7/pandas/src/ujson/python/JSONtoObj.o build/temp.linux-x86_64-2.7/pandas/src/ujson/lib/ultrajsonenc.o build/temp.linux-x86_64-2.7/pandas/src/ujson/lib/ultrajsondec.o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime.o build/temp.linux-x86_64-2.7/pandas/src/datetime/np_datetime_strings.o -o build/lib.linux-x86_64-2.7/pandas/json.so
+    
+    warning: no files found matching 'TODO.rst'
+    warning: no files found matching 'setupegg.py'
+    no previously-included directories found matching 'doc/build'
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.pyd' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '.git*' found anywhere in distribution
+    warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+    warning: no previously-included files matching '*.png' found anywhere in distribution
+  Running setup.py install for pytz
+    
+    warning: no files found matching '*.pot' under directory 'pytz'
+    warning: no previously-included files found matching 'test_zdump.py'
+Successfully installed pandas pytz
+Cleaning up...
+Installing statsmodels
+Downloading/unpacking statsmodels
+  Running setup.py egg_info for package statsmodels
+    Traceback (most recent call last):
+      File "<string>", line 14, in <module>
+      File "/home/vagrant/build/statsmodels/setup.py", line 463, in <module>
+        check_dependency_versions(min_versions)
+      File "/home/vagrant/build/statsmodels/setup.py", line 122, in check_dependency_versions
+        raise ImportError("statsmodels requires patsy. http://patsy.readthedocs.org")
+    ImportError: statsmodels requires patsy. http://patsy.readthedocs.org
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+
+  File "<string>", line 14, in <module>
+
+  File "/home/vagrant/build/statsmodels/setup.py", line 463, in <module>
+
+    check_dependency_versions(min_versions)
+
+  File "/home/vagrant/build/statsmodels/setup.py", line 122, in check_dependency_versions
+
+    raise ImportError("statsmodels requires patsy. http://patsy.readthedocs.org")
+
+ImportError: statsmodels requires patsy. http://patsy.readthedocs.org
+
+----------------------------------------
+Command python setup.py egg_info failed with error code 1
+Storing complete log in /root/.pip/pip.log
+Installing networkx
+Downloading/unpacking networkx
+  Running setup.py egg_info for package networkx
+    
+    warning: no files found matching 'scripts/*'
+    warning: no files found matching 'networkx/tests/*.txt'
+    warning: no files found matching 'networkx/*/*/tests/*.txt'
+    warning: no previously-included files matching '*~' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '.svn' found anywhere in distribution
+    no previously-included directories found matching 'doc/build'
+    no previously-included directories found matching 'doc/source/reference/generated'
+    no previously-included directories found matching 'doc/source/examples'
+    no previously-included directories found matching 'doc/source/static/examples'
+    no previously-included directories found matching 'doc/source/templates/gallery.html'
+Installing collected packages: networkx
+  Running setup.py install for networkx
+    
+    warning: no files found matching 'scripts/*'
+    warning: no files found matching 'networkx/tests/*.txt'
+    warning: no files found matching 'networkx/*/*/tests/*.txt'
+    warning: no previously-included files matching '*~' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '.svn' found anywhere in distribution
+    no previously-included directories found matching 'doc/build'
+    no previously-included directories found matching 'doc/source/reference/generated'
+    no previously-included directories found matching 'doc/source/examples'
+    no previously-included directories found matching 'doc/source/static/examples'
+    no previously-included directories found matching 'doc/source/templates/gallery.html'
+Successfully installed networkx
+Cleaning up...
+Installing Pymc
+Downloading/unpacking pymc
+  Running setup.py egg_info for package pymc
+    /usr/lib/python2.7/dist-packages/numpy/distutils/system_info.py:1339: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      warnings.warn(AtlasNotFoundError.__doc__)
+    build_src
+    building extension "pymc.flib" sources
+    f2py options: ['skip:ppnd7']
+    f2py:> build/src.linux-x86_64-2.7/pymc/flibmodule.c
+    IOError: [Errno 2] No such file or directory: 'skip:ppnd7'. Skipping file "skip:ppnd7".
+    updatevars:gradlike: attempt to change 'dimension(nx)' to 'dimension(na)'. Ignoring.
+    updatevars:gradlike: attempt to change 'dimension(nx)' to 'dimension(nb)'. Ignoring.
+    updatevars:gradlike: attempt to change 'dimension (nmu)' to 'dimension(nmu)'. Ignoring.
+    updatevars:gradlike: attempt to change 'dimension (na)' to 'dimension(na)'. Ignoring.
+    rmbadname1: Replacing "index" with "index_bn".
+    updatevars: "character curterms(20)*24" is mapped to "character curterms(20,24)"
+    updatevars: "character septerms(20)*24" is mapped to "character septerms(20,24)"
+    updatevars: "character tokens(maxtok)*(*)" is mapped to "character tokens(maxtok,(*))"
+    rmbadname1: Replacing "index" with "index_bn".
+    rmbadname1: Replacing "len" with "len_bn".
+    sortvarnames: failed to compute dependencies because of cyclic dependencies between x, nx
+    sortvarnames: failed to compute dependencies because of cyclic dependencies between w, x, nx
+    sortvarnames: failed to compute dependencies because of cyclic dependencies between n, nx, bin0, delta, x, d
+    "object of type 'builtin_function_or_method' has no len()" in evaluating 'len(ord)' (available names: [])
+    Reading fortran codes...
+    	Reading file 'pymc/flib.f' (format:fix,strict)
+    	Reading file 'pymc/histogram.f' (format:fix,strict)
+    	Reading file 'pymc/flib_blas.f' (format:fix,strict)
+    	Reading file 'pymc/blas_wrap.f' (format:fix,strict)
+    	Reading file 'pymc/math.f' (format:fix,strict)
+    	Reading file 'pymc/gibbsit.f' (format:fix,strict)
+    Line #1125 in pymc/gibbsit.f:"      DOUBLE PRECISION INTENT(CACHE,HIDE), DIMENSION(2*ITERACNT) :: WORK"
+    	updatevars: attempt to change the type of "work" ("integer") to "double precision". Ignoring.
+    Post-processing...
+    	Block: flib
+    			Block: symmetrize
+    			Block: logsum
+    			Block: logsum_cpx
+    			Block: combinationln
+    {'attrspec': ['intent(hide)']}
+    In: :flib:pymc/flib.f:expand_triangular
+    vars2fortran: No typespec for argument "nf".
+    {'attrspec': ['intent(hide)']}
+    In: :flib:pymc/flib.f:expand_triangular
+    vars2fortran: No typespec for argument "n".
+    			Block: expand_triangular
+    			Block: mod_to_circle
+    			Block: standardize
+    			Block: gammln
+    			Block: mvgammln
+    			Block: factrl
+    			Block: factln
+    			Block: normcdf
+    			Block: sn_like
+    			Block: rskewnorm
+    			Block: uniform_like
+    			Block: uniform_grad_x
+    			Block: uniform_grad_l
+    			Block: uniform_grad_u
+    			Block: duniform_like
+    			Block: exponweib
+    			Block: exponweib_gx
+    			Block: exponweib_gl
+    			Block: exponweib_gk
+    			Block: exponweib_ga
+    			Block: exponweib_gs
+    			Block: exponweib_ppf
+    			Block: constrain
+    			Block: poisson
+    			Block: poisson_gmu
+    			Block: trpoisson
+    			Block: trpoisson_gmu
+    			Block: t
+    			Block: t_grad_x
+    			Block: t_grad_nu
+    			Block: chi2_grad_nu
+    			Block: nct
+    			Block: multinomial
+    			Block: weibull
+    			Block: weibull_gx
+    			Block: weibull_ga
+    			Block: weibull_gb
+    			Block: logistic
+    			Block: normal
+    			Block: normal_grad_tau
+    			Block: normal_grad_x
+    			Block: normal_grad_mu
+    			Block: hnormal
+    			Block: hnormal_gradx
+    			Block: hnormal_gradtau
+    			Block: lognormal
+    			Block: lognormal_gradx
+    			Block: lognormal_gradmu
+    			Block: lognormal_gradtau
+    			Block: arlognormal
+    			Block: gev
+    			Block: gev_ppf
+    			Block: gamma
+    			Block: gamma_grad_x
+    			Block: gamma_grad_alpha
+    			Block: gamma_grad_beta
+    			Block: igamma
+    			Block: igamma_grad_x
+    			Block: igamma_grad_alpha
+    			Block: igamma_grad_beta
+    			Block: hyperg
+    			Block: geometric
+    			Block: geometric_gp
+    			Block: dirichlet
+    			Block: cauchy
+    			Block: cauchy_grad_x
+    			Block: cauchy_grad_a
+    			Block: cauchy_grad_b
+    			Block: negbin
+    			Block: negbin2
+    			Block: negbin2_gmu
+    			Block: negbin2_ga
+    			Block: binomial
+    			Block: binomial_gp
+    			Block: bernoulli
+    			Block: bern_grad_p
+    			Block: beta_like
+    			Block: beta_grad_x
+    			Block: beta_grad_a
+    			Block: beta_grad_b
+    			Block: betabin_like
+    			Block: betabin_ga
+    			Block: betabin_gb
+    			Block: mvhyperg
+    			Block: dirmultinom
+    			Block: wishart
+    			Block: trace
+    			Block: gamfun
+    			Block: gammds
+    			Block: psi
+    			Block: gser
+    			Block: gcf
+    			Block: gammq
+    			Block: trans
+    			Block: matmult
+    			Block: dtrm
+    			Block: elgs
+    			Block: bico
+    			Block: chol
+    			Block: hermpoly
+    			Block: set_uniform
+    			Block: categorical
+    			Block: rcat
+    			Block: logit
+    			Block: invlogit
+    			Block: stukel_logit
+    			Block: stukel_invlogit
+    			Block: vonmises
+    			Block: pareto
+    			Block: truncated_pareto
+    			Block: fixed_binsize
+    			Block: weighted_fixed_binsize
+    			Block: fixed_binsize_nd
+    {'attrspec': ['dimension(n)']}
+    In: :flib:pymc/histogram.f:qsorti
+    vars2fortran: No typespec for argument "ord".
+    			Block: qsorti
+    			Block: checksymm
+    			Block: chol_mvnorm
+    			Block: cov_mvnorm
+    			Block: prec_mvnorm
+    			Block: blas_wishart
+    			Block: blas_wishart_cov
+    			Block: blas_inv_wishart
+    {'attrspec': ['intent(hide)']}
+    In: :flib:pymc/blas_wrap.f:dcopy_wrap
+    vars2fortran: No typespec for argument "nx".
+    			Block: dcopy_wrap
+    			Block: dtrmm_wrap
+    			Block: dtrsm_wrap
+    			Block: dpotrf_wrap
+    			Block: dchdc_wrap
+    			Block: dpotrs_wrap
+    			Block: ppnd16
+    			Block: calerf
+    			Block: derf
+    			Block: derfc
+    			Block: derfcx
+    			Block: gibbsit
+    			Block: matinput
+    			Block: vecinput
+    			Block: oneparse
+    			Block: gibbmain
+    			Block: empquant
+    			Block: dichot
+    			Block: thin
+    			Block: mctest
+    			Block: indtest
+    			Block: mcest
+    			Block: ppnd7
+    			Block: ssort
+    Post-processing (stage 2)...
+    Building modules...
+    	Building module "flib"...
+    		Constructing wrapper function "symmetrize"...
+    		  symmetrize(c,[cmin,cmax])
+    		Constructing wrapper function "logsum"...
+    		  s = logsum(x)
+    		Constructing wrapper function "logsum_cpx"...
+    		  s = logsum_cpx(x)
+    		Creating wrapper for Fortran function "combinationln"("combinationln")...
+    		Constructing wrapper function "combinationln"...
+    		  combinationln = combinationln(n,k)
+    		Constructing wrapper function "expand_triangular"...
+    		  t = expand_triangular(d,f)
+    		Constructing wrapper function "mod_to_circle"...
+    		  mx = mod_to_circle(x,u,l)
+    		Constructing wrapper function "standardize"...
+    		  z = standardize(x,loc,scale)
+    		Creating wrapper for Fortran function "gammln"("gammln")...
+    		Constructing wrapper function "gammln"...
+    		  gammln = gammln(xx)
+    		Creating wrapper for Fortran function "mvgammln"("mvgammln")...
+    		Constructing wrapper function "mvgammln"...
+    		  mvgammln = mvgammln(x,k)
+    		Creating wrapper for Fortran function "factrl"("factrl")...
+    		Constructing wrapper function "factrl"...
+    		  factrl = factrl(n)
+    		Creating wrapper for Fortran function "factln"("factln")...
+    		Constructing wrapper function "factln"...
+    		  factln = factln(n)
+    		Constructing wrapper function "normcdf"...
+    		  normcdf(x)
+    		Constructing wrapper function "sn_like"...
+    		  like = sn_like(x,mu,tau,alph)
+    		Constructing wrapper function "rskewnorm"...
+    		  x = rskewnorm(nx,mu,tau,alph,rn)
+    		Constructing wrapper function "uniform_like"...
+    		  like = uniform_like(x,lower,upper)
+    		Constructing wrapper function "uniform_grad_x"...
+    		  gradxlike = uniform_grad_x(x,lower,upper)
+    		Constructing wrapper function "uniform_grad_l"...
+    		  gradllike = uniform_grad_l(x,lower,upper)
+    		Constructing wrapper function "uniform_grad_u"...
+    		  gradulike = uniform_grad_u(x,lower,upper)
+    		Constructing wrapper function "duniform_like"...
+    		  like = duniform_like(x,lower,upper)
+    		Constructing wrapper function "exponweib"...
+    		  like = exponweib(x,a,c,loc,scale)
+    		Constructing wrapper function "exponweib_gx"...
+    		  gradlike = exponweib_gx(x,alpha,k,loc,scale)
+    		Constructing wrapper function "exponweib_gl"...
+    		  gradlike = exponweib_gl(x,alpha,k,loc,scale)
+    		Constructing wrapper function "exponweib_gk"...
+    		  gradlike = exponweib_gk(x,alpha,k,loc,scale)
+    		Constructing wrapper function "exponweib_ga"...
+    		  gradlike = exponweib_ga(x,alpha,k,loc,scale,[nk])
+    		Constructing wrapper function "exponweib_gs"...
+    		  gradlike = exponweib_gs(x,alpha,k,loc,scale)
+    		Constructing wrapper function "exponweib_ppf"...
+    		  ppf = exponweib_ppf(q,a,c)
+    		Constructing wrapper function "constrain"...
+    		  pass = constrain(x,a,b,allow_equal)
+    		Constructing wrapper function "poisson"...
+    		  like = poisson(x,mu)
+    		Constructing wrapper function "poisson_gmu"...
+    		  gradlike = poisson_gmu(x,mu)
+    		Constructing wrapper function "trpoisson"...
+    		  like = trpoisson(x,mu,k)
+    		Constructing wrapper function "trpoisson_gmu"...
+    		  gradlike = trpoisson_gmu(x,mu,k)
+    		Constructing wrapper function "t"...
+    		  like = t(x,nu)
+    		Constructing wrapper function "t_grad_x"...
+    		  gradlikex = t_grad_x(x,nu)
+    		Constructing wrapper function "t_grad_nu"...
+    		  gradlikenu = t_grad_nu(x,nu)
+    		Constructing wrapper function "chi2_grad_nu"...
+    		  gradlikenu = chi2_grad_nu(x,nu)
+    		Constructing wrapper function "nct"...
+    		  like = nct(x,mu,lam,nu)
+    		Constructing wrapper function "multinomial"...
+    		  like = multinomial(x,n,p)
+    		Constructing wrapper function "weibull"...
+    		  like = weibull(x,alpha,beta)
+    		Constructing wrapper function "weibull_gx"...
+    		  gradlike = weibull_gx(x,alpha,beta)
+    		Constructing wrapper function "weibull_ga"...
+    		  gradlike = weibull_ga(x,alpha,beta)
+    		Constructing wrapper function "weibull_gb"...
+    		  gradlike = weibull_gb(x,alpha,beta)
+    		Constructing wrapper function "logistic"...
+    		  like = logistic(x,mu,tau)
+    		Constructing wrapper function "normal"...
+    		  like = normal(x,mu,tau)
+    		Constructing wrapper function "normal_grad_tau"...
+    		  grad_tau_like = normal_grad_tau(x,mu,tau)
+    		Constructing wrapper function "normal_grad_x"...
+    		  grad_x_like = normal_grad_x(x,mu,tau)
+    		Constructing wrapper function "normal_grad_mu"...
+    		  gradmulike = normal_grad_mu(x,mu,tau)
+    		Constructing wrapper function "hnormal"...
+    		  like = hnormal(x,tau)
+    		Constructing wrapper function "hnormal_gradx"...
+    		  gradlike = hnormal_gradx(x,tau)
+    		Constructing wrapper function "hnormal_gradtau"...
+    		  gradlike = hnormal_gradtau(x,tau)
+    		Constructing wrapper function "lognormal"...
+    		  like = lognormal(x,mu,tau)
+    		Constructing wrapper function "lognormal_gradx"...
+    		  gradlike = lognormal_gradx(x,mu,tau)
+    		Constructing wrapper function "lognormal_gradmu"...
+    		  gradlike = lognormal_gradmu(x,mu,tau)
+    		Constructing wrapper function "lognormal_gradtau"...
+    		  gradlike = lognormal_gradtau(x,mu,tau)
+    		Constructing wrapper function "arlognormal"...
+    		  like = arlognormal(x,mu,sigma,rho,beta)
+    		Constructing wrapper function "gev"...
+    		  like = gev(x,xi,mu,sigma)
+    		Constructing wrapper function "gev_ppf"...
+    		  ppf = gev_ppf(q,xi)
+    		Constructing wrapper function "gamma"...
+    		  like = gamma(x,alpha,beta)
+    		Constructing wrapper function "gamma_grad_x"...
+    		  gradxlike = gamma_grad_x(x,alpha,beta)
+    		Constructing wrapper function "gamma_grad_alpha"...
+    		  gradalphalike = gamma_grad_alpha(x,alpha,beta)
+    		Constructing wrapper function "gamma_grad_beta"...
+    		  gradbetalike = gamma_grad_beta(x,alpha,beta)
+    		Constructing wrapper function "igamma"...
+    		  like = igamma(x,alpha,beta)
+    		Constructing wrapper function "igamma_grad_x"...
+    		  gradxlike = igamma_grad_x(x,alpha,beta)
+    		Constructing wrapper function "igamma_grad_alpha"...
+    		  gradalphalike = igamma_grad_alpha(x,alpha,beta)
+    		Constructing wrapper function "igamma_grad_beta"...
+    		  gradbetalike = igamma_grad_beta(x,alpha,beta)
+    		Constructing wrapper function "hyperg"...
+    		  like = hyperg(x,draws,success,total)
+    		Constructing wrapper function "geometric"...
+    		  like = geometric(x,p)
+    		Constructing wrapper function "geometric_gp"...
+    		  gradlike = geometric_gp(x,p)
+    		Constructing wrapper function "dirichlet"...
+    		  like = dirichlet(x,theta)
+    		Constructing wrapper function "cauchy"...
+    		  like = cauchy(x,alpha,beta)
+    		Constructing wrapper function "cauchy_grad_x"...
+    		  gradlike = cauchy_grad_x(x,alpha,beta)
+    		Constructing wrapper function "cauchy_grad_a"...
+    		  gradlike = cauchy_grad_a(x,alpha,beta)
+    		Constructing wrapper function "cauchy_grad_b"...
+    		  gradlike = cauchy_grad_b(x,alpha,beta)
+    		Constructing wrapper function "negbin"...
+    		  like = negbin(x,r,p)
+    		Constructing wrapper function "negbin2"...
+    		  like = negbin2(x,mu,a)
+    		Constructing wrapper function "negbin2_gmu"...
+    		  gradlike = negbin2_gmu(x,mu,alpha)
+    		Constructing wrapper function "negbin2_ga"...
+    		  gradlike = negbin2_ga(x,mu,alpha)
+    		Constructing wrapper function "binomial"...
+    		  like = binomial(x,n,p)
+    		Constructing wrapper function "binomial_gp"...
+    		  gradlike = binomial_gp(x,n,p)
+    		Constructing wrapper function "bernoulli"...
+    		  like = bernoulli(x,p)
+    		Constructing wrapper function "bern_grad_p"...
+    		  grad_like = bern_grad_p(x,p)
+    		Constructing wrapper function "beta_like"...
+    		  like = beta_like(x,alpha,beta)
+    		Constructing wrapper function "beta_grad_x"...
+    		  gradlikex = beta_grad_x(x,alpha,beta)
+    		Constructing wrapper function "beta_grad_a"...
+    		  gradlikea = beta_grad_a(x,alpha,beta)
+    		Constructing wrapper function "beta_grad_b"...
+    		  gradlikeb = beta_grad_b(x,alpha,beta)
+    		Constructing wrapper function "betabin_like"...
+    		  like = betabin_like(x,alpha,beta,n)
+    		Constructing wrapper function "betabin_ga"...
+    		  gradlike = betabin_ga(x,alpha,beta,n)
+    		Constructing wrapper function "betabin_gb"...
+    		  gradlike = betabin_gb(x,alpha,beta,n)
+    		Constructing wrapper function "mvhyperg"...
+    		  like = mvhyperg(x,color)
+    		Constructing wrapper function "dirmultinom"...
+    		  like = dirmultinom(x,theta)
+    		Constructing wrapper function "wishart"...
+    		  like = wishart(x,n,sigma)
+    		Constructing wrapper function "trace"...
+    		  trace(mat,tr,[k])
+    		Constructing wrapper function "gamfun"...
+    		  gx = gamfun(xx)
+    		Creating wrapper for Fortran function "gammds"("gammds")...
+    		Constructing wrapper function "gammds"...
+    		  gammds = gammds(y,p,ifault)
+    		Creating wrapper for Fortran function "psi"("psi")...
+    		Constructing wrapper function "psi"...
+    		  psi = psi(x)
+    		Constructing wrapper function "gser"...
+    		  gser(gamser,a,x,gln)
+    		Constructing wrapper function "gcf"...
+    		  gcf(gammcf,a,x,gln)
+    		Creating wrapper for Fortran function "gammq"("gammq")...
+    		Constructing wrapper function "gammq"...
+    		  gammq = gammq(a,x)
+    		Constructing wrapper function "trans"...
+    		  tmat = trans(mat)
+    		Constructing wrapper function "matmult"...
+    		  prod = matmult(mat1,mat2)
+    		Constructing wrapper function "dtrm"...
+    		  d = dtrm(a)
+    		Constructing wrapper function "elgs"...
+    		  elgs(a,indx,[n])
+    		Creating wrapper for Fortran function "bico"("bico")...
+    		Constructing wrapper function "bico"...
+    		  bico = bico(n,k)
+    		Constructing wrapper function "chol"...
+    		  c = chol(a,[n])
+    		Constructing wrapper function "hermpoly"...
+    		  cx = hermpoly(n,x)
+    		Constructing wrapper function "set_uniform"...
+    		  set_uniform(seed1,seed2)
+    		Constructing wrapper function "categorical"...
+    		  like = categorical(x,p)
+    		Constructing wrapper function "rcat"...
+    		  s = rcat(p,rands)
+    		Constructing wrapper function "logit"...
+    		  ltheta = logit(theta)
+    		Constructing wrapper function "invlogit"...
+    		  theta = invlogit(ltheta)
+    		Constructing wrapper function "stukel_logit"...
+    		  ltheta = stukel_logit(theta,a1,a2,[overwrite_theta])
+    		Constructing wrapper function "stukel_invlogit"...
+    		  theta = stukel_invlogit(ltheta,a1,a2,[overwrite_ltheta])
+    		Constructing wrapper function "vonmises"...
+    		  like = vonmises(x,mu,kappa)
+    		Constructing wrapper function "pareto"...
+    		  like = pareto(x,alpha,m)
+    		Constructing wrapper function "truncated_pareto"...
+    		  like = truncated_pareto(x,alpha,m,b)
+    		Constructing wrapper function "fixed_binsize"...
+    		  h = fixed_binsize(x,bin0,delta,n)
+    		Constructing wrapper function "weighted_fixed_binsize"...
+    		  h = weighted_fixed_binsize(x,w,bin0,delta,n)
+    		Constructing wrapper function "fixed_binsize_nd"...
+    		  count = fixed_binsize_nd(x,bin0,delta,n,nc)
+    		Constructing wrapper function "qsorti"...
+    		  qsorti(ord,a,[n])
+    		Constructing wrapper function "checksymm"...
+    		  cs = checksymm(x)
+    		Constructing wrapper function "chol_mvnorm"...
+    		  like = chol_mvnorm(x,mu,sig,[overwrite_x,overwrite_mu])
+    		Constructing wrapper function "cov_mvnorm"...
+    		  like = cov_mvnorm(x,mu,c,[overwrite_x,overwrite_mu,overwrite_c])
+    		Constructing wrapper function "prec_mvnorm"...
+    		  like = prec_mvnorm(x,mu,tau,[overwrite_x,overwrite_mu,overwrite_tau])
+    		Constructing wrapper function "blas_wishart"...
+    		  like = blas_wishart(x,n,t,[overwrite_x,overwrite_t])
+    		Constructing wrapper function "blas_wishart_cov"...
+    		  like = blas_wishart_cov(x,n,v,[overwrite_x,overwrite_v])
+    		Constructing wrapper function "blas_inv_wishart"...
+    		  like = blas_inv_wishart(x,n,t,[overwrite_x,overwrite_t])
+    		Constructing wrapper function "dcopy_wrap"...
+    		  dcopy_wrap(x,y)
+    		Constructing wrapper function "dtrmm_wrap"...
+    		  dtrmm_wrap(a,b,side,transa,uplo,alpha)
+    		Constructing wrapper function "dtrsm_wrap"...
+    		  dtrsm_wrap(a,b,side,transa,uplo,alpha)
+    		Constructing wrapper function "dpotrf_wrap"...
+    		  info = dpotrf_wrap(a)
+    		Constructing wrapper function "dchdc_wrap"...
+    		  piv,info = dchdc_wrap(a)
+    		Constructing wrapper function "dpotrs_wrap"...
+    		  info = dpotrs_wrap(chol_fac,b,[uplo])
+    		Creating wrapper for Fortran function "ppnd16"("ppnd16")...
+    		Constructing wrapper function "ppnd16"...
+    		  ppnd16 = ppnd16(p,ifault)
+    		Constructing wrapper function "calerf"...
+    		  calerf(arg,result,jint)
+    		Creating wrapper for Fortran function "derf"("derf")...
+    		Constructing wrapper function "derf"...
+    		  derf = derf(x)
+    		Creating wrapper for Fortran function "derfc"("derfc")...
+    		Constructing wrapper function "derfc"...
+    		  derfc = derfc(x)
+    		Creating wrapper for Fortran function "derfcx"("derfcx")...
+    		Constructing wrapper function "derfcx"...
+    		  derfcx = derfcx(x)
+    		Constructing wrapper function "matinput"...
+    		  matinput(uid,matout,rowused,colused,r15,[rowmax,colmax])
+    		Constructing wrapper function "vecinput"...
+    		  vecinput(uid,vecout,vecused,r15,[vecmax])
+    		Constructing wrapper function "oneparse"...
+    getarrdims:warning: assumed shape array, using 0 instead of '(*)'
+    		  oneparse(instring,delimit,tokens,tokcnt,r15,[maxtok])
+    		Constructing wrapper function "gibbmain"...
+    		  nmin,kthin,nburn,nprec,kmind = gibbmain(original,q,r,s,epsilon)
+    		Creating wrapper for Fortran function "empquant"("empquant")...
+    		Constructing wrapper function "empquant"...
+    getarrdims:warning: assumed shape array, using 0 instead of '*'
+    		  empquant = empquant(data,q,work,[iteracnt])
+    		Constructing wrapper function "dichot"...
+    		  dichot(data,cutpt,zt,[iteracnt])
+    		Constructing wrapper function "thin"...
+    		  thin(series,kthin,result,thincnt,[iteracnt])
+    		Constructing wrapper function "mctest"...
+    		  mctest(data,g2,bic,[datacnt])
+    		Constructing wrapper function "indtest"...
+    		  indtest(data,g2,bic,[datacnt])
+    		Constructing wrapper function "mcest"...
+    		  mcest(data,alpha,beta,[datacnt])
+    		Creating wrapper for Fortran function "ppnd7"("ppnd7")...
+    		Constructing wrapper function "ppnd7"...
+    		  ppnd7 = ppnd7(p,ifault)
+    		Constructing wrapper function "ssort"...
+    		  ssort(x,y,kflag,[n])
+    		Constructing COMMON block support for "unif_seeds"...
+    		  s1,s2
+    	Wrote C/API module "flib" to file "build/src.linux-x86_64-2.7/pymc/flibmodule.c"
+    	Fortran 77 wrappers are saved to "build/src.linux-x86_64-2.7/pymc/flib-f2pywrappers.f"
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+      adding 'build/src.linux-x86_64-2.7/pymc/flib-f2pywrappers.f' to sources.
+    building extension "pymc.LazyFunction" sources
+    building extension "pymc.Container_values" sources
+    building extension "pymc.gp.linalg_utils" sources
+    f2py options: []
+    f2py:> build/src.linux-x86_64-2.7/pymc/gp/linalg_utilsmodule.c
+    Reading fortran codes...
+    	Reading file 'pymc/gp/linalg_utils.f' (format:fix,strict)
+    	Reading file 'pymc/blas_wrap.f' (format:fix,strict)
+    Post-processing...
+    	Block: linalg_utils
+    			Block: remove_duplicates
+    			Block: check_repeats
+    			Block: diag_call
+    					Block: cov_fun
+    {'attrspec': ['intent(hide)']}
+    In: :linalg_utils:pymc/gp/linalg_utils.f:basis_diag_call
+    vars2fortran: No typespec for argument "nbas".
+    			Block: basis_diag_call
+    			Block: gp_array_logp
+    			Block: asqs
+    {'attrspec': ['intent(hide)']}
+    In: :linalg_utils:pymc/blas_wrap.f:dcopy_wrap
+    vars2fortran: No typespec for argument "nx".
+    			Block: dcopy_wrap
+    			Block: dtrmm_wrap
+    			Block: dtrsm_wrap
+    			Block: dpotrf_wrap
+    			Block: dchdc_wrap
+    			Block: dpotrs_wrap
+    Post-processing (stage 2)...
+    Building modules...
+    	Constructing call-back function "cb_cov_fun_in_diag_call__user__routines"
+    	  def cov_fun(xe): return q
+    	Building module "linalg_utils"...
+    		Constructing wrapper function "remove_duplicates"...
+    		  nr,rf,rt,nu,xu,ui = remove_duplicates(x)
+    		Constructing wrapper function "check_repeats"...
+    		  f,new_indices,n_new_indices = check_repeats(x,x_sofar,f_sofar)
+    		Constructing wrapper function "diag_call"...
+    		  v = diag_call(x,cov_fun,[cov_fun_extra_args])
+    		Constructing wrapper function "basis_diag_call"...
+    		  v = basis_diag_call(basis_x)
+    		Constructing wrapper function "gp_array_logp"...
+    		  like = gp_array_logp(x,mu,sig,[overwrite_x,overwrite_mu])
+    		Constructing wrapper function "asqs"...
+    		  asqs(c,s,[cmin,cmax])
+    		Constructing wrapper function "dcopy_wrap"...
+    		  dcopy_wrap(x,y)
+    		Constructing wrapper function "dtrmm_wrap"...
+    		  dtrmm_wrap(a,b,side,transa,uplo,alpha)
+    		Constructing wrapper function "dtrsm_wrap"...
+    		  dtrsm_wrap(a,b,side,transa,uplo,alpha)
+    		Constructing wrapper function "dpotrf_wrap"...
+    		  info = dpotrf_wrap(a)
+    		Constructing wrapper function "dchdc_wrap"...
+    		  piv,info = dchdc_wrap(a)
+    		Constructing wrapper function "dpotrs_wrap"...
+    		  info = dpotrs_wrap(chol_fac,b,[uplo])
+    	Wrote C/API module "linalg_utils" to file "build/src.linux-x86_64-2.7/pymc/gp/linalg_utilsmodule.c"
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+    building extension "pymc.gp.incomplete_chol" sources
+    f2py options: []
+    f2py:> build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.c
+    Reading fortran codes...
+    	Reading file 'pymc/gp/incomplete_chol.f' (format:fix,strict)
+    Post-processing...
+    	Block: incomplete_chol
+    			Block: ichol_continue
+    					Block: rowfun
+    			Block: ichol
+    					Block: rowfun
+    {'attrspec': ['intent(hide)']}
+    In: :incomplete_chol:pymc/gp/incomplete_chol.f:ichol_basis
+    vars2fortran: No typespec for argument "n_nug".
+    			Block: ichol_basis
+    			Block: ichol_full
+    Post-processing (stage 2)...
+    Building modules...
+    	Constructing call-back function "cb_rowfun_in_ichol_continue__user__routines"
+    	  def rowfun(itot,x,rowvec): return
+    	Constructing call-back function "cb_rowfun_in_ichol__user__routines"
+    	  def rowfun(i,x,rowvec): return
+    	Building module "incomplete_chol"...
+    		Constructing wrapper function "ichol_continue"...
+    		  m,piv = ichol_continue(sig,diag,piv,reltol,x,rowfun,mold,[overwrite_x,rowfun_extra_args])
+    		Constructing wrapper function "ichol"...
+    		  sig,m,piv = ichol(diag,reltol,x,rowfun,rl,[overwrite_x,rowfun_extra_args])
+    		Constructing wrapper function "ichol_basis"...
+    		  sig,p,m = ichol_basis(basis,nug,reltol)
+    		Constructing wrapper function "ichol_full"...
+    		  sig,m,p = ichol_full(c,reltol)
+    	Wrote C/API module "incomplete_chol" to file "build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.c"
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+    building extension "pymc.gp.cov_funs.isotropic_cov_funs" sources
+    f2py options: []
+    f2py:> build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funsmodule.c
+    Reading fortran codes...
+    	Reading file 'pymc/gp/cov_funs/isotropic_cov_funs.f' (format:fix,strict)
+    	Reading file 'blas/BLAS/dscal.f' (format:fix,strict)
+    Post-processing...
+    	Block: isotropic_cov_funs
+    			Block: imul
+    			Block: symmetrize
+    			Block: matern
+    			Block: nsmatrn
+    			Block: stein_spatiotemporal
+    			Block: nsst
+    			Block: gaussian
+    			Block: exponential
+    			Block: brownian
+    			Block: frac_brownian
+    			Block: pow_exp
+    			Block: sphere
+    			Block: quadratic
+    			Block: dgamma
+    			Block: rkbesl
+    			Block: dscal
+    Post-processing (stage 2)...
+    Building modules...
+    	Building module "isotropic_cov_funs"...
+    		Constructing wrapper function "imul"...
+    		  imul(c,a,[cmin,cmax,symm])
+    		Constructing wrapper function "symmetrize"...
+    		  symmetrize(c,[cmin,cmax])
+    		Constructing wrapper function "matern"...
+    		  matern(c,diff_degree,[cmin,cmax,symm])
+    		Constructing wrapper function "nsmatrn"...
+    		  nsmatrn(c,ddx,ddy,hx,hy,nmax,[cmin,cmax,symm])
+    		Constructing wrapper function "stein_spatiotemporal"...
+    		  stein_spatiotemporal(c,gt,origin_val,[cmin,cmax,symm])
+    		Constructing wrapper function "nsst"...
+    		  nsst(c,gt,origin_val,hx,hy,[cmin,cmax,symm])
+    		Constructing wrapper function "gaussian"...
+    		  gaussian(c,[cmin,cmax,symm])
+    		Constructing wrapper function "exponential"...
+    		  exponential(c,[cmin,cmax,symm])
+    		Constructing wrapper function "brownian"...
+    		  brownian(c,x,y,[cmin,cmax,symm])
+    		Constructing wrapper function "frac_brownian"...
+    		  frac_brownian(c,x,y,h,[cmin,cmax,symm])
+    		Constructing wrapper function "pow_exp"...
+    		  pow_exp(c,pow,[cmin,cmax,symm])
+    		Constructing wrapper function "sphere"...
+    		  sphere(c,[cmin,cmax,symm])
+    		Constructing wrapper function "quadratic"...
+    		  quadratic(c,phi,[cmin,cmax,symm])
+    		Creating wrapper for Fortran function "dgamma"("dgamma")...
+    		Constructing wrapper function "dgamma"...
+    		  dgamma = dgamma(x)
+    		Constructing wrapper function "rkbesl"...
+    		  bk = rkbesl(x,alpha,nb,ize,ncalc)
+    		Constructing wrapper function "dscal"...
+    getarrdims:warning: assumed shape array, using 0 instead of '*'
+    		  dscal(n,da,dx,incx)
+    	Wrote C/API module "isotropic_cov_funs" to file "build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funsmodule.c"
+    	Fortran 77 wrappers are saved to "build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funs-f2pywrappers.f"
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+      adding 'build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funs-f2pywrappers.f' to sources.
+    building extension "pymc.gp.cov_funs.distances" sources
+    f2py options: []
+    f2py:> build/src.linux-x86_64-2.7/pymc/gp/cov_funs/distancesmodule.c
+    Reading fortran codes...
+    	Reading file 'pymc/gp/cov_funs/distances.f' (format:fix,strict)
+    Post-processing...
+    	Block: distances
+    			Block: euclidean
+    			Block: geographic
+    			Block: paniso_geo_rad
+    			Block: aniso_geo_rad
+    Post-processing (stage 2)...
+    Building modules...
+    	Building module "distances"...
+    		Constructing wrapper function "euclidean"...
+    		  euclidean(d,x,y,[cmin,cmax,symm])
+    		Constructing wrapper function "geographic"...
+    		  geographic(d,x,y,[cmin,cmax,symm])
+    		Constructing wrapper function "paniso_geo_rad"...
+    		  paniso_geo_rad(d,x,y,ctrs,scals,[cmin,cmax,symm])
+    		Constructing wrapper function "aniso_geo_rad"...
+    		  aniso_geo_rad(d,x,y,inc,ecc,[cmin,cmax,symm])
+    	Wrote C/API module "distances" to file "build/src.linux-x86_64-2.7/pymc/gp/cov_funs/distancesmodule.c"
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+    build_src: building npy-pkg config files
+    
+Installing collected packages: pymc
+  Running setup.py install for pymc
+    /usr/lib/python2.7/dist-packages/numpy/distutils/system_info.py:1339: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      warnings.warn(AtlasNotFoundError.__doc__)
+    unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+    unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+    build_src
+    building extension "pymc.flib" sources
+    f2py options: ['skip:ppnd7']
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+      adding 'build/src.linux-x86_64-2.7/pymc/flib-f2pywrappers.f' to sources.
+    building extension "pymc.LazyFunction" sources
+    building extension "pymc.Container_values" sources
+    building extension "pymc.gp.linalg_utils" sources
+    f2py options: []
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+    building extension "pymc.gp.incomplete_chol" sources
+    f2py options: []
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+    building extension "pymc.gp.cov_funs.isotropic_cov_funs" sources
+    f2py options: []
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+      adding 'build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funs-f2pywrappers.f' to sources.
+    building extension "pymc.gp.cov_funs.distances" sources
+    f2py options: []
+      adding 'build/src.linux-x86_64-2.7/fortranobject.c' to sources.
+      adding 'build/src.linux-x86_64-2.7' to include_dirs.
+    build_src: building npy-pkg config files
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    customize GnuFCompiler
+    Could not locate executable g77
+    Could not locate executable f77
+    customize IntelFCompiler
+    Could not locate executable ifort
+    Could not locate executable ifc
+    customize LaheyFCompiler
+    Could not locate executable lf95
+    customize PGroupFCompiler
+    Could not locate executable pgf90
+    Could not locate executable pgf77
+    customize AbsoftFCompiler
+    Could not locate executable f90
+    customize NAGFCompiler
+    Found executable /usr/bin/f95
+    customize VastFCompiler
+    customize CompaqFCompiler
+    Could not locate executable fort
+    customize IntelItaniumFCompiler
+    Could not locate executable efort
+    Could not locate executable efc
+    customize IntelEM64TFCompiler
+    customize Gnu95FCompiler
+    Found executable /usr/bin/gfortran
+    customize Gnu95FCompiler
+    customize Gnu95FCompiler using build_ext
+    building 'pymc.flib' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: build/src.linux-x86_64-2.7/pymc/flibmodule.c
+    build/src.linux-x86_64-2.7/pymc/flibmodule.c: In function 'f2py_rout_flib_fixed_binsize_nd':
+    build/src.linux-x86_64-2.7/pymc/flibmodule.c:16935:7: warning: array subscript is above array bounds [-Warray-bounds]
+    gcc: cephes/chbevl.c
+    gcc: build/src.linux-x86_64-2.7/fortranobject.c
+    gcc: cephes/c2f.c
+    cephes/c2f.c:8:8: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+    gcc: cephes/i0.c
+    compiling Fortran sources
+    Fortran f77 compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran f90 compiler: /usr/bin/gfortran -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran fix compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gfortran:f77: pymc/flib.f
+    Warning: Nonconforming tab character in column 1 of line 509
+    Warning: Nonconforming tab character in column 1 of line 510
+    Warning: Nonconforming tab character in column 1 of line 511
+    Warning: Nonconforming tab character in column 1 of line 512
+    Warning: Nonconforming tab character in column 1 of line 513
+    Warning: Nonconforming tab character in column 1 of line 557
+    Warning: Nonconforming tab character in column 1 of line 558
+    Warning: Nonconforming tab character in column 1 of line 559
+    Warning: Nonconforming tab character in column 1 of line 560
+    Warning: Nonconforming tab character in column 1 of line 561
+    Warning: Nonconforming tab character in column 6 of line 707
+    Warning: Nonconforming tab character in column 6 of line 711
+    Warning: Nonconforming tab character in column 6 of line 715
+    Warning: Nonconforming tab character in column 1 of line 723
+    Warning: Nonconforming tab character in column 6 of line 775
+    Warning: Nonconforming tab character in column 6 of line 779
+    Warning: Nonconforming tab character in column 6 of line 783
+    Warning: Nonconforming tab character in column 1 of line 791
+    Warning: Nonconforming tab character in column 6 of line 849
+    Warning: Nonconforming tab character in column 6 of line 853
+    Warning: Nonconforming tab character in column 6 of line 857
+    Warning: Nonconforming tab character in column 1 of line 865
+    Warning: Nonconforming tab character in column 6 of line 921
+    Warning: Nonconforming tab character in column 6 of line 925
+    Warning: Nonconforming tab character in column 6 of line 929
+    Warning: Nonconforming tab character in column 1 of line 937
+    Warning: Nonconforming tab character in column 6 of line 991
+    Warning: Nonconforming tab character in column 6 of line 995
+    Warning: Nonconforming tab character in column 6 of line 999
+    Warning: Nonconforming tab character in column 1 of line 1007
+    Warning: Nonconforming tab character in column 1 of line 1195
+    Warning: Nonconforming tab character in column 1 of line 1196
+    Warning: Nonconforming tab character in column 1 of line 1197
+    Warning: Nonconforming tab character in column 1 of line 1200
+    Warning: Nonconforming tab character in column 1 of line 1201
+    Warning: Nonconforming tab character in column 1 of line 1408
+    Warning: Nonconforming tab character in column 1 of line 1409
+    Warning: Nonconforming tab character in column 1 of line 1412
+    Warning: Nonconforming tab character in column 5 of line 1420
+    Warning: Nonconforming tab character in column 5 of line 1421
+    Warning: Nonconforming tab character in column 5 of line 1422
+    Warning: Nonconforming tab character in column 5 of line 1423
+    Warning: Nonconforming tab character in column 5 of line 1424
+    Warning: Nonconforming tab character in column 5 of line 1425
+    Warning: Nonconforming tab character in column 1 of line 1452
+    Warning: Nonconforming tab character in column 1 of line 1454
+    Warning: Nonconforming tab character in column 1 of line 1457
+    Warning: Nonconforming tab character in column 5 of line 1465
+    Warning: Nonconforming tab character in column 5 of line 1466
+    Warning: Nonconforming tab character in column 5 of line 1467
+    Warning: Nonconforming tab character in column 5 of line 1469
+    Warning: Nonconforming tab character in column 5 of line 1470
+    Warning: Nonconforming tab character in column 5 of line 1471
+    Warning: Nonconforming tab character in column 5 of line 1472
+    Warning: Nonconforming tab character in column 5 of line 1473
+    Warning: Nonconforming tab character in column 1 of line 1478
+    Warning: Nonconforming tab character in column 1 of line 1499
+    Warning: Nonconforming tab character in column 1 of line 1501
+    Warning: Nonconforming tab character in column 1 of line 1504
+    Warning: Nonconforming tab character in column 5 of line 1512
+    Warning: Nonconforming tab character in column 5 of line 1513
+    Warning: Nonconforming tab character in column 5 of line 1514
+    Warning: Nonconforming tab character in column 5 of line 1515
+    Warning: Nonconforming tab character in column 5 of line 1516
+    Warning: Nonconforming tab character in column 5 of line 1517
+    Warning: Nonconforming tab character in column 1 of line 1740
+    Warning: Nonconforming tab character in column 1 of line 1743
+    Warning: Nonconforming tab character in column 1 of line 1746
+    Warning: Nonconforming tab character in column 1 of line 1755
+    Warning: Nonconforming tab character in column 1 of line 1783
+    Warning: Nonconforming tab character in column 1 of line 1786
+    Warning: Nonconforming tab character in column 1 of line 1789
+    Warning: Nonconforming tab character in column 1 of line 1798
+    Warning: Nonconforming tab character in column 1 of line 1800
+    Warning: Nonconforming tab character in column 1 of line 1832
+    Warning: Nonconforming tab character in column 1 of line 1835
+    Warning: Nonconforming tab character in column 1 of line 1838
+    Warning: Nonconforming tab character in column 1 of line 1847
+    Warning: Nonconforming tab character in column 1 of line 1849
+    Warning: Nonconforming tab character in column 1 of line 1977
+    Warning: Nonconforming tab character in column 1 of line 1978
+    Warning: Nonconforming tab character in column 1 of line 2030
+    Warning: Nonconforming tab character in column 1 of line 2031
+    Warning: Nonconforming tab character in column 1 of line 2079
+    Warning: Nonconforming tab character in column 1 of line 2080
+    Warning: Nonconforming tab character in column 1 of line 2168
+    Warning: Nonconforming tab character in column 1 of line 2174
+    Warning: Nonconforming tab character in column 1 of line 2218
+    Warning: Nonconforming tab character in column 1 of line 2224
+    Warning: Nonconforming tab character in column 1 of line 2339
+    Warning: Nonconforming tab character in column 1 of line 2395
+    Warning: Nonconforming tab character in column 1 of line 2692
+    Warning: Nonconforming tab character in column 1 of line 2693
+    Warning: Nonconforming tab character in column 1 of line 2694
+    Warning: Nonconforming tab character in column 1 of line 2696
+    Warning: Nonconforming tab character in column 1 of line 2697
+    Warning: Nonconforming tab character in column 1 of line 2756
+    Warning: Nonconforming tab character in column 1 of line 2820
+    Warning: Nonconforming tab character in column 1 of line 2881
+    Warning: Nonconforming tab character in column 1 of line 3191
+    Warning: Nonconforming tab character in column 1 of line 3192
+    Warning: Nonconforming tab character in column 1 of line 3656
+    Warning: Nonconforming tab character in column 1 of line 3657
+    Warning: Nonconforming tab character in column 1 of line 3658
+    Warning: Nonconforming tab character in column 1 of line 3660
+    Warning: Nonconforming tab character in column 1 of line 3661
+    Warning: Nonconforming tab character in column 1 of line 3662
+    Warning: Nonconforming tab character in column 1 of line 3664
+    Warning: Nonconforming tab character in column 1 of line 3665
+    Warning: Nonconforming tab character in column 1 of line 3666
+    Warning: Nonconforming tab character in column 1 of line 3716
+    Warning: Nonconforming tab character in column 1 of line 3717
+    Warning: Nonconforming tab character in column 1 of line 3718
+    Warning: Nonconforming tab character in column 1 of line 3720
+    Warning: Nonconforming tab character in column 1 of line 3721
+    Warning: Nonconforming tab character in column 1 of line 3722
+    Warning: Nonconforming tab character in column 1 of line 3724
+    Warning: Nonconforming tab character in column 1 of line 3725
+    Warning: Nonconforming tab character in column 1 of line 3726
+    Warning: Nonconforming tab character in column 1 of line 3732
+    Warning: Nonconforming tab character in column 1 of line 3846
+    Warning: Nonconforming tab character in column 1 of line 3847
+    Warning: Nonconforming tab character in column 1 of line 3849
+    Warning: Nonconforming tab character in column 1 of line 3851
+    Warning: Nonconforming tab character in column 1 of line 3875
+    Warning: Nonconforming tab character in column 1 of line 3876
+    Warning: Nonconforming tab character in column 1 of line 3877
+    Warning: Nonconforming tab character in column 1 of line 3878
+    Warning: Nonconforming tab character in column 1 of line 4276
+    Warning: Nonconforming tab character in column 1 of line 4277
+    Warning: Nonconforming tab character in column 1 of line 4278
+    Warning: Nonconforming tab character in column 1 of line 4280
+    Warning: Nonconforming tab character in column 1 of line 4281
+    Warning: Nonconforming tab character in column 1 of line 4282
+    Warning: Nonconforming tab character in column 1 of line 4284
+    Warning: Nonconforming tab character in column 1 of line 4285
+    Warning: Nonconforming tab character in column 1 of line 4286
+    Warning: Nonconforming tab character in column 1 of line 4288
+    Warning: Nonconforming tab character in column 1 of line 4289
+    Warning: Nonconforming tab character in column 1 of line 4290
+    Warning: Nonconforming tab character in column 1 of line 4342
+    Warning: Nonconforming tab character in column 1 of line 4343
+    Warning: Nonconforming tab character in column 1 of line 4344
+    Warning: Nonconforming tab character in column 1 of line 4346
+    Warning: Nonconforming tab character in column 1 of line 4347
+    Warning: Nonconforming tab character in column 1 of line 4348
+    Warning: Nonconforming tab character in column 1 of line 4350
+    Warning: Nonconforming tab character in column 1 of line 4351
+    Warning: Nonconforming tab character in column 1 of line 4352
+    Warning: Nonconforming tab character in column 1 of line 4354
+    Warning: Nonconforming tab character in column 1 of line 4355
+    Warning: Nonconforming tab character in column 1 of line 4356
+    Warning: Nonconforming tab character in column 1 of line 4620
+    Warning: Nonconforming tab character in column 1 of line 4622
+    Warning: Nonconforming tab character in column 1 of line 4623
+    Warning: Nonconforming tab character in column 1 of line 4624
+    Warning: Nonconforming tab character in column 1 of line 4626
+    Warning: Nonconforming tab character in column 1 of line 4628
+    Warning: Nonconforming tab character in column 1 of line 4630
+    Warning: Nonconforming tab character in column 1 of line 4632
+    Warning: Nonconforming tab character in column 1 of line 4633
+    Warning: Nonconforming tab character in column 1 of line 4634
+    Warning: Nonconforming tab character in column 1 of line 4635
+    Warning: Nonconforming tab character in column 1 of line 4637
+    Warning: Nonconforming tab character in column 1 of line 4638
+    Warning: Nonconforming tab character in column 1 of line 4639
+    Warning: Nonconforming tab character in column 1 of line 4640
+    Warning: Nonconforming tab character in column 1 of line 4642
+    Warning: Nonconforming tab character in column 1 of line 4643
+    Warning: Nonconforming tab character in column 1 of line 4644
+    Warning: Nonconforming tab character in column 1 of line 4645
+    Warning: Nonconforming tab character in column 1 of line 4646
+    pymc/flib.f:316.55:
+    
+          DOUBLE PRECISION mu_now, tau_now, alph_now, d_now, like
+                                                           1
+    Warning: Unused variable 'd_now' declared at (1)
+    pymc/flib.f:314.42:
+    
+          INTEGER i, nx, nalph, nmu, ntau, tnx
+                                              1
+    Warning: Unused variable 'tnx' declared at (1)
+    pymc/flib.f:442.71:
+    
+          subroutine uniform_grad_x(x,lower,upper,n,nlower,nupper,gradxlike)
+                                                                           1
+    Warning: Unused dummy argument 'gradxlike' at (1)
+    pymc/flib.f:461.40:
+    
+            DOUBLE PRECISION like, low, high
+                                            1
+    Warning: Unused variable 'high' declared at (1)
+    pymc/flib.f:458.36:
+    
+            INTEGER n, nlower, nupper, i
+                                        1
+    Warning: Unused variable 'i' declared at (1)
+    pymc/flib.f:461.29:
+    
+            DOUBLE PRECISION like, low, high
+                                 1
+    Warning: Unused variable 'like' declared at (1)
+    pymc/flib.f:461.34:
+    
+            DOUBLE PRECISION like, low, high
+                                      1
+    Warning: Unused variable 'low' declared at (1)
+    pymc/flib.f:442.39:
+    
+          subroutine uniform_grad_x(x,lower,upper,n,nlower,nupper,gradxlike)
+                                           1
+    Warning: Unused dummy argument 'lower' at (1)
+    pymc/flib.f:442.45:
+    
+          subroutine uniform_grad_x(x,lower,upper,n,nlower,nupper,gradxlike)
+                                                 1
+    Warning: Unused dummy argument 'upper' at (1)
+    pymc/flib.f:442.33:
+    
+          subroutine uniform_grad_x(x,lower,upper,n,nlower,nupper,gradxlike)
+                                     1
+    Warning: Unused dummy argument 'x' at (1)
+    pymc/flib.f:692.41:
+    
+          DOUBLE PRECISION aa, cc, sigma, pdf
+                                             1
+    Warning: Unused variable 'pdf' declared at (1)
+    pymc/flib.f:760.41:
+    
+          DOUBLE PRECISION aa, cc, sigma, pdf
+                                             1
+    Warning: Unused variable 'pdf' declared at (1)
+    pymc/flib.f:834.41:
+    
+          DOUBLE PRECISION aa, cc, sigma, pdf
+                                             1
+    Warning: Unused variable 'pdf' declared at (1)
+    pymc/flib.f:906.41:
+    
+          DOUBLE PRECISION aa, cc, sigma, pdf
+                                             1
+    Warning: Unused variable 'pdf' declared at (1)
+    pymc/flib.f:976.41:
+    
+          DOUBLE PRECISION aa, cc, sigma, pdf
+                                             1
+    Warning: Unused variable 'pdf' declared at (1)
+    pymc/flib.f:1186.29:
+    
+          DOUBLE PRECISION factln
+                                 1
+    Warning: Unused variable 'factln' declared at (1)
+    pymc/flib.f:1185.51:
+    
+          DOUBLE PRECISION sumx, mut, infinity, sumfact
+                                                       1
+    Warning: Unused variable 'sumfact' declared at (1)
+    pymc/flib.f:1185.27:
+    
+          DOUBLE PRECISION sumx, mut, infinity, sumfact
+                               1
+    Warning: Unused variable 'sumx' declared at (1)
+    pymc/flib.f:1300.55:
+    
+          DOUBLE PRECISION mu(nmu), gradlike(nmu),grad, cdf
+                                                           1
+    Warning: Unused variable 'cdf' declared at (1)
+    pymc/flib.f:1302.29:
+    
+          DOUBLE PRECISION factln, gammq
+                                 1
+    Warning: Unused variable 'factln' declared at (1)
+    pymc/flib.f:1302.36:
+    
+          DOUBLE PRECISION factln, gammq
+                                        1
+    Warning: Unused variable 'gammq' declared at (1)
+    pymc/flib.f:1301.59:
+    
+          DOUBLE PRECISION sumx, mut, infinity, sumfact, sumcdf
+                                                               1
+    Warning: Unused variable 'sumcdf' declared at (1)
+    pymc/flib.f:1301.51:
+    
+          DOUBLE PRECISION sumx, mut, infinity, sumfact, sumcdf
+                                                       1
+    Warning: Unused variable 'sumfact' declared at (1)
+    pymc/flib.f:1301.27:
+    
+          DOUBLE PRECISION sumx, mut, infinity, sumfact, sumcdf
+                               1
+    Warning: Unused variable 'sumx' declared at (1)
+    pymc/flib.f:1402.29:
+    
+          DOUBLE PRECISION gammln
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:2154.40:
+    
+          DOUBLE PRECISION gradlike(n), grad
+                                            1
+    Warning: Unused variable 'grad' declared at (1)
+    pymc/flib.f:2665.29:
+    
+          DOUBLE PRECISION gammln
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:2728.29:
+    
+          DOUBLE PRECISION gammln, psi
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:2793.29:
+    
+          DOUBLE PRECISION gammln
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:2903.29:
+    
+          DOUBLE PRECISION gammln
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:2959.29:
+    
+          DOUBLE PRECISION gammln, psi
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:3021.29:
+    
+          DOUBLE PRECISION gammln
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:3396.58:
+    
+          DOUBLE PRECISION gradlike(nx), atmp, btmp, PI, glike
+                                                              1
+    Warning: Unused variable 'glike' declared at (1)
+    pymc/flib.f:3646.37:
+    
+          DOUBLE PRECISION gammln, factln
+                                         1
+    Warning: Unused variable 'factln' declared at (1)
+    pymc/flib.f:3646.29:
+    
+          DOUBLE PRECISION gammln, factln
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:3706.37:
+    
+          DOUBLE PRECISION gammln, factln, psi
+                                         1
+    Warning: Unused variable 'factln' declared at (1)
+    pymc/flib.f:3706.29:
+    
+          DOUBLE PRECISION gammln, factln, psi
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:3836.29:
+    
+          DOUBLE PRECISION factln
+                                 1
+    Warning: Unused variable 'factln' declared at (1)
+    pymc/flib.f:4039.26:
+    
+          DOUBLE PRECISION psi
+                              1
+    Warning: Unused variable 'psi' declared at (1)
+    pymc/flib.f:4266.29:
+    
+          DOUBLE PRECISION gammln, psi
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:4332.29:
+    
+          DOUBLE PRECISION gammln, psi
+                                 1
+    Warning: Unused variable 'gammln' declared at (1)
+    pymc/flib.f:5184.35:
+    
+          DOUBLE PRECISION like, factln, infinity, sump
+                                       1
+    Warning: Unused variable 'factln' declared at (1)
+    pymc/flib.f:5186.23:
+    
+          INTEGER i,j,n_tmp
+                           1
+    Warning: Unused variable 'n_tmp' declared at (1)
+    pymc/flib.f:5772.26:
+    
+          DOUBLE PRECISION tmp
+                              1
+    Warning: Unused variable 'tmp' declared at (1)
+    pymc/flib.f:5826.25:
+    
+          DOUBLE PRECISION i0
+                             1
+    Warning: Unused variable 'i0' declared at (1)
+    pymc/flib.f:5819.26:
+    
+          DOUBLE PRECISION tmp
+                              1
+    Warning: Unused variable 'tmp' declared at (1)
+    pymc/flib.f:5873.25:
+    
+          DOUBLE PRECISION i0
+                             1
+    Warning: Unused variable 'i0' declared at (1)
+    pymc/flib.f:5866.26:
+    
+          DOUBLE PRECISION tmp
+                              1
+    Warning: Unused variable 'tmp' declared at (1)
+    pymc/flib.f: In function 'elgs':
+    pymc/flib.f:4882:0: warning: 'k' may be used uninitialized in this function [-Wuninitialized]
+    pymc/flib.f: In function 'exponweib_gl':
+    pymc/flib.f:778:0: warning: 'nc' may be used uninitialized in this function [-Wuninitialized]
+    pymc/flib.f: In function 'exponweib_gs':
+    pymc/flib.f:994:0: warning: 'nc' may be used uninitialized in this function [-Wuninitialized]
+    gfortran:f77: pymc/histogram.f
+    gfortran:f77: pymc/flib_blas.f
+    pymc/flib_blas.f:372.17:
+    
+          LOGICAL csx
+                     1
+    Warning: Unused variable 'csx' declared at (1)
+    gfortran:f77: pymc/blas_wrap.f
+    gfortran:f77: pymc/math.f
+    pymc/math.f:396.6:
+    
+          DOUBLE PRECISION FUNCTION DERF(X)
+          1
+    Warning: 'derf' declared at (1) is also the name of an intrinsic.  It can only be called via an explicit interface or if declared EXTERNAL.
+    pymc/math.f:417.6:
+    
+          DOUBLE PRECISION FUNCTION DERFC(X)
+          1
+    Warning: 'derfc' declared at (1) is also the name of an intrinsic.  It can only be called via an explicit interface or if declared EXTERNAL.
+    gfortran:f77: pymc/gibbsit.f
+    pymc/gibbsit.f:2160.5:
+    
+      215 IF (R .GT. .5898437) GO TO 220
+         1
+    Warning: Label 215 at (1) defined but not used
+    pymc/gibbsit.f:2077.5:
+    
+      115 IF (R .GT. .5898437) GO TO 120
+         1
+    Warning: Label 115 at (1) defined but not used
+    pymc/gibbsit.f:2064.5:
+    
+       15 IF (KFLAG.GE.1) GO TO 30
+         1
+    Warning: Label 15 at (1) defined but not used
+    pymc/gibbsit.f:1204.48:
+    
+            cutpt = empquant(original,iteracnt,qhat,work)
+                                                    1
+    Warning: Type mismatch in argument 'work' at (1); passed INTEGER(4) to REAL(8)
+    gfortran:f77: build/src.linux-x86_64-2.7/pymc/flib-f2pywrappers.f
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/cephes/i0.o build/temp.linux-x86_64-2.7/cephes/c2f.o build/temp.linux-x86_64-2.7/cephes/chbevl.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/pymc/flibmodule.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/fortranobject.o build/temp.linux-x86_64-2.7/pymc/flib.o build/temp.linux-x86_64-2.7/pymc/histogram.o build/temp.linux-x86_64-2.7/pymc/flib_blas.o build/temp.linux-x86_64-2.7/pymc/blas_wrap.o build/temp.linux-x86_64-2.7/pymc/math.o build/temp.linux-x86_64-2.7/pymc/gibbsit.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/pymc/flib-f2pywrappers.o -L/usr/lib -llapack -lblas -lgfortran -o build/lib.linux-x86_64-2.7/pymc/flib.so
+    building 'pymc.LazyFunction' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: pymc/LazyFunction.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pymc/LazyFunction.o -o build/lib.linux-x86_64-2.7/pymc/LazyFunction.so
+    building 'pymc.Container_values' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: pymc/Container_values.c
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1532:1: warning: '_import_array' defined but not used [-Wunused-function]
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pymc/Container_values.o -o build/lib.linux-x86_64-2.7/pymc/Container_values.so
+    building 'pymc.gp.linalg_utils' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: build/src.linux-x86_64-2.7/fortranobject.c
+    gcc: build/src.linux-x86_64-2.7/pymc/gp/linalg_utilsmodule.c
+    compiling Fortran sources
+    Fortran f77 compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran f90 compiler: /usr/bin/gfortran -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran fix compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gfortran:f77: pymc/gp/linalg_utils.f
+    pymc/gp/linalg_utils.f:151.56:
+    
+          SUBROUTINE gp_array_logp(x, mu, sig, n, like, info)
+                                                            1
+    Warning: Unused dummy argument 'info' at (1)
+    gfortran:f77: pymc/blas_wrap.f
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/pymc/gp/linalg_utilsmodule.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/fortranobject.o build/temp.linux-x86_64-2.7/pymc/gp/linalg_utils.o build/temp.linux-x86_64-2.7/pymc/blas_wrap.o -L/usr/lib -llapack -lblas -lgfortran -o build/lib.linux-x86_64-2.7/pymc/gp/linalg_utils.so
+    building 'pymc.gp.incomplete_chol' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: build/src.linux-x86_64-2.7/fortranobject.c
+    gcc: build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.c
+    build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.c: In function 'cb_rowfun_in_ichol_continue__user__routines':
+    build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.c:348:7: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]
+    build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.c: In function 'cb_rowfun_in_ichol__user__routines':
+    build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.c:470:7: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]
+    compiling Fortran sources
+    Fortran f77 compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran f90 compiler: /usr/bin/gfortran -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran fix compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gfortran:f77: pymc/gp/incomplete_chol.f
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/pymc/gp/incomplete_cholmodule.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/fortranobject.o build/temp.linux-x86_64-2.7/pymc/gp/incomplete_chol.o -L/usr/lib -llapack -lblas -lgfortran -o build/lib.linux-x86_64-2.7/pymc/gp/incomplete_chol.so
+    building 'pymc.gp.cov_funs.isotropic_cov_funs' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: build/src.linux-x86_64-2.7/fortranobject.c
+    gcc: build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funsmodule.c
+    compiling Fortran sources
+    Fortran f77 compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran f90 compiler: /usr/bin/gfortran -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran fix compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gfortran:f77: pymc/gp/cov_funs/isotropic_cov_funs.f
+    pymc/gp/cov_funs/isotropic_cov_funs.f:940.6:
+    
+          DOUBLE PRECISION FUNCTION DGAMMA(X)
+          1
+    Warning: 'dgamma' declared at (1) is also the name of an intrinsic.  It can only be called via an explicit interface or if declared EXTERNAL.
+    pymc/gp/cov_funs/isotropic_cov_funs.f:124.11:
+    
+          fl = DINT(diff_degree)
+               1
+    Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1)
+    pymc/gp/cov_funs/isotropic_cov_funs.f:209.14:
+    
+                h=hx(i)*hy(j)
+                  1
+    Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1)
+    pymc/gp/cov_funs/isotropic_cov_funs.f:236.19:
+    
+                  fl = DINT(diff_degree)
+                       1
+    Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1)
+    pymc/gp/cov_funs/isotropic_cov_funs.f:257.14:
+    
+                h=hx(i)*hy(j)
+                  1
+    Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1)
+    pymc/gp/cov_funs/isotropic_cov_funs.f:265.16:
+    
+                  h=hx(i)*hy(j)
+                    1
+    Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1)
+    pymc/gp/cov_funs/isotropic_cov_funs.f:286.19:
+    
+                  fl = DINT(diff_degree)
+                       1
+    Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1)
+    pymc/gp/cov_funs/isotropic_cov_funs.f: In function 'rkbesl':
+    pymc/gp/cov_funs/isotropic_cov_funs.f:1658:0: warning: 'itemp' may be used uninitialized in this function [-Wuninitialized]
+    gfortran:f77: blas/BLAS/dscal.f
+    gfortran:f77: build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funs-f2pywrappers.f
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funsmodule.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/fortranobject.o build/temp.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funs.o build/temp.linux-x86_64-2.7/blas/BLAS/dscal.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funs-f2pywrappers.o -L/usr/lib -llapack -lblas -lgfortran -o build/lib.linux-x86_64-2.7/pymc/gp/cov_funs/isotropic_cov_funs.so
+    building 'pymc.gp.cov_funs.distances' extension
+    compiling C sources
+    C compiler: gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC
+    
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gcc: build/src.linux-x86_64-2.7/pymc/gp/cov_funs/distancesmodule.c
+    gcc: build/src.linux-x86_64-2.7/fortranobject.c
+    compiling Fortran sources
+    Fortran f77 compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran f90 compiler: /usr/bin/gfortran -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    Fortran fix compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -Wall -fno-second-underscore -fPIC -O3 -funroll-loops
+    compile options: '-DNO_ATLAS_INFO=1 -Ibuild/src.linux-x86_64-2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c'
+    gfortran:f77: pymc/gp/cov_funs/distances.f
+    pymc/gp/cov_funs/distances.f:138.24:
+    
+                    theta = DATAN2(dlat/a,dlon/a)/pi
+                            1
+    Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1)
+    /usr/bin/gfortran -Wall -Wall -shared build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/pymc/gp/cov_funs/distancesmodule.o build/temp.linux-x86_64-2.7/build/src.linux-x86_64-2.7/fortranobject.o build/temp.linux-x86_64-2.7/pymc/gp/cov_funs/distances.o -L/usr/lib -llapack -lblas -lgfortran -o build/lib.linux-x86_64-2.7/pymc/gp/cov_funs/distances.so
+    
+    customize UnixCCompiler
+Successfully installed pymc
+Cleaning up...
+Installing patsy
+Downloading/unpacking patsy
+  Running setup.py egg_info for package patsy
+    
+    no previously-included directories found matching 'doc/_build'
+Requirement already satisfied (use --upgrade to upgrade): numpy in /usr/lib/python2.7/dist-packages (from patsy)
+Installing collected packages: patsy
+  Running setup.py install for patsy
+    
+    no previously-included directories found matching 'doc/_build'
+Successfully installed patsy
+Cleaning up...
+Installing nltk
+Downloading/unpacking nltk
+  Running setup.py egg_info for package nltk
+    Downloading http://pypi.python.org/packages/source/d/distribute/distribute-0.6.21.tar.gz
+    Extracting in /tmp/tmpxksZG6
+    Now working in /tmp/tmpxksZG6/distribute-0.6.21
+    Building a Distribute egg in /home/vagrant/build/nltk
+    /home/vagrant/build/nltk/distribute-0.6.21-py2.7.egg
+    
+    warning: no previously-included files matching '*~' found anywhere in distribution
+Downloading/unpacking PyYAML>=3.09 (from nltk)
+  Running setup.py egg_info for package PyYAML
+    
+Installing collected packages: nltk, PyYAML
+  Running setup.py install for nltk
+    
+    warning: no previously-included files matching '*~' found anywhere in distribution
+  Running setup.py install for PyYAML
+    checking if libyaml is compilable
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c build/temp.linux-x86_64-2.7/check_libyaml.c -o build/temp.linux-x86_64-2.7/check_libyaml.o
+    build/temp.linux-x86_64-2.7/check_libyaml.c:2:18: fatal error: yaml.h: No such file or directory
+    compilation terminated.
+    
+    libyaml is not found or a compiler error: forcing --without-libyaml
+    (if libyaml is installed correctly, you may need to
+     specify the option --include-dirs or uncomment and
+     modify the parameter include_dirs in setup.cfg)
+    
+Successfully installed nltk PyYAML
+Cleaning up...
+... And downloading the data/corpus
+[nltk_data] Downloading collection 'all'
+[nltk_data]    | 
+[nltk_data]    | Downloading package 'abc' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/abc.zip.
+[nltk_data]    | Downloading package 'alpino' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/alpino.zip.
+[nltk_data]    | Downloading package 'biocreative_ppi' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/biocreative_ppi.zip.
+[nltk_data]    | Downloading package 'brown' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/brown.zip.
+[nltk_data]    | Downloading package 'brown_tei' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/brown_tei.zip.
+[nltk_data]    | Downloading package 'cess_cat' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/cess_cat.zip.
+[nltk_data]    | Downloading package 'cess_esp' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/cess_esp.zip.
+[nltk_data]    | Downloading package 'chat80' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/chat80.zip.
+[nltk_data]    | Downloading package 'city_database' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/city_database.zip.
+[nltk_data]    | Downloading package 'cmudict' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/cmudict.zip.
+[nltk_data]    | Downloading package 'comtrans' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'conll2000' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/conll2000.zip.
+[nltk_data]    | Downloading package 'conll2002' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/conll2002.zip.
+[nltk_data]    | Downloading package 'conll2007' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'dependency_treebank' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/dependency_treebank.zip.
+[nltk_data]    | Downloading package 'europarl_raw' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/europarl_raw.zip.
+[nltk_data]    | Downloading package 'floresta' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/floresta.zip.
+[nltk_data]    | Downloading package 'framenet_v15' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/framenet_v15.zip.
+[nltk_data]    | Downloading package 'gazetteers' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/gazetteers.zip.
+[nltk_data]    | Downloading package 'genesis' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/genesis.zip.
+[nltk_data]    | Downloading package 'gutenberg' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/gutenberg.zip.
+[nltk_data]    | Downloading package 'ieer' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/ieer.zip.
+[nltk_data]    | Downloading package 'inaugural' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/inaugural.zip.
+[nltk_data]    | Downloading package 'indian' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/indian.zip.
+[nltk_data]    | Downloading package 'jeita' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'kimmo' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/kimmo.zip.
+[nltk_data]    | Downloading package 'knbc' to /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'langid' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'lin_thesaurus' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/lin_thesaurus.zip.
+[nltk_data]    | Downloading package 'mac_morpho' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/mac_morpho.zip.
+[nltk_data]    | Downloading package 'machado' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'movie_reviews' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/movie_reviews.zip.
+[nltk_data]    | Downloading package 'names' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/names.zip.
+[nltk_data]    | Downloading package 'nombank.1.0' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'nps_chat' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/nps_chat.zip.
+[nltk_data]    | Downloading package 'paradigms' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/paradigms.zip.
+[nltk_data]    | Downloading package 'pil' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/pil.zip.
+[nltk_data]    | Downloading package 'pl196x' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/pl196x.zip.
+[nltk_data]    | Downloading package 'ppattach' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/ppattach.zip.
+[nltk_data]    | Downloading package 'problem_reports' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/problem_reports.zip.
+[nltk_data]    | Downloading package 'propbank' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'ptb' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/ptb.zip.
+[nltk_data]    | Downloading package 'oanc_masc' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'qc' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/qc.zip.
+[nltk_data]    | Downloading package 'reuters' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/reuters.zip.
+[nltk_data]    | Downloading package 'rte' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/rte.zip.
+[nltk_data]    | Downloading package 'semcor' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | Downloading package 'senseval' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/senseval.zip.
+[nltk_data]    | Downloading package 'shakespeare' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/shakespeare.zip.
+[nltk_data]    | Downloading package 'sinica_treebank' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/sinica_treebank.zip.
+[nltk_data]    | Downloading package 'smultron' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/smultron.zip.
+[nltk_data]    | Downloading package 'state_union' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/state_union.zip.
+[nltk_data]    | Downloading package 'stopwords' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/stopwords.zip.
+[nltk_data]    | Downloading package 'swadesh' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/swadesh.zip.
+[nltk_data]    | Downloading package 'switchboard' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/switchboard.zip.
+[nltk_data]    | Downloading package 'timit' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/timit.zip.
+[nltk_data]    | Downloading package 'toolbox' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/toolbox.zip.
+[nltk_data]    | Downloading package 'treebank' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/treebank.zip.
+[nltk_data]    | Downloading package 'udhr' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/udhr.zip.
+[nltk_data]    | Downloading package 'udhr2' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/udhr2.zip.
+[nltk_data]    | Downloading package 'unicode_samples' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/unicode_samples.zip.
+[nltk_data]    | Downloading package 'verbnet' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/verbnet.zip.
+[nltk_data]    | Downloading package 'webtext' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/webtext.zip.
+[nltk_data]    | Downloading package 'wordnet' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/wordnet.zip.
+[nltk_data]    | Downloading package 'wordnet_ic' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/wordnet_ic.zip.
+[nltk_data]    | Downloading package 'words' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/words.zip.
+[nltk_data]    | Downloading package 'ycoe' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping corpora/ycoe.zip.
+[nltk_data]    | Downloading package 'rslp' to /usr/share/nltk_data...
+[nltk_data]    |   Unzipping stemmers/rslp.zip.
+[nltk_data]    | Downloading package 'hmm_treebank_pos_tagger' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping taggers/hmm_treebank_pos_tagger.zip.
+[nltk_data]    | Downloading package 'maxent_treebank_pos_tagger' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping taggers/maxent_treebank_pos_tagger.zip.
+[nltk_data]    | Downloading package 'maxent_ne_chunker' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping chunkers/maxent_ne_chunker.zip.
+[nltk_data]    | Downloading package 'punkt' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping tokenizers/punkt.zip.
+[nltk_data]    | Downloading package 'book_grammars' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping grammars/book_grammars.zip.
+[nltk_data]    | Downloading package 'sample_grammars' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping grammars/sample_grammars.zip.
+[nltk_data]    | Downloading package 'spanish_grammars' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping grammars/spanish_grammars.zip.
+[nltk_data]    | Downloading package 'basque_grammars' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping grammars/basque_grammars.zip.
+[nltk_data]    | Downloading package 'large_grammars' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    |   Unzipping grammars/large_grammars.zip.
+[nltk_data]    | Downloading package 'tagsets' to
+[nltk_data]    |     /usr/share/nltk_data...
+[nltk_data]    | 
+[nltk_data]  Done downloading collection 'all'
+Installing Flask
+Downloading/unpacking flask
+  Running setup.py egg_info for package flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+Downloading/unpacking Werkzeug>=0.7 (from flask)
+  Running setup.py egg_info for package Werkzeug
+    
+    warning: no files found matching '*' under directory 'werkzeug/debug/templates'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking Jinja2>=2.4 (from flask)
+  Running setup.py egg_info for package Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Downloading/unpacking itsdangerous>=0.21 (from flask)
+  Running setup.py egg_info for package itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Downloading/unpacking markupsafe (from Jinja2>=2.4->flask)
+  Downloading MarkupSafe-0.18.tar.gz
+  Running setup.py egg_info for package markupsafe
+    
+Installing collected packages: flask, Werkzeug, Jinja2, itsdangerous, markupsafe
+  Running setup.py install for flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+  Running setup.py install for Werkzeug
+    
+    warning: no files found matching '*' under directory 'werkzeug/debug/templates'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+  Running setup.py install for Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+  Running setup.py install for itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+  Running setup.py install for markupsafe
+    
+    building 'markupsafe._speedups' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c markupsafe/_speedups.c -o build/temp.linux-x86_64-2.7/markupsafe/_speedups.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/markupsafe/_speedups.o -o build/lib.linux-x86_64-2.7/markupsafe/_speedups.so
+Successfully installed flask Werkzeug Jinja2 itsdangerous markupsafe
+Cleaning up...
+Installing Requests
+Downloading/unpacking requests
+  Running setup.py egg_info for package requests
+    
+Installing collected packages: requests
+  Running setup.py install for requests
+    
+Successfully installed requests
+Cleaning up...
+Installing Beautiful Soup 4
+Downloading/unpacking beautifulsoup4
+  Running setup.py egg_info for package beautifulsoup4
+    
+Installing collected packages: beautifulsoup4
+  Running setup.py install for beautifulsoup4
+    
+Successfully installed beautifulsoup4
+Cleaning up...
+Installing PyMongo
+Downloading/unpacking pymongo
+  Running setup.py egg_info for package pymongo
+    
+Installing collected packages: pymongo
+  Running setup.py install for pymongo
+    building 'bson._cbson' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ibson -I/usr/include/python2.7 -c bson/_cbsonmodule.c -o build/temp.linux-x86_64-2.7/bson/_cbsonmodule.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ibson -I/usr/include/python2.7 -c bson/time64.c -o build/temp.linux-x86_64-2.7/bson/time64.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ibson -I/usr/include/python2.7 -c bson/buffer.c -o build/temp.linux-x86_64-2.7/bson/buffer.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ibson -I/usr/include/python2.7 -c bson/encoding_helpers.c -o build/temp.linux-x86_64-2.7/bson/encoding_helpers.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/bson/_cbsonmodule.o build/temp.linux-x86_64-2.7/bson/time64.o build/temp.linux-x86_64-2.7/bson/buffer.o build/temp.linux-x86_64-2.7/bson/encoding_helpers.o -o build/lib.linux-x86_64-2.7/bson/_cbson.so
+    building 'pymongo._cmessage' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ibson -I/usr/include/python2.7 -c pymongo/_cmessagemodule.c -o build/temp.linux-x86_64-2.7/pymongo/_cmessagemodule.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Ibson -I/usr/include/python2.7 -c bson/buffer.c -o build/temp.linux-x86_64-2.7/bson/buffer.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/pymongo/_cmessagemodule.o build/temp.linux-x86_64-2.7/bson/buffer.o -o build/lib.linux-x86_64-2.7/pymongo/_cmessage.so
+    
+Successfully installed pymongo
+Cleaning up...
+Installing SQL Alchemy
+Downloading/unpacking sqlalchemy
+  Running setup.py egg_info for package sqlalchemy
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    no previously-included directories found matching 'doc/build/output'
+Installing collected packages: sqlalchemy
+  Running setup.py install for sqlalchemy
+    building 'sqlalchemy.cprocessors' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/processors.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/processors.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/processors.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cprocessors.so
+    building 'sqlalchemy.cresultproxy' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/resultproxy.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cresultproxy.so
+    building 'sqlalchemy.cutils' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/utils.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/utils.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/utils.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cutils.so
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    no previously-included directories found matching 'doc/build/output'
+Successfully installed sqlalchemy
+Cleaning up...
+[default] Running provisioner: shell...
+[default] Running: /var/folders/7f/j4bh09f951l31_92b0ncpjkh0000gn/T/vagrant-shell20130908-18479-1c3xu87
+stdin: is not a tty
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  consolekit cryptsetup-bin dbus-x11 dconf-gsettings-backend dconf-service
+  gconf2 gvfs gvfs-common gvfs-daemons gvfs-libs icedtea-7-jre-jamvm
+  libatasmart4 libavahi-glib1 libbonobo2-0 libbonobo2-common libcairo-gobject2
+  libcanberra0 libck-connector0 libcryptsetup4 libdconf0 libgconf2-4 libgdu0
+  libgnome2-0 libgnome2-bin libgnome2-common libgnomevfs2-0
+  libgnomevfs2-common libgtk-3-0 libgtk-3-bin libgtk-3-common libgudev-1.0-0
+  libidl-common libidl0 liblvm2app2.2 liborbit2 libpam-ck-connector
+  libpolkit-agent-1-0 libpolkit-backend-1-0 libsgutils2-2 libtdb1
+  libvorbisfile3 mtools openjdk-7-jre-headless openjdk-7-jre-lib policykit-1
+  policykit-1-gnome sound-theme-freedesktop udisks
+Suggested packages:
+  gconf-defaults-service gvfs-backends libbonobo2-bin libcanberra-gtk0
+  libcanberra-pulse desktop-base libgnomevfs2-bin libgnomevfs2-extra gamin fam
+  gnome-mime-data librsvg2-common sg3-utils floppyd icedtea-7-plugin
+  libnss-mdns sun-java6-fonts fonts-ipafont-gothic fonts-ipafont-mincho
+  ttf-wqy-microhei ttf-wqy-zenhei ttf-indic-fonts-core ttf-telugu-fonts
+  ttf-oriya-fonts ttf-kannada-fonts ttf-bengali-fonts xfsprogs reiserfsprogs
+  mdadm
+The following NEW packages will be installed:
+  consolekit cryptsetup-bin dbus-x11 dconf-gsettings-backend dconf-service
+  gconf2 gvfs gvfs-common gvfs-daemons gvfs-libs icedtea-7-jre-jamvm
+  libatasmart4 libavahi-glib1 libbonobo2-0 libbonobo2-common libcairo-gobject2
+  libcanberra0 libck-connector0 libcryptsetup4 libdconf0 libgconf2-4 libgdu0
+  libgnome2-0 libgnome2-bin libgnome2-common libgnomevfs2-0
+  libgnomevfs2-common libgtk-3-0 libgtk-3-bin libgtk-3-common libgudev-1.0-0
+  libidl-common libidl0 liblvm2app2.2 liborbit2 libpam-ck-connector
+  libpolkit-agent-1-0 libpolkit-backend-1-0 libsgutils2-2 libtdb1
+  libvorbisfile3 mtools openjdk-7-jre openjdk-7-jre-headless openjdk-7-jre-lib
+  policykit-1 policykit-1-gnome sound-theme-freedesktop udisks
+0 upgraded, 49 newly installed, 0 to remove and 137 not upgraded.
+Need to get 47.6 MB of archives.
+After this operation, 79.7 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main libatasmart4 amd64 0.18-3 [26.9 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main libavahi-glib1 amd64 0.6.30-5ubuntu2 [8,804 B]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libbonobo2-common all 2.32.1-0ubuntu1.1 [37.4 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main libidl-common all 0.8.14-0.2ubuntu2 [8,572 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main libidl0 amd64 0.8.14-0.2ubuntu2 [81.6 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main liborbit2 amd64 1:2.14.19-0.1ubuntu1 [186 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libbonobo2-0 amd64 2.32.1-0ubuntu1.1 [285 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libcairo-gobject2 amd64 1.10.2-6.1ubuntu3 [20.5 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise/main libtdb1 amd64 1.2.9-4 [35.3 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu/ precise/main libvorbisfile3 amd64 1.3.2-1ubuntu3 [17.7 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu/ precise/main sound-theme-freedesktop all 0.7.pristine-2 [412 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu/ precise/main libcanberra0 amd64 0.28-3ubuntu3 [43.8 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgudev-1.0-0 amd64 1:175-0ubuntu9.4 [14.5 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main liblvm2app2.2 amd64 2.02.66-4ubuntu7.3 [223 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu/ precise/main libsgutils2-2 amd64 1.33-1 [64.4 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main udisks amd64 1.0.4-5ubuntu2.1 [236 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu/ precise/main libgdu0 amd64 3.0.2-2ubuntu7 [90.0 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main dbus-x11 amd64 1.4.18-1ubuntu1.4 [22.1 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu/ precise/main gconf2 amd64 3.2.5-0ubuntu2 [79.7 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgnomevfs2-common amd64 1:2.24.4-1ubuntu2.1 [24.6 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgnomevfs2-0 amd64 1:2.24.4-1ubuntu2.1 [275 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgnome2-common all 2.32.1-2ubuntu1.1 [36.9 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgnome2-bin amd64 2.32.1-2ubuntu1.1 [15.9 kB]
+Get:24 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgnome2-0 amd64 2.32.1-2ubuntu1.1 [53.4 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libdconf0 amd64 0.12.0-0ubuntu1.1 [25.4 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main dconf-service amd64 0.12.0-0ubuntu1.1 [16.9 kB]
+Get:27 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main dconf-gsettings-backend amd64 0.12.0-0ubuntu1.1 [16.1 kB]
+Get:28 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgtk-3-common all 3.4.2-0ubuntu0.5 [145 kB]
+Get:29 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgtk-3-0 amd64 3.4.2-0ubuntu0.5 [2,285 kB]
+Get:30 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libpolkit-agent-1-0 amd64 0.104-1ubuntu1 [17.7 kB]
+Get:31 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libpolkit-backend-1-0 amd64 0.104-1ubuntu1 [41.7 kB]
+Get:32 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe openjdk-7-jre-lib all 7u25-2.3.10-1ubuntu0.12.04.2 [5,535 kB]
+Get:33 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe openjdk-7-jre-headless amd64 7u25-2.3.10-1ubuntu0.12.04.2 [35.4 MB]
+Get:34 http://us.archive.ubuntu.com/ubuntu/ precise/main libck-connector0 amd64 0.4.5-2 [10.4 kB]
+Get:35 http://us.archive.ubuntu.com/ubuntu/ precise/main consolekit amd64 0.4.5-2 [115 kB]
+Get:36 http://us.archive.ubuntu.com/ubuntu/ precise/main libcryptsetup4 amd64 2:1.4.1-2ubuntu4 [55.8 kB]
+Get:37 http://us.archive.ubuntu.com/ubuntu/ precise/main cryptsetup-bin amd64 2:1.4.1-2ubuntu4 [32.2 kB]
+Get:38 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main gvfs-common all 1.12.1-0ubuntu1.2 [16.4 kB]
+Get:39 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main gvfs-libs amd64 1.12.1-0ubuntu1.2 [52.8 kB]
+Get:40 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main gvfs-daemons amd64 1.12.1-0ubuntu1.2 [348 kB]
+Get:41 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main gvfs amd64 1.12.1-0ubuntu1.2 [98.9 kB]
+Get:42 http://us.archive.ubuntu.com/ubuntu/ precise/main libgconf2-4 amd64 3.2.5-0ubuntu2 [2,016 B]
+Get:43 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgtk-3-bin amd64 3.4.2-0ubuntu0.5 [15.9 kB]
+Get:44 http://us.archive.ubuntu.com/ubuntu/ precise/main libpam-ck-connector amd64 0.4.5-2 [8,170 B]
+Get:45 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main mtools amd64 4.0.12-1ubuntu0.12.04.1 [186 kB]
+Get:46 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe openjdk-7-jre amd64 7u25-2.3.10-1ubuntu0.12.04.2 [226 kB]
+Get:47 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main policykit-1 amd64 0.104-1ubuntu1 [53.1 kB]
+Get:48 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main policykit-1-gnome amd64 0.105-1ubuntu3.1 [27.7 kB]
+Get:49 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe icedtea-7-jre-jamvm amd64 7u25-2.3.10-1ubuntu0.12.04.2 [515 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 47.6 MB in 20s (2,317 kB/s)
+Selecting previously unselected package libatasmart4.
+(Reading database ... 80953 files and directories currently installed.)
+Unpacking libatasmart4 (from .../libatasmart4_0.18-3_amd64.deb) ...
+Selecting previously unselected package libavahi-glib1.
+Unpacking libavahi-glib1 (from .../libavahi-glib1_0.6.30-5ubuntu2_amd64.deb) ...
+Selecting previously unselected package libbonobo2-common.
+Unpacking libbonobo2-common (from .../libbonobo2-common_2.32.1-0ubuntu1.1_all.deb) ...
+Selecting previously unselected package libidl-common.
+Unpacking libidl-common (from .../libidl-common_0.8.14-0.2ubuntu2_all.deb) ...
+Selecting previously unselected package libidl0.
+Unpacking libidl0 (from .../libidl0_0.8.14-0.2ubuntu2_amd64.deb) ...
+Selecting previously unselected package liborbit2.
+Unpacking liborbit2 (from .../liborbit2_1%3a2.14.19-0.1ubuntu1_amd64.deb) ...
+Selecting previously unselected package libbonobo2-0.
+Unpacking libbonobo2-0 (from .../libbonobo2-0_2.32.1-0ubuntu1.1_amd64.deb) ...
+Selecting previously unselected package libcairo-gobject2.
+Unpacking libcairo-gobject2 (from .../libcairo-gobject2_1.10.2-6.1ubuntu3_amd64.deb) ...
+Selecting previously unselected package libtdb1.
+Unpacking libtdb1 (from .../libtdb1_1.2.9-4_amd64.deb) ...
+Selecting previously unselected package libvorbisfile3.
+Unpacking libvorbisfile3 (from .../libvorbisfile3_1.3.2-1ubuntu3_amd64.deb) ...
+Selecting previously unselected package sound-theme-freedesktop.
+Unpacking sound-theme-freedesktop (from .../sound-theme-freedesktop_0.7.pristine-2_all.deb) ...
+Selecting previously unselected package libcanberra0.
+Unpacking libcanberra0 (from .../libcanberra0_0.28-3ubuntu3_amd64.deb) ...
+Selecting previously unselected package libgudev-1.0-0.
+Unpacking libgudev-1.0-0 (from .../libgudev-1.0-0_1%3a175-0ubuntu9.4_amd64.deb) ...
+Selecting previously unselected package liblvm2app2.2.
+Unpacking liblvm2app2.2 (from .../liblvm2app2.2_2.02.66-4ubuntu7.3_amd64.deb) ...
+Selecting previously unselected package libsgutils2-2.
+Unpacking libsgutils2-2 (from .../libsgutils2-2_1.33-1_amd64.deb) ...
+Selecting previously unselected package udisks.
+Unpacking udisks (from .../udisks_1.0.4-5ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package libgdu0.
+Unpacking libgdu0 (from .../libgdu0_3.0.2-2ubuntu7_amd64.deb) ...
+Selecting previously unselected package dbus-x11.
+Unpacking dbus-x11 (from .../dbus-x11_1.4.18-1ubuntu1.4_amd64.deb) ...
+Selecting previously unselected package gconf2.
+Unpacking gconf2 (from .../gconf2_3.2.5-0ubuntu2_amd64.deb) ...
+Selecting previously unselected package libgnomevfs2-common.
+Unpacking libgnomevfs2-common (from .../libgnomevfs2-common_1%3a2.24.4-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package libgnomevfs2-0.
+Unpacking libgnomevfs2-0 (from .../libgnomevfs2-0_1%3a2.24.4-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package libgnome2-common.
+Unpacking libgnome2-common (from .../libgnome2-common_2.32.1-2ubuntu1.1_all.deb) ...
+Selecting previously unselected package libgnome2-bin.
+Unpacking libgnome2-bin (from .../libgnome2-bin_2.32.1-2ubuntu1.1_amd64.deb) ...
+Selecting previously unselected package libgnome2-0.
+Unpacking libgnome2-0 (from .../libgnome2-0_2.32.1-2ubuntu1.1_amd64.deb) ...
+Selecting previously unselected package libdconf0.
+Unpacking libdconf0 (from .../libdconf0_0.12.0-0ubuntu1.1_amd64.deb) ...
+Selecting previously unselected package dconf-service.
+Unpacking dconf-service (from .../dconf-service_0.12.0-0ubuntu1.1_amd64.deb) ...
+Selecting previously unselected package dconf-gsettings-backend.
+Unpacking dconf-gsettings-backend (from .../dconf-gsettings-backend_0.12.0-0ubuntu1.1_amd64.deb) ...
+Selecting previously unselected package libgtk-3-common.
+Unpacking libgtk-3-common (from .../libgtk-3-common_3.4.2-0ubuntu0.5_all.deb) ...
+Selecting previously unselected package libgtk-3-0.
+Unpacking libgtk-3-0 (from .../libgtk-3-0_3.4.2-0ubuntu0.5_amd64.deb) ...
+Selecting previously unselected package libpolkit-agent-1-0.
+Unpacking libpolkit-agent-1-0 (from .../libpolkit-agent-1-0_0.104-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package libpolkit-backend-1-0.
+Unpacking libpolkit-backend-1-0 (from .../libpolkit-backend-1-0_0.104-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package openjdk-7-jre-lib.
+Unpacking openjdk-7-jre-lib (from .../openjdk-7-jre-lib_7u25-2.3.10-1ubuntu0.12.04.2_all.deb) ...
+Selecting previously unselected package openjdk-7-jre-headless.
+Unpacking openjdk-7-jre-headless (from .../openjdk-7-jre-headless_7u25-2.3.10-1ubuntu0.12.04.2_amd64.deb) ...
+Selecting previously unselected package libck-connector0.
+Unpacking libck-connector0 (from .../libck-connector0_0.4.5-2_amd64.deb) ...
+Selecting previously unselected package consolekit.
+Unpacking consolekit (from .../consolekit_0.4.5-2_amd64.deb) ...
+Selecting previously unselected package libcryptsetup4.
+Unpacking libcryptsetup4 (from .../libcryptsetup4_2%3a1.4.1-2ubuntu4_amd64.deb) ...
+Selecting previously unselected package cryptsetup-bin.
+Unpacking cryptsetup-bin (from .../cryptsetup-bin_2%3a1.4.1-2ubuntu4_amd64.deb) ...
+Selecting previously unselected package gvfs-common.
+Unpacking gvfs-common (from .../gvfs-common_1.12.1-0ubuntu1.2_all.deb) ...
+Selecting previously unselected package gvfs-libs.
+Unpacking gvfs-libs (from .../gvfs-libs_1.12.1-0ubuntu1.2_amd64.deb) ...
+Selecting previously unselected package gvfs-daemons.
+Unpacking gvfs-daemons (from .../gvfs-daemons_1.12.1-0ubuntu1.2_amd64.deb) ...
+Selecting previously unselected package gvfs.
+Unpacking gvfs (from .../gvfs_1.12.1-0ubuntu1.2_amd64.deb) ...
+Selecting previously unselected package libgconf2-4.
+Unpacking libgconf2-4 (from .../libgconf2-4_3.2.5-0ubuntu2_amd64.deb) ...
+Selecting previously unselected package libgtk-3-bin.
+Unpacking libgtk-3-bin (from .../libgtk-3-bin_3.4.2-0ubuntu0.5_amd64.deb) ...
+Adding 'diversion of /usr/sbin/update-icon-caches to /usr/sbin/update-icon-caches.gtk2 by libgtk-3-bin'
+Adding 'diversion of /usr/share/man/man8/update-icon-caches.8.gz to /usr/share/man/man8/update-icon-caches.gtk2.8.gz by libgtk-3-bin'
+Selecting previously unselected package libpam-ck-connector.
+Unpacking libpam-ck-connector (from .../libpam-ck-connector_0.4.5-2_amd64.deb) ...
+Selecting previously unselected package mtools.
+Unpacking mtools (from .../mtools_4.0.12-1ubuntu0.12.04.1_amd64.deb) ...
+Selecting previously unselected package openjdk-7-jre.
+Unpacking openjdk-7-jre (from .../openjdk-7-jre_7u25-2.3.10-1ubuntu0.12.04.2_amd64.deb) ...
+Selecting previously unselected package policykit-1.
+Unpacking policykit-1 (from .../policykit-1_0.104-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package policykit-1-gnome.
+Unpacking policykit-1-gnome (from .../policykit-1-gnome_0.105-1ubuntu3.1_amd64.deb) ...
+Selecting previously unselected package icedtea-7-jre-jamvm.
+Unpacking icedtea-7-jre-jamvm (from .../icedtea-7-jre-jamvm_7u25-2.3.10-1ubuntu0.12.04.2_amd64.deb) ...
+Processing triggers for man-db ...
+Processing triggers for libglib2.0-0 ...
+Processing triggers for install-info ...
+Processing triggers for hicolor-icon-theme ...
+Setting up libatasmart4 (0.18-3) ...
+Setting up libavahi-glib1 (0.6.30-5ubuntu2) ...
+Setting up libbonobo2-common (2.32.1-0ubuntu1.1) ...
+Setting up libidl-common (0.8.14-0.2ubuntu2) ...
+Setting up libidl0 (0.8.14-0.2ubuntu2) ...
+Setting up liborbit2 (1:2.14.19-0.1ubuntu1) ...
+Setting up libbonobo2-0 (2.32.1-0ubuntu1.1) ...
+Setting up libcairo-gobject2 (1.10.2-6.1ubuntu3) ...
+Setting up libtdb1 (1.2.9-4) ...
+Setting up libvorbisfile3 (1.3.2-1ubuntu3) ...
+Setting up sound-theme-freedesktop (0.7.pristine-2) ...
+Setting up libcanberra0 (0.28-3ubuntu3) ...
+Setting up libgudev-1.0-0 (1:175-0ubuntu9.4) ...
+Setting up liblvm2app2.2 (2.02.66-4ubuntu7.3) ...
+Setting up libsgutils2-2 (1.33-1) ...
+Setting up udisks (1.0.4-5ubuntu2.1) ...
+Setting up libgdu0 (3.0.2-2ubuntu7) ...
+Setting up dbus-x11 (1.4.18-1ubuntu1.4) ...
+Setting up gconf2 (3.2.5-0ubuntu2) ...
+update-alternatives: using /usr/bin/gconftool-2 to provide /usr/bin/gconftool (gconftool) in auto mode.
+Setting up libgnomevfs2-common (1:2.24.4-1ubuntu2.1) ...
+Setting up libgnomevfs2-0 (1:2.24.4-1ubuntu2.1) ...
+Setting up libgnome2-common (2.32.1-2ubuntu1.1) ...
+Setting up libdconf0 (0.12.0-0ubuntu1.1) ...
+Setting up dconf-service (0.12.0-0ubuntu1.1) ...
+Setting up dconf-gsettings-backend (0.12.0-0ubuntu1.1) ...
+Setting up libgtk-3-common (3.4.2-0ubuntu0.5) ...
+Setting up libgtk-3-0 (3.4.2-0ubuntu0.5) ...
+Setting up libpolkit-agent-1-0 (0.104-1ubuntu1) ...
+Setting up libpolkit-backend-1-0 (0.104-1ubuntu1) ...
+Setting up libck-connector0 (0.4.5-2) ...
+Setting up consolekit (0.4.5-2) ...
+Setting up libcryptsetup4 (2:1.4.1-2ubuntu4) ...
+Setting up cryptsetup-bin (2:1.4.1-2ubuntu4) ...
+Setting up gvfs-common (1.12.1-0ubuntu1.2) ...
+Setting up gvfs-libs (1.12.1-0ubuntu1.2) ...
+Setting up gvfs-daemons (1.12.1-0ubuntu1.2) ...
+Setting up gvfs (1.12.1-0ubuntu1.2) ...
+Setting up libgconf2-4 (3.2.5-0ubuntu2) ...
+Setting up libgtk-3-bin (3.4.2-0ubuntu0.5) ...
+Setting up libpam-ck-connector (0.4.5-2) ...
+Setting up mtools (4.0.12-1ubuntu0.12.04.1) ...
+Setting up policykit-1 (0.104-1ubuntu1) ...
+Setting up policykit-1-gnome (0.105-1ubuntu3.1) ...
+Setting up openjdk-7-jre-lib (7u25-2.3.10-1ubuntu0.12.04.2) ...
+Setting up openjdk-7-jre-headless (7u25-2.3.10-1ubuntu0.12.04.2) ...
+Setting up openjdk-7-jre (7u25-2.3.10-1ubuntu0.12.04.2) ...
+Setting up icedtea-7-jre-jamvm (7u25-2.3.10-1ubuntu0.12.04.2) ...
+Setting up libgnome2-bin (2.32.1-2ubuntu1.1) ...
+Setting up libgnome2-0 (2.32.1-2ubuntu1.1) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  icedtea-6-plugin
+The following NEW packages will be installed:
+  icedtea-6-plugin icedtea-plugin
+0 upgraded, 2 newly installed, 0 to remove and 137 not upgraded.
+Need to get 93.2 kB of archives.
+After this operation, 315 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main icedtea-6-plugin amd64 1.2.3-0ubuntu0.12.04.3 [87.8 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main icedtea-plugin all 1.2.3-0ubuntu0.12.04.3 [5,406 B]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 93.2 kB in 1s (91.7 kB/s)
+Selecting previously unselected package icedtea-6-plugin.
+(Reading database ... 81950 files and directories currently installed.)
+Unpacking icedtea-6-plugin (from .../icedtea-6-plugin_1.2.3-0ubuntu0.12.04.3_amd64.deb) ...
+Selecting previously unselected package icedtea-plugin.
+Unpacking icedtea-plugin (from .../icedtea-plugin_1.2.3-0ubuntu0.12.04.3_all.deb) ...
+Setting up icedtea-6-plugin (1.2.3-0ubuntu0.12.04.3) ...
+Setting up icedtea-plugin (1.2.3-0ubuntu0.12.04.3) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  ant ant-optional aspectj bsh bsh-gcj fop gcj-4.6-base gcj-4.6-jre-lib
+  glassfish-javaee java-wrappers junit junit4 libaether-java libantlr-java
+  libaopalliance-java libapache-pom-java libasm3-java libaspectj-java
+  libasync-http-client-java libatinject-jsr330-api-java
+  libavalon-framework-java libbackport-util-concurrent-java libbatik-java
+  libbsf-java libcdi-api-java libcglib-java libclassworlds-java
+  libcommons-beanutils-java libcommons-cli-java libcommons-codec-java
+  libcommons-collections-java libcommons-collections3-java
+  libcommons-configuration-java libcommons-digester-java
+  libcommons-httpclient-java libcommons-io-java libcommons-jexl-java
+  libcommons-jxpath-java libcommons-lang-java libcommons-logging-java
+  libcommons-net2-java libcommons-parent-java libcommons-validator-java
+  libcommons-vfs-java libdom4j-java libdoxia-java libdoxia-sitetools-java
+  libeasymock-java libexcalibur-logkit-java libfop-java libganymed-ssh2-java
+  libgcj-bc libgcj-common libgcj12 libgeronimo-interceptor-3.0-spec-java
+  libgeronimo-jpa-2.0-spec-java libgeronimo-osgi-support-java
+  libgoogle-collections-java libguava-java libhamcrest-java libhttpclient-java
+  libhttpcore-java libitext1-java libjaxen-java libjaxme-java libjaxp1.3-java
+  libjdom1-java libjetty-java libjline-java libjsch-java libjsoup-java
+  libjsr305-java libjtidy-java liblog4j1.2-java libmaven-plugin-tools-java
+  libmaven-reporting-impl-java libmaven-scm-java libmaven2-core-java
+  libmodello-java libnetbeans-cvsclient-java libnetty-java liboro-java
+  libosgi-compendium-java libosgi-core-java libosgi-foundation-ee-java
+  libplexus-ant-factory-java libplexus-archiver-java
+  libplexus-bsh-factory-java libplexus-build-api-java libplexus-cipher-java
+  libplexus-classworlds-java libplexus-classworlds2-java libplexus-cli-java
+  libplexus-container-default-java libplexus-containers-java
+  libplexus-containers1.5-java libplexus-i18n-java
+  libplexus-interactivity-api-java libplexus-interpolation-java
+  libplexus-io-java libplexus-sec-dispatcher-java libplexus-utils-java
+  libplexus-utils2-java libplexus-velocity-java libqdox-java libregexp-java
+  librhino-java libsaxon-java libservlet2.4-java libservlet2.5-java
+  libsisu-guice-java libsisu-ioc-java libslf4j-java libwagon-java
+  libwerken.xpath-java libxalan2-java libxbean-java libxerces2-java
+  libxml-commons-external-java libxml-commons-resolver1.1-java
+  libxmlgraphics-commons-java libxom-java libxpp2-java libxpp3-java rhino
+  velocity
+Suggested packages:
+  default-jdk java-compiler java-sdk ant-gcj ant-doc jython antlr libbcel-java
+  libjdepend-java libgnumail-java libcommons-net-java javacc ant-optional-gcj
+  bsh-doc fop-doc junit-doc libaopalliance-java-doc
+  libasync-http-client-java-doc libatinject-jsr330-api-java-doc
+  libavalon-framework-java-doc libbackport-util-concurrent-java-doc
+  libclassworlds-java-doc libcommons-beanutils-java-doc
+  libcommons-collections-java-doc libcommons-collections3-java-doc
+  libcommons-digester-java-doc libcommons-httpclient-java-doc
+  libcommons-io-java-doc libcommons-jxpath-java-doc
+  libcommons-logging-java-doc libcommons-net2-java-doc libcommons-vfs-java-doc
+  libdom4j-java-doc libdoxia-java-doc libdoxia-sitetools-java-doc
+  libeasymock-java-doc libgcj12-dbg libgcj12-awt
+  libgeronimo-jpa-2.0-spec-java-doc libgeronimo-osgi-support-java-doc
+  libjaxme-java-doc libjaxp1.3-java-gcj java-virtual-machine libjdom1-java-doc
+  jetty libjetty-java-doc libjline-java-doc libjsoup-java-doc
+  libjsr305-java-doc libjtidy-java-doc liblog4j1.2-java-doc libmx4j-java
+  libmaven-reporting-impl-java-doc libmaven-scm-java-doc maven2
+  libmodello-java-doc libosgi-compendium-java-doc libosgi-core-java-doc
+  libosgi-foundation-ee-java-doc libplexus-build-api-java-doc
+  libplexus-cipher-java-doc libplexus-classworlds-java-doc
+  libplexus-classworlds2-java-doc libplexus-cli-java-doc
+  libplexus-container-default-java-doc libplexus-i18n-java-doc
+  libplexus-interactivity-api-java-doc libplexus-interpolation-java-doc
+  libplexus-sec-dispatcher-java-doc libplexus-utils-java-doc
+  libplexus-utils2-java-doc libplexus-velocity-java-doc libqdox-java-doc
+  libsaxon-java-doc libwagon-java-doc libxalan2-java-doc libxsltc-java groovy
+  libspring-core-java libspring-beans-java libspring-context-java
+  libspring-web-java libxerces2-java-doc libxerces2-java-gcj
+  libxml-commons-resolver1.1-java-doc libxom-java-doc librhino-java-doc
+  velocity-doc
+The following NEW packages will be installed:
+  ant ant-optional aspectj bsh bsh-gcj fop gcj-4.6-base gcj-4.6-jre-lib
+  glassfish-javaee java-wrappers junit junit4 libaether-java libantlr-java
+  libaopalliance-java libapache-pom-java libasm3-java libaspectj-java
+  libasync-http-client-java libatinject-jsr330-api-java
+  libavalon-framework-java libbackport-util-concurrent-java libbatik-java
+  libbsf-java libcdi-api-java libcglib-java libclassworlds-java
+  libcommons-beanutils-java libcommons-cli-java libcommons-codec-java
+  libcommons-collections-java libcommons-collections3-java
+  libcommons-configuration-java libcommons-digester-java
+  libcommons-httpclient-java libcommons-io-java libcommons-jexl-java
+  libcommons-jxpath-java libcommons-lang-java libcommons-logging-java
+  libcommons-net2-java libcommons-parent-java libcommons-validator-java
+  libcommons-vfs-java libdom4j-java libdoxia-java libdoxia-sitetools-java
+  libeasymock-java libexcalibur-logkit-java libfop-java libganymed-ssh2-java
+  libgcj-bc libgcj-common libgcj12 libgeronimo-interceptor-3.0-spec-java
+  libgeronimo-jpa-2.0-spec-java libgeronimo-osgi-support-java
+  libgoogle-collections-java libguava-java libhamcrest-java libhttpclient-java
+  libhttpcore-java libitext1-java libjaxen-java libjaxme-java libjaxp1.3-java
+  libjdom1-java libjetty-java libjline-java libjsch-java libjsoup-java
+  libjsr305-java libjtidy-java liblog4j1.2-java libmaven-plugin-tools-java
+  libmaven-reporting-impl-java libmaven-scm-java libmaven2-core-java
+  libmodello-java libnetbeans-cvsclient-java libnetty-java liboro-java
+  libosgi-compendium-java libosgi-core-java libosgi-foundation-ee-java
+  libplexus-ant-factory-java libplexus-archiver-java
+  libplexus-bsh-factory-java libplexus-build-api-java libplexus-cipher-java
+  libplexus-classworlds-java libplexus-classworlds2-java libplexus-cli-java
+  libplexus-container-default-java libplexus-containers-java
+  libplexus-containers1.5-java libplexus-i18n-java
+  libplexus-interactivity-api-java libplexus-interpolation-java
+  libplexus-io-java libplexus-sec-dispatcher-java libplexus-utils-java
+  libplexus-utils2-java libplexus-velocity-java libqdox-java libregexp-java
+  librhino-java libsaxon-java libservlet2.4-java libservlet2.5-java
+  libsisu-guice-java libsisu-ioc-java libslf4j-java libwagon-java
+  libwerken.xpath-java libxalan2-java libxbean-java libxerces2-java
+  libxml-commons-external-java libxml-commons-resolver1.1-java
+  libxmlgraphics-commons-java libxom-java libxpp2-java libxpp3-java maven
+  rhino velocity
+0 upgraded, 127 newly installed, 0 to remove and 137 not upgraded.
+Need to get 93.8 MB of archives.
+After this operation, 162 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main libgcj-common all 1:4.6.3-1ubuntu5 [127 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main gcj-4.6-base amd64 4.6.3-1ubuntu2 [11.3 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise/main libgcj12 amd64 4.6.3-1ubuntu2 [13.5 MB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main libgcj-bc amd64 4.6.3-1ubuntu5 [1,228 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main libxml-commons-resolver1.1-java all 1.2-7 [91.3 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise/main libxml-commons-external-java all 1.4.01-2 [245 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/main libxerces2-java all 2.11.0-4 [1,446 kB]

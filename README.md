@@ -50,7 +50,7 @@ To login to the VM you will also need [ssh](http://en.wikipedia.org/wiki/Secure_
 
 ### Windows
 
-* [X11 forwarding](http://www.math.umn.edu/systems_guide/putty_xwin32.html).
+* [X11 forwarding](http://www.math.umn.edu/systems_guide/putty_xwin32.html)
 * [PuTTY: SSH client](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
 
 ### Mac OSX
@@ -101,7 +101,7 @@ _This Vagrant VM contains approximately XXX of additional files/libraries and ta
 
 `vagrant ssh`
 
-__NOTE: The Vagrant Box has X11 forwarding enabled, allowing you to run graphical applications (i.e. browser, IPython notebooks, R Studio, etc.) in the VM and have the windows run on the host machine__  
+_NOTE: The Vagrant Box has X11 forwarding enabled, allowing you to run graphical applications (i.e. browser, IPython notebooks, R Studio, etc.) in the VM and have the windows run on the host machine_  
 
 ## Vagrant
 
@@ -187,7 +187,7 @@ For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.
 
 * Convert shell scripts to use [Chef](http://www.opscode.com/chef/) or [Puppet](http://puppetlabs.com/) for increased portability of the individual scripts.
 
-* Write documentation/tutorials on how to run specific non-standard libraries installs (i.e. Spark). 
+* Write documentation/tutorials on how to run specific non-standard library installs (i.e. Spark). 
 
 * Add R packages and [R studio](http://www.rstudio.com/)
 
@@ -205,7 +205,7 @@ For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.
 
 ## Contributing
 
-Contributions are much appreciated and this repository is meant to be a living document.  Open issues or submit [pull requests](https://help.github.com/articles/creating-a-pull-request) if you have a favorite library I missed or new platform to run this on.
+Contributions are much appreciated and this repository is meant to be a living document.  Open issues or submit [pull requests](https://help.github.com/articles/creating-a-pull-request) if you have a favorite library I missed or a new platform to run this on.
 
 1. Fork it.
 2. Create a branch (`git checkout -b my_zipfian`)
@@ -218,9 +218,11 @@ Contributions are much appreciated and this repository is meant to be a living d
 
 Keep track of development and community news.
 
-* Follow [@zipfianacademy on Twitter](http://twitter.com/zipfianacademy).
+* Follow [@zipfianacademy](http://twitter.com/zipfianacademy) on Twitter.
+* Join our email list on our [website](http://zipfianacademy.com) 
 * Read and subscribe to the [The Zipfian Academy Blog](http://blog.zipfianacademy.com).
-* Have a question that's not a feature request or bug report? Email Jonathan: jonathan __[AT]__ zipfianacademy __[DOT]__ com
+* Have a question that's not a feature request or bug report? 
+Email jonathan __[AT]__ zipfianacademy __[DOT]__ com
 
 ## Resources/References
 
