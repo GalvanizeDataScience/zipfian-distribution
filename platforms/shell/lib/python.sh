@@ -5,7 +5,17 @@ echo "Installing virtualenv"
 pip install virtualenv
 pip install virtualenvwrapper
 
+# configure virtualenvwrapper
+echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
+echo "export PROJECT_HOME=$HOME/Devel" >> ~/.profile
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
+source ~/.profile
+
+# create a virtual environment for the zipfian distribution
 mkvirtualenv zipfian-dist
+
+# install pyzmq for ipython
+easy_install pyzmq
 
 # install IPython and IPython notebook and dependencies
 echo "Installing IPython"

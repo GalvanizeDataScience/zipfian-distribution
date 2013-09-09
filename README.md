@@ -17,22 +17,25 @@ __NOTE: Python 2.7 is the default version for this distribution__
 
 ### Mac OSX
 
+___IMPORTANT: Run this command from the directory in which you want to download and initialize the Vagrantfile and associated VM.  This should be in the root directory of your project/git repository.  Only run this command once as it downloads large files.  If you would like to use the Vagrant box for other projects, simply copy the Vagrantfile to root of those other projects.___
+
 `bash <(curl -s http://zipfianacademy.com/downloads/zipfian-distribution/install/mac-osx.sh)`
 
-<strong><em style="color: red">IMPORTANT: Run this command from the directory in which you want to download and initialize the Vagrantfile and associated VM.  This should be in the root directory of your project/git repository.  Only run this command once as it downloads large files.  If you would like to use the Vagrant box for other projects, simply copy the Vagrantfile to root of those other projects.</em><strong> 
+Once the script is done running you should have VirtualBox, Vagrant, and XQuartz installed and ready to start analyzing some data!
+
+1. Initialize the VM: `vagrant up`
+2. Login into the guest machine: `vagrant ssh`
+
+Thats it!  You should be logged into the guest machine and have all the python/R/Hadoop goodness at your fingertips... try `ipython notebook`
 
 ### Windows
 
-1. Install [Cygwin](http://cygwin.com/install.html)
-
-2. From the Cygwin prompt: `source <(wget -O- URL for SCRIPT)`  
+Coming Soon!  
 
 ### Linux
 
 Coming Soon!
  
-__This Vagrant VM contains approximately XXX of additional files/libraries and takes around YYY minutes... now is a good time to grab a snack__
-
 <a name="dependencies"></a>
 ## Dependencies
 
@@ -56,14 +59,27 @@ To login to the VM you will also need [ssh](http://en.wikipedia.org/wiki/Secure_
 
 ## What's in Here?!?
 
-### `shell/`
+### `lib/`
 
-* [bootstrap.sh](shell/bootstrap.sh): run all other script files, installs entire environment.
-* [python.sh](shell/python.sh): install Python packages with pip.
-* [ubuntu.sh](shell/ubuntu.sh): install Ubuntu development libraries and packages. 
+One line install scripts.  Downloads and installs all dependencies (VirtualBox, Vagrant, X11) and then bootstraps the Vagrant VM.  Currently only Mac OSX is supported.
+
+### `platforms/`
+
+Scripts for specific platforms/OSes.  Currently all that is support is shell scripts on Ubuntu 12.04 LTS.  
+
+* [bootstrap.sh](platforms/shell/bootstrap.sh): run all other script files, installs entire environment.
+* [ubuntu.sh](platforms/shell/lib/ubuntu.sh): install Ubuntu development libraries and packages.
+* [python.sh](platforms/shell/lib/python.sh): install Python packages with pip.
+* [hadoop-ecosystem.sh](platforms/shell/lib/hadoop-ecosystem.sh): install Hadoop and associated ecosystem libraries.
 * [r.sh](shell/r.sh): install R packages.
 
+### `test/`
+
+This is where automated tests will go to validate the packages/install.  There are currently none.
+
 ### `vagrant/`
+
+This is where Vagrant specific files go.  Currently there is the base Vagrantfile for the Zipfian Distribution as well as the Box image.
 
 ## Slow start
 
@@ -73,9 +89,17 @@ To login to the VM you will also need [ssh](http://en.wikipedia.org/wiki/Secure_
 
 ### Get the Vagrantfile
 
+`wget http://zipfianacademy.com/downloads/zipfian-distribution/vagrant/Vagrantfile`
+
 ### Bootstrap the VM
 
+`vagrant up`
+
+_This Vagrant VM contains approximately XXX of additional files/libraries and takes around YYY minutes... now is a good time to grab a snack_
+
 ### SSH into your Machine!
+
+`vagrant ssh`
 
 __NOTE: The Vagrant Box has X11 forwarding enabled, allowing you to run graphical applications (i.e. browser, IPython notebooks, R Studio, etc.) in the VM and have the windows run on the host machine__  
 
@@ -158,29 +182,6 @@ For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.
 * Pycascading (Coming Soon)
 * Storm (Coming Soon)
  
-## Resources/References
-
-Here are a list of great sites and tutorials that inspired this project:
-
-* [Scientific Python on Mac OSX](http://www.lowindata.com/2013/installing-scientific-python-on-mac-os-x/)
-
-* [Installing the Scipy stack](http://www.scipy.org/install.html)
-
-* [conda: think pip + virtualenv](http://docs.continuum.io/conda/intro.html)
-
-* [Kaggle: Getting started with Python for Data Science](https://www.kaggle.com/wiki/GettingStartedWithPythonForDataScience)
-
-* [Data Community DC: Getting started with Python for Data Scientists](http://datacommunitydc.org/blog/2013/03/getting-started-with-python-for-data-scientists/)
-
-* [Anaconda Packages](http://docs.continuum.io/anaconda/pkgs.html): great list of relevant Python packages.
-
-* [Scipy Superpack](http://fonnesbeck.github.io/ScipySuperpack): Script to build scientific Python libraries on OSX.
-
-* [Testing that it all works](http://www.pythonbootcamp.info/preparation/testing-that-it-all-works)
-
-* [Apache Bigtop](http://blog.cloudera.com/blog/2013/06/apache-bigtop-the-fedora-of-hadoop-built-on-hadoop2/)
-
-* [Apache Spark Guide](http://spark.incubator.apache.org/docs/latest/)
 
 ## Road map (In no particular order)
 
@@ -220,6 +221,36 @@ Keep track of development and community news.
 * Follow [@zipfianacademy on Twitter](http://twitter.com/zipfianacademy).
 * Read and subscribe to the [The Zipfian Academy Blog](http://blog.zipfianacademy.com).
 * Have a question that's not a feature request or bug report? Email Jonathan: jonathan __[AT]__ zipfianacademy __[DOT]__ com
+
+## Resources/References
+
+Here are a list of great sites and tutorials that inspired this project:
+
+* [Scientific Python on Mac OSX](http://www.lowindata.com/2013/installing-scientific-python-on-mac-os-x/)
+
+* [Installing the Scipy stack](http://www.scipy.org/install.html)
+
+* [conda: think pip + virtualenv](http://docs.continuum.io/conda/intro.html)
+
+* [Kaggle: Getting started with Python for Data Science](https://www.kaggle.com/wiki/GettingStartedWithPythonForDataScience)
+
+* [Data Community DC: Getting started with Python for Data Scientists](http://datacommunitydc.org/blog/2013/03/getting-started-with-python-for-data-scientists/)
+
+* [Anaconda Packages](http://docs.continuum.io/anaconda/pkgs.html): great list of relevant Python packages.
+
+* [Scipy Superpack](http://fonnesbeck.github.io/ScipySuperpack): Script to build scientific Python libraries on OSX.
+
+* [Testing that it all works](http://www.pythonbootcamp.info/preparation/testing-that-it-all-works)
+
+* [Apache Bigtop](http://blog.cloudera.com/blog/2013/06/apache-bigtop-the-fedora-of-hadoop-built-on-hadoop2/)
+
+* [Apache Spark Guide](http://spark.incubator.apache.org/docs/latest/)
+
+* [R and RStudio in Ubuntu](http://blog.cloud-mes.com/2012/09/16/install-r-and-rstudio-in-ubuntu/)
+
+* [Putty Tutorial](http://lyle.smu.edu/support/contents/index.php/tutorials/49-remote-access/101-putty-tutorial)
+
+* [pydata-science.sh](https://gist.github.com/hdemers/5337229)
 
 ## Author
 

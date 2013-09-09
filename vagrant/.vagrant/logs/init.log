@@ -971,3 +971,1771 @@ Get:20 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libnss3 amd64 3
 Get:21 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libnss3-1d amd64 3.14.3-0ubuntu0.12.04.1 [13.4 kB]
 Get:22 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe chromium-codecs-ffmpeg amd64 28.0.1500.71-0ubuntu1.12.04.1 [407 kB]
 Get:23 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe chromium-browser amd64 28.0.1500.71-0ubuntu1.12.04.1 [29.2 MB]
+Get:24 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe chromium-browser-l10n all 28.0.1500.71-0ubuntu1.12.04.1 [2,753 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu/ precise/main hicolor-icon-theme all 0.12-1ubuntu2 [10.2 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu/ precise/main libgtk2.0-bin amd64 2.24.10-0ubuntu6 [10.3 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 37.9 MB in 8min 50s (71.3 kB/s)
+Selecting previously unselected package gconf2-common.
+(Reading database ... 57230 files and directories currently installed.)
+Unpacking gconf2-common (from .../gconf2-common_3.2.5-0ubuntu2_all.deb) ...
+Selecting previously unselected package libgconf-2-4.
+Unpacking libgconf-2-4 (from .../libgconf-2-4_3.2.5-0ubuntu2_amd64.deb) ...
+Selecting previously unselected package gconf-service-backend.
+Unpacking gconf-service-backend (from .../gconf-service-backend_3.2.5-0ubuntu2_amd64.deb) ...
+Selecting previously unselected package gconf-service.
+Unpacking gconf-service (from .../gconf-service_3.2.5-0ubuntu2_amd64.deb) ...
+Selecting previously unselected package libasound2.
+Unpacking libasound2 (from .../libasound2_1.0.25-1ubuntu10.2_amd64.deb) ...
+Selecting previously unselected package libatk1.0-data.
+Unpacking libatk1.0-data (from .../libatk1.0-data_2.4.0-0ubuntu1_all.deb) ...
+Selecting previously unselected package libatk1.0-0.
+Unpacking libatk1.0-0 (from .../libatk1.0-0_2.4.0-0ubuntu1_amd64.deb) ...
+Selecting previously unselected package libavahi-common-data.
+Unpacking libavahi-common-data (from .../libavahi-common-data_0.6.30-5ubuntu2_amd64.deb) ...
+Selecting previously unselected package libavahi-common3.
+Unpacking libavahi-common3 (from .../libavahi-common3_0.6.30-5ubuntu2_amd64.deb) ...
+Selecting previously unselected package libavahi-client3.
+Unpacking libavahi-client3 (from .../libavahi-client3_0.6.30-5ubuntu2_amd64.deb) ...
+Selecting previously unselected package libcups2.
+Unpacking libcups2 (from .../libcups2_1.5.3-0ubuntu8_amd64.deb) ...
+Selecting previously unselected package libjasper1.
+Unpacking libjasper1 (from .../libjasper1_1.900.1-13_amd64.deb) ...
+Selecting previously unselected package libgdk-pixbuf2.0-common.
+Unpacking libgdk-pixbuf2.0-common (from .../libgdk-pixbuf2.0-common_2.26.1-1_all.deb) ...
+Selecting previously unselected package libgdk-pixbuf2.0-0.
+Unpacking libgdk-pixbuf2.0-0 (from .../libgdk-pixbuf2.0-0_2.26.1-1_amd64.deb) ...
+Selecting previously unselected package libgnome-keyring-common.
+Unpacking libgnome-keyring-common (from .../libgnome-keyring-common_3.2.2-2_all.deb) ...
+Selecting previously unselected package libgnome-keyring0.
+Unpacking libgnome-keyring0 (from .../libgnome-keyring0_3.2.2-2_amd64.deb) ...
+Selecting previously unselected package libgtk2.0-common.
+Unpacking libgtk2.0-common (from .../libgtk2.0-common_2.24.10-0ubuntu6_all.deb) ...
+Selecting previously unselected package libgtk2.0-0.
+Unpacking libgtk2.0-0 (from .../libgtk2.0-0_2.24.10-0ubuntu6_amd64.deb) ...
+Selecting previously unselected package libnspr4.
+Unpacking libnspr4 (from .../libnspr4_4.9.5-0ubuntu0.12.04.1_amd64.deb) ...
+Selecting previously unselected package libnss3.
+Unpacking libnss3 (from .../libnss3_3.14.3-0ubuntu0.12.04.1_amd64.deb) ...
+Selecting previously unselected package libnss3-1d.
+Unpacking libnss3-1d (from .../libnss3-1d_3.14.3-0ubuntu0.12.04.1_amd64.deb) ...
+Selecting previously unselected package chromium-codecs-ffmpeg.
+Unpacking chromium-codecs-ffmpeg (from .../chromium-codecs-ffmpeg_28.0.1500.71-0ubuntu1.12.04.1_amd64.deb) ...
+Selecting previously unselected package chromium-browser.
+Unpacking chromium-browser (from .../chromium-browser_28.0.1500.71-0ubuntu1.12.04.1_amd64.deb) ...
+Selecting previously unselected package chromium-browser-l10n.
+Unpacking chromium-browser-l10n (from .../chromium-browser-l10n_28.0.1500.71-0ubuntu1.12.04.1_all.deb) ...
+Selecting previously unselected package hicolor-icon-theme.
+Unpacking hicolor-icon-theme (from .../hicolor-icon-theme_0.12-1ubuntu2_all.deb) ...
+Selecting previously unselected package libgtk2.0-bin.
+Unpacking libgtk2.0-bin (from .../libgtk2.0-bin_2.24.10-0ubuntu6_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up gconf2-common (3.2.5-0ubuntu2) ...
+
+Creating config file /etc/gconf/2/path with new version
+Setting up libgconf-2-4 (3.2.5-0ubuntu2) ...
+Setting up libasound2 (1.0.25-1ubuntu10.2) ...
+Setting up libatk1.0-data (2.4.0-0ubuntu1) ...
+Setting up libatk1.0-0 (2.4.0-0ubuntu1) ...
+Setting up libavahi-common-data (0.6.30-5ubuntu2) ...
+Setting up libavahi-common3 (0.6.30-5ubuntu2) ...
+Setting up libavahi-client3 (0.6.30-5ubuntu2) ...
+Setting up libcups2 (1.5.3-0ubuntu8) ...
+Setting up libjasper1 (1.900.1-13) ...
+Setting up libgdk-pixbuf2.0-common (2.26.1-1) ...
+Setting up libgdk-pixbuf2.0-0 (2.26.1-1) ...
+Setting up libgnome-keyring-common (3.2.2-2) ...
+Setting up libgnome-keyring0 (3.2.2-2) ...
+Setting up libgtk2.0-common (2.24.10-0ubuntu6) ...
+Setting up libgtk2.0-0 (2.24.10-0ubuntu6) ...
+Setting up libnspr4 (4.9.5-0ubuntu0.12.04.1) ...
+Setting up libnss3 (3.14.3-0ubuntu0.12.04.1) ...
+Setting up libnss3-1d (3.14.3-0ubuntu0.12.04.1) ...
+Setting up hicolor-icon-theme (0.12-1ubuntu2) ...
+Setting up libgtk2.0-bin (2.24.10-0ubuntu6) ...
+Setting up gconf-service-backend (3.2.5-0ubuntu2) ...
+Setting up gconf-service (3.2.5-0ubuntu2) ...
+Setting up chromium-codecs-ffmpeg (28.0.1500.71-0ubuntu1.12.04.1) ...
+Setting up chromium-browser (28.0.1500.71-0ubuntu1.12.04.1) ...
+update-alternatives: using /usr/bin/chromium-browser to provide /usr/bin/x-www-browser (x-www-browser) in auto mode.
+update-alternatives: using /usr/bin/chromium-browser to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode.
+Setting up chromium-browser-l10n (28.0.1500.71-0ubuntu1.12.04.1) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  python-pkg-resources python-setuptools
+Suggested packages:
+  python-distribute python-distribute-doc
+The following NEW packages will be installed:
+  python-pip python-pkg-resources python-setuptools
+0 upgraded, 3 newly installed, 0 to remove and 151 not upgraded.
+Need to get 599 kB of archives.
+After this operation, 1,647 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main python-pkg-resources all 0.6.24-1ubuntu1 [63.1 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main python-setuptools all 0.6.24-1ubuntu1 [441 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise/universe python-pip all 1.0-1build1 [95.1 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 599 kB in 1s (501 kB/s)
+Selecting previously unselected package python-pkg-resources.
+(Reading database ... 58251 files and directories currently installed.)
+Unpacking python-pkg-resources (from .../python-pkg-resources_0.6.24-1ubuntu1_all.deb) ...
+Selecting previously unselected package python-setuptools.
+Unpacking python-setuptools (from .../python-setuptools_0.6.24-1ubuntu1_all.deb) ...
+Selecting previously unselected package python-pip.
+Unpacking python-pip (from .../python-pip_1.0-1build1_all.deb) ...
+Processing triggers for man-db ...
+Setting up python-pkg-resources (0.6.24-1ubuntu1) ...
+Setting up python-setuptools (0.6.24-1ubuntu1) ...
+Setting up python-pip (1.0-1build1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  git-man liberror-perl tcl tk
+Suggested packages:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-arch git-cvs git-svn
+  git-email git-gui gitweb
+The following NEW packages will be installed:
+  git git-man gitk liberror-perl tcl tk
+0 upgraded, 6 newly installed, 0 to remove and 151 not upgraded.
+Need to get 6,883 kB of archives.
+After this operation, 16.4 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main liberror-perl all 0.17-1 [23.8 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main git-man all 1:1.7.9.5-1 [630 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise/main git amd64 1:1.7.9.5-1 [6,087 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main tcl all 8.5.0-2 [4,690 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main tk all 8.5.0-2 [4,720 B]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise/main gitk all 1:1.7.9.5-1 [133 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 6,883 kB in 1min 42s (66.9 kB/s)
+Selecting previously unselected package liberror-perl.
+(Reading database ... 58473 files and directories currently installed.)
+Unpacking liberror-perl (from .../liberror-perl_0.17-1_all.deb) ...
+Selecting previously unselected package git-man.
+Unpacking git-man (from .../git-man_1%3a1.7.9.5-1_all.deb) ...
+Selecting previously unselected package git.
+Unpacking git (from .../git_1%3a1.7.9.5-1_amd64.deb) ...
+Selecting previously unselected package tcl.
+Unpacking tcl (from .../archives/tcl_8.5.0-2_all.deb) ...
+Selecting previously unselected package tk.
+Unpacking tk (from .../archives/tk_8.5.0-2_all.deb) ...
+Selecting previously unselected package gitk.
+Unpacking gitk (from .../gitk_1%3a1.7.9.5-1_all.deb) ...
+Processing triggers for man-db ...
+Setting up liberror-perl (0.17-1) ...
+Setting up git-man (1:1.7.9.5-1) ...
+Setting up git (1:1.7.9.5-1) ...
+Setting up tcl (8.5.0-2) ...
+update-alternatives: using /usr/bin/tclsh-default to provide /usr/bin/tclsh (tclsh) in auto mode.
+Setting up tk (8.5.0-2) ...
+update-alternatives: using /usr/bin/wish-default to provide /usr/bin/wish (wish) in auto mode.
+Setting up gitk (1:1.7.9.5-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  libcurl3
+The following NEW packages will be installed:
+  curl libcurl3
+0 upgraded, 2 newly installed, 0 to remove and 151 not upgraded.
+Need to get 373 kB of archives.
+After this operation, 911 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libcurl3 amd64 7.22.0-3ubuntu4.2 [236 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main curl amd64 7.22.0-3ubuntu4.2 [137 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 373 kB in 5s (74.5 kB/s)
+Selecting previously unselected package libcurl3.
+(Reading database ... 59152 files and directories currently installed.)
+Unpacking libcurl3 (from .../libcurl3_7.22.0-3ubuntu4.2_amd64.deb) ...
+Selecting previously unselected package curl.
+Unpacking curl (from .../curl_7.22.0-3ubuntu4.2_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up libcurl3 (7.22.0-3ubuntu4.2) ...
+Setting up curl (7.22.0-3ubuntu4.2) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  cmap-adobe-japan1 ghostscript gs-cjk-resource gsfonts imagemagick-common
+  libcdt4 libcupsimage2 libdjvulibre-text libdjvulibre21 libgd2-noxpm
+  libgraph4 libgs9 libgs9-common libgvc5 libijs-0.35 libilmbase6 libjbig2dec0
+  liblcms1 liblcms2-2 liblqr-1-0 libltdl7 libmagickcore4 libmagickcore4-extra
+  libmagickwand4 libnetpbm10 libopenexr6 libpathplan4 librsvg2-2 libwmf0.2-7
+  netpbm
+Suggested packages:
+  ghostscript-cups ghostscript-x hpijs fonts-ipafont-mincho
+  fonts-ipafont-gothic ttf-arphic-ukai ttf-arphic-uming fonts-unfonts-core
+  imagemagick-doc autotrace cups-bsd lpr lprng enscript ffmpeg gimp gnuplot
+  grads hp2xx html2ps libwmf-bin mplayer povray radiance sane-utils
+  texlive-base-bin transfig ufraw-batch libgd-tools liblcms-utils
+  liblcms2-utils librsvg2-bin libwmf0.2-7-gtk
+The following NEW packages will be installed:
+  cmap-adobe-japan1 ghostscript gs-cjk-resource gsfonts imagemagick
+  imagemagick-common libcdt4 libcupsimage2 libdjvulibre-text libdjvulibre21
+  libgd2-noxpm libgraph4 libgs9 libgs9-common libgvc5 libijs-0.35 libilmbase6
+  libjbig2dec0 liblcms1 liblcms2-2 liblqr-1-0 libltdl7 libmagickcore4
+  libmagickcore4-extra libmagickwand4 libnetpbm10 libopenexr6 libpathplan4
+  librsvg2-2 libwmf0.2-7 netpbm
+0 upgraded, 31 newly installed, 0 to remove and 151 not upgraded.
+Need to get 18.2 MB of archives.
+After this operation, 50.4 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libcupsimage2 amd64 1.5.3-0ubuntu8 [51.7 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main liblcms1 amd64 1.19.dfsg-1ubuntu3 [106 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main liblcms2-2 amd64 2.2+git20110628-2ubuntu3.1 [143 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main libltdl7 amd64 2.4.2-1ubuntu1 [37.6 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main librsvg2-2 amd64 2.36.1-0ubuntu1 [104 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise/main libwmf0.2-7 amd64 0.2.8.4-10ubuntu1 [172 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/main libgd2-noxpm amd64 2.0.36~rc1~dfsg-6ubuntu2 [200 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise/main cmap-adobe-japan1 all 0+20090930-2 [721 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise/main libijs-0.35 amd64 0.35-8 [16.7 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu/ precise/main libjbig2dec0 amd64 0.11-1ubuntu1 [41.2 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu/ precise/main gs-cjk-resource all 1.20100103-3 [1,477 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgs9-common all 9.05~dfsg-0ubuntu4.2 [3,940 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgs9 amd64 9.05~dfsg-0ubuntu4.2 [2,254 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu/ precise/main gsfonts all 1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1 [3,374 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main ghostscript amd64 9.05~dfsg-0ubuntu4.2 [44.0 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu/ precise/main liblqr-1-0 amd64 0.4.1-1.1 [39.5 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main imagemagick-common all 8:6.6.9.7-5ubuntu3.2 [40.1 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmagickcore4 amd64 8:6.6.9.7-5ubuntu3.2 [1,879 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmagickwand4 amd64 8:6.6.9.7-5ubuntu3.2 [364 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main imagemagick amd64 8:6.6.9.7-5ubuntu3.2 [49.0 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu/ precise/main libcdt4 amd64 2.26.3-10ubuntu1 [24.3 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu/ precise/main libdjvulibre-text amd64 3.5.24-9 [67.6 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu/ precise/main libdjvulibre21 amd64 3.5.24-9 [699 kB]
+Get:24 http://us.archive.ubuntu.com/ubuntu/ precise/main libgraph4 amd64 2.26.3-10ubuntu1 [36.0 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu/ precise/main libpathplan4 amd64 2.26.3-10ubuntu1 [29.3 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu/ precise/main libgvc5 amd64 2.26.3-10ubuntu1 [516 kB]
+Get:27 http://us.archive.ubuntu.com/ubuntu/ precise/main libilmbase6 amd64 1.0.1-3build2 [123 kB]
+Get:28 http://us.archive.ubuntu.com/ubuntu/ precise/main libopenexr6 amd64 1.6.1-4.1 [257 kB]
+Get:29 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmagickcore4-extra amd64 8:6.6.9.7-5ubuntu3.2 [50.4 kB]
+Get:30 http://us.archive.ubuntu.com/ubuntu/ precise/main libnetpbm10 amd64 2:10.0-15 [67.5 kB]
+Get:31 http://us.archive.ubuntu.com/ubuntu/ precise/main netpbm amd64 2:10.0-15 [1,312 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 18.2 MB in 36s (503 kB/s)
+Selecting previously unselected package libcupsimage2.
+(Reading database ... 59184 files and directories currently installed.)
+Unpacking libcupsimage2 (from .../libcupsimage2_1.5.3-0ubuntu8_amd64.deb) ...
+Selecting previously unselected package liblcms1.
+Unpacking liblcms1 (from .../liblcms1_1.19.dfsg-1ubuntu3_amd64.deb) ...
+Selecting previously unselected package liblcms2-2.
+Unpacking liblcms2-2 (from .../liblcms2-2_2.2+git20110628-2ubuntu3.1_amd64.deb) ...
+Selecting previously unselected package libltdl7.
+Unpacking libltdl7 (from .../libltdl7_2.4.2-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package librsvg2-2.
+Unpacking librsvg2-2 (from .../librsvg2-2_2.36.1-0ubuntu1_amd64.deb) ...
+Selecting previously unselected package libwmf0.2-7.
+Unpacking libwmf0.2-7 (from .../libwmf0.2-7_0.2.8.4-10ubuntu1_amd64.deb) ...
+Selecting previously unselected package libgd2-noxpm.
+Unpacking libgd2-noxpm (from .../libgd2-noxpm_2.0.36~rc1~dfsg-6ubuntu2_amd64.deb) ...
+Selecting previously unselected package cmap-adobe-japan1.
+Unpacking cmap-adobe-japan1 (from .../cmap-adobe-japan1_0+20090930-2_all.deb) ...
+Selecting previously unselected package libijs-0.35.
+Unpacking libijs-0.35 (from .../libijs-0.35_0.35-8_amd64.deb) ...
+Selecting previously unselected package libjbig2dec0.
+Unpacking libjbig2dec0 (from .../libjbig2dec0_0.11-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package gs-cjk-resource.
+Unpacking gs-cjk-resource (from .../gs-cjk-resource_1.20100103-3_all.deb) ...
+Selecting previously unselected package libgs9-common.
+Unpacking libgs9-common (from .../libgs9-common_9.05~dfsg-0ubuntu4.2_all.deb) ...
+Selecting previously unselected package libgs9.
+Unpacking libgs9 (from .../libgs9_9.05~dfsg-0ubuntu4.2_amd64.deb) ...
+Selecting previously unselected package gsfonts.
+Unpacking gsfonts (from .../gsfonts_1%3a8.11+urwcyr1.0.7~pre44-4.2ubuntu1_all.deb) ...
+Selecting previously unselected package ghostscript.
+Unpacking ghostscript (from .../ghostscript_9.05~dfsg-0ubuntu4.2_amd64.deb) ...
+Selecting previously unselected package liblqr-1-0.
+Unpacking liblqr-1-0 (from .../liblqr-1-0_0.4.1-1.1_amd64.deb) ...
+Selecting previously unselected package imagemagick-common.
+Unpacking imagemagick-common (from .../imagemagick-common_8%3a6.6.9.7-5ubuntu3.2_all.deb) ...
+Selecting previously unselected package libmagickcore4.
+Unpacking libmagickcore4 (from .../libmagickcore4_8%3a6.6.9.7-5ubuntu3.2_amd64.deb) ...
+Selecting previously unselected package libmagickwand4.
+Unpacking libmagickwand4 (from .../libmagickwand4_8%3a6.6.9.7-5ubuntu3.2_amd64.deb) ...
+Selecting previously unselected package imagemagick.
+Unpacking imagemagick (from .../imagemagick_8%3a6.6.9.7-5ubuntu3.2_amd64.deb) ...
+Selecting previously unselected package libcdt4.
+Unpacking libcdt4 (from .../libcdt4_2.26.3-10ubuntu1_amd64.deb) ...
+Selecting previously unselected package libdjvulibre-text.
+Unpacking libdjvulibre-text (from .../libdjvulibre-text_3.5.24-9_amd64.deb) ...
+Selecting previously unselected package libdjvulibre21.
+Unpacking libdjvulibre21 (from .../libdjvulibre21_3.5.24-9_amd64.deb) ...
+Selecting previously unselected package libgraph4.
+Unpacking libgraph4 (from .../libgraph4_2.26.3-10ubuntu1_amd64.deb) ...
+Selecting previously unselected package libpathplan4.
+Unpacking libpathplan4 (from .../libpathplan4_2.26.3-10ubuntu1_amd64.deb) ...
+Selecting previously unselected package libgvc5.
+Unpacking libgvc5 (from .../libgvc5_2.26.3-10ubuntu1_amd64.deb) ...
+Selecting previously unselected package libilmbase6.
+Unpacking libilmbase6 (from .../libilmbase6_1.0.1-3build2_amd64.deb) ...
+Selecting previously unselected package libopenexr6.
+Unpacking libopenexr6 (from .../libopenexr6_1.6.1-4.1_amd64.deb) ...
+Selecting previously unselected package libmagickcore4-extra.
+Unpacking libmagickcore4-extra (from .../libmagickcore4-extra_8%3a6.6.9.7-5ubuntu3.2_amd64.deb) ...
+Selecting previously unselected package libnetpbm10.
+Unpacking libnetpbm10 (from .../libnetpbm10_2%3a10.0-15_amd64.deb) ...
+Selecting previously unselected package netpbm.
+Unpacking netpbm (from .../netpbm_2%3a10.0-15_amd64.deb) ...
+Processing triggers for fontconfig ...
+Processing triggers for man-db ...
+Setting up libcupsimage2 (1.5.3-0ubuntu8) ...
+Setting up liblcms1 (1.19.dfsg-1ubuntu3) ...
+Setting up liblcms2-2 (2.2+git20110628-2ubuntu3.1) ...
+Setting up libltdl7 (2.4.2-1ubuntu1) ...
+Setting up librsvg2-2 (2.36.1-0ubuntu1) ...
+Setting up libwmf0.2-7 (0.2.8.4-10ubuntu1) ...
+Setting up libgd2-noxpm (2.0.36~rc1~dfsg-6ubuntu2) ...
+Setting up cmap-adobe-japan1 (0+20090930-2) ...
+Setting up libijs-0.35 (0.35-8) ...
+Setting up libjbig2dec0 (0.11-1ubuntu1) ...
+Setting up libgs9-common (9.05~dfsg-0ubuntu4.2) ...
+update-alternatives: using /usr/share/ghostscript/9.05 to provide /usr/share/ghostscript/current (ghostscript-current) in auto mode.
+Setting up gsfonts (1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1) ...
+Setting up liblqr-1-0 (0.4.1-1.1) ...
+Setting up imagemagick-common (8:6.6.9.7-5ubuntu3.2) ...
+Setting up libmagickcore4 (8:6.6.9.7-5ubuntu3.2) ...
+Setting up libmagickwand4 (8:6.6.9.7-5ubuntu3.2) ...
+Setting up imagemagick (8:6.6.9.7-5ubuntu3.2) ...
+Setting up libcdt4 (2.26.3-10ubuntu1) ...
+Setting up libdjvulibre-text (3.5.24-9) ...
+Setting up libdjvulibre21 (3.5.24-9) ...
+Setting up libgraph4 (2.26.3-10ubuntu1) ...
+Setting up libpathplan4 (2.26.3-10ubuntu1) ...
+Setting up libgvc5 (2.26.3-10ubuntu1) ...
+Setting up libilmbase6 (1.0.1-3build2) ...
+Setting up libopenexr6 (1.6.1-4.1) ...
+Setting up libmagickcore4-extra (8:6.6.9.7-5ubuntu3.2) ...
+Setting up libnetpbm10 (2:10.0-15) ...
+Setting up netpbm (2:10.0-15) ...
+Setting up gs-cjk-resource (1.20100103-3) ...
+Setting up libgs9 (9.05~dfsg-0ubuntu4.2) ...
+Setting up ghostscript (9.05~dfsg-0ubuntu4.2) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  emacs23 emacs23-bin-common emacs23-common emacsen-common libgif4 libgpm2
+  libm17n-0 libotf0 libpython2.7 m17n-contrib m17n-db python2.7
+  python2.7-minimal vim-common vim-runtime vim-tiny
+Suggested packages:
+  emacs23-el gpm m17n-docs gawk python2.7-doc binfmt-support ctags vim-doc
+  vim-scripts indent
+The following NEW packages will be installed:
+  emacs emacs23 emacs23-bin-common emacs23-common emacsen-common libgif4
+  libgpm2 libm17n-0 libotf0 libpython2.7 m17n-contrib m17n-db vim vim-runtime
+The following packages will be upgraded:
+  python2.7 python2.7-minimal vim-common vim-tiny
+4 upgraded, 14 newly installed, 0 to remove and 147 not upgraded.
+Need to get 42.3 MB of archives.
+After this operation, 115 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main libgif4 amd64 4.1.6-9ubuntu1 [31.0 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main libgpm2 amd64 1.20.4-4 [17.2 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main python2.7 amd64 2.7.3-0ubuntu3.2 [2,674 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main python2.7-minimal amd64 2.7.3-0ubuntu3.2 [1,738 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main vim-tiny amd64 2:7.3.429-2ubuntu2.1 [411 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main vim-common amd64 2:7.3.429-2ubuntu2.1 [86.5 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/main emacsen-common all 1.4.22ubuntu1 [16.9 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main emacs23-common all 23.3+1-1ubuntu9.2 [22.7 MB]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main emacs23-bin-common amd64 23.3+1-1ubuntu9.2 [174 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu/ precise/main libotf0 amd64 0.9.12-1 [49.5 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu/ precise/main m17n-db all 1.6.3-1 [1,800 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu/ precise/main m17n-contrib all 1.1.13-1 [508 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu/ precise/main libm17n-0 amd64 1.6.3-1 [292 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main emacs23 amd64 23.3+1-1ubuntu9.2 [3,336 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main emacs all 23.3+1-1ubuntu9.2 [2,258 B]
+Get:16 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libpython2.7 amd64 2.7.3-0ubuntu3.2 [1,188 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main vim-runtime all 2:7.3.429-2ubuntu2.1 [6,277 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main vim amd64 2:7.3.429-2ubuntu2.1 [1,048 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 42.3 MB in 9min 29s (74.3 kB/s)
+Selecting previously unselected package libgif4.
+(Reading database ... 60918 files and directories currently installed.)
+Unpacking libgif4 (from .../libgif4_4.1.6-9ubuntu1_amd64.deb) ...
+Selecting previously unselected package libgpm2.
+Unpacking libgpm2 (from .../libgpm2_1.20.4-4_amd64.deb) ...
+Preparing to replace python2.7 2.7.3-0ubuntu3 (using .../python2.7_2.7.3-0ubuntu3.2_amd64.deb) ...
+Unpacking replacement python2.7 ...
+Preparing to replace python2.7-minimal 2.7.3-0ubuntu3 (using .../python2.7-minimal_2.7.3-0ubuntu3.2_amd64.deb) ...
+Unpacking replacement python2.7-minimal ...
+Processing triggers for man-db ...
+Setting up python2.7-minimal (2.7.3-0ubuntu3.2) ...
+(Reading database ... 60934 files and directories currently installed.)
+Preparing to replace vim-tiny 2:7.3.429-2ubuntu2 (using .../vim-tiny_2%3a7.3.429-2ubuntu2.1_amd64.deb) ...
+Unpacking replacement vim-tiny ...
+Preparing to replace vim-common 2:7.3.429-2ubuntu2 (using .../vim-common_2%3a7.3.429-2ubuntu2.1_amd64.deb) ...
+Unpacking replacement vim-common ...
+Selecting previously unselected package emacsen-common.
+Unpacking emacsen-common (from .../emacsen-common_1.4.22ubuntu1_all.deb) ...
+Selecting previously unselected package emacs23-common.
+Unpacking emacs23-common (from .../emacs23-common_23.3+1-1ubuntu9.2_all.deb) ...
+Selecting previously unselected package emacs23-bin-common.
+Unpacking emacs23-bin-common (from .../emacs23-bin-common_23.3+1-1ubuntu9.2_amd64.deb) ...
+Selecting previously unselected package libotf0.
+Unpacking libotf0 (from .../libotf0_0.9.12-1_amd64.deb) ...
+Selecting previously unselected package m17n-db.
+Unpacking m17n-db (from .../m17n-db_1.6.3-1_all.deb) ...
+Selecting previously unselected package m17n-contrib.
+Unpacking m17n-contrib (from .../m17n-contrib_1.1.13-1_all.deb) ...
+Selecting previously unselected package libm17n-0.
+Unpacking libm17n-0 (from .../libm17n-0_1.6.3-1_amd64.deb) ...
+Selecting previously unselected package emacs23.
+Unpacking emacs23 (from .../emacs23_23.3+1-1ubuntu9.2_amd64.deb) ...
+Selecting previously unselected package emacs.
+Unpacking emacs (from .../emacs_23.3+1-1ubuntu9.2_all.deb) ...
+Selecting previously unselected package libpython2.7.
+Unpacking libpython2.7 (from .../libpython2.7_2.7.3-0ubuntu3.2_amd64.deb) ...
+Selecting previously unselected package vim-runtime.
+Unpacking vim-runtime (from .../vim-runtime_2%3a7.3.429-2ubuntu2.1_all.deb) ...
+Adding 'diversion of /usr/share/vim/vim73/doc/help.txt to /usr/share/vim/vim73/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim73/doc/tags to /usr/share/vim/vim73/doc/tags.vim-tiny by vim-runtime'
+Selecting previously unselected package vim.
+Unpacking vim (from .../vim_2%3a7.3.429-2ubuntu2.1_amd64.deb) ...
+Processing triggers for man-db ...
+Processing triggers for hicolor-icon-theme ...
+Processing triggers for install-info ...
+Setting up libgif4 (4.1.6-9ubuntu1) ...
+Setting up libgpm2 (1.20.4-4) ...
+Setting up python2.7 (2.7.3-0ubuntu3.2) ...
+Setting up vim-common (2:7.3.429-2ubuntu2.1) ...
+Setting up vim-tiny (2:7.3.429-2ubuntu2.1) ...
+Setting up emacsen-common (1.4.22ubuntu1) ...
+emacsen-common: Handling install of emacsen flavor emacs
+Setting up emacs23-common (23.3+1-1ubuntu9.2) ...
+Setting up emacs23-bin-common (23.3+1-1ubuntu9.2) ...
+update-alternatives: using /usr/bin/b2m.emacs23 to provide /usr/bin/b2m (b2m) in auto mode.
+update-alternatives: using /usr/bin/ctags.emacs23 to provide /usr/bin/ctags (ctags) in auto mode.
+update-alternatives: using /usr/bin/ebrowse.emacs23 to provide /usr/bin/ebrowse (ebrowse) in auto mode.
+update-alternatives: using /usr/bin/emacsclient.emacs23 to provide /usr/bin/emacsclient (emacsclient) in auto mode.
+update-alternatives: using /usr/bin/etags.emacs23 to provide /usr/bin/etags (etags) in auto mode.
+update-alternatives: using /usr/bin/grep-changelog.emacs23 to provide /usr/bin/grep-changelog (grep-changelog) in auto mode.
+update-alternatives: using /usr/bin/rcs-checkin.emacs23 to provide /usr/bin/rcs-checkin (rcs-checkin) in auto mode.
+Setting up libotf0 (0.9.12-1) ...
+Setting up m17n-db (1.6.3-1) ...
+Setting up m17n-contrib (1.1.13-1) ...
+Setting up libm17n-0 (1.6.3-1) ...
+Setting up emacs23 (23.3+1-1ubuntu9.2) ...
+update-alternatives: using /usr/bin/emacs23-x to provide /usr/bin/emacs (emacs) in auto mode.
+emacs-install emacs23
+emacsen-common: Handling install of emacsen flavor emacs23
+emacsen-common: byte-compiling for emacs23
+Wrote /etc/emacs23/site-start.d/00debian-vars.elc
+Wrote /usr/share/emacs23/site-lisp/debian-startup.elc
+Setting up emacs (23.3+1-1ubuntu9.2) ...
+Setting up libpython2.7 (2.7.3-0ubuntu3.2) ...
+Setting up vim-runtime (2:7.3.429-2ubuntu2.1) ...
+Processing /usr/share/vim/addons/doc
+Setting up vim (2:7.3.429-2ubuntu2.1) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode.
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode.
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode.
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode.
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode.
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode.
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode.
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  comerr-dev krb5-multidev libboost-dev libboost-filesystem1.46.1
+  libboost-program-options1.46.1 libboost-system1.46.1 libboost-thread1.46.1
+  libboost1.46-dev libgssapi-krb5-2 libgssrpc4 libgstreamer-plugins-base0.10-0
+  libgstreamer0.10-0 libk5crypto3 libkadm5clnt-mit8 libkadm5srv-mit8 libkdb5-6
+  libkrb5-3 libkrb5-dev libkrb5support0 liborc-0.4-0 libossp-uuid16 libpq5
+  libsqlite3-0 libwxbase2.8-0 libwxgtk2.8-0 libxslt1.1 mongodb-clients
+  mongodb-dev mongodb-server pgadmin3-data pgagent postgresql-9.1
+  postgresql-client-9.1 postgresql-client-common postgresql-common
+  postgresql-contrib-9.1 ssl-cert
+Suggested packages:
+  doc-base krb5-doc libboost1.46-doc libboost-date-time1.46-dev
+  libboost-filesystem1.46-dev libboost-graph1.46-dev
+  libboost-iostreams1.46-dev libboost-math1.46-dev
+  libboost-program-options1.46-dev libboost-python1.46-dev
+  libboost-random1.46-dev libboost-regex1.46-dev
+  libboost-serialization1.46-dev libboost-signals1.46-dev
+  libboost-system1.46-dev libboost-test1.46-dev libboost-thread1.46-dev
+  libboost-wave1.46-dev xsltproc doxygen docbook-xml docbook-xsl default-jdk
+  fop krb5-user libvisual-0.4-plugins gstreamer-codec-install
+  gnome-codec-install gstreamer0.10-tools gstreamer0.10-plugins-base uuid
+  postgresql-doc-9.1 libgnomeprintui2.2-0 oidentd ident-server locales-all
+  libdbd-pg-perl sqlite3-doc openssl-blacklist
+Recommended packages:
+  postgresql-client
+The following NEW packages will be installed:
+  comerr-dev krb5-multidev libboost-dev libboost-filesystem1.46.1
+  libboost-program-options1.46.1 libboost-system1.46.1 libboost-thread1.46.1
+  libboost1.46-dev libgssrpc4 libgstreamer-plugins-base0.10-0
+  libgstreamer0.10-0 libkadm5clnt-mit8 libkadm5srv-mit8 libkdb5-6 libkrb5-dev
+  liborc-0.4-0 libossp-uuid16 libpq-dev libpq5 libwxbase2.8-0 libwxgtk2.8-0
+  libxslt1.1 mongodb mongodb-clients mongodb-dev mongodb-server pgadmin3
+  pgadmin3-data pgagent postgresql postgresql-9.1 postgresql-client-9.1
+  postgresql-client-common postgresql-common postgresql-contrib
+  postgresql-contrib-9.1 sqlite3 ssl-cert
+The following packages will be upgraded:
+  libgssapi-krb5-2 libk5crypto3 libkrb5-3 libkrb5support0 libsqlite3-0
+5 upgraded, 38 newly installed, 0 to remove and 142 not upgraded.
+Need to get 49.8 MB of archives.
+After this operation, 171 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libsqlite3-0 amd64 3.7.9-2ubuntu1.1 [349 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libk5crypto3 amd64 1.10+dfsg~beta1-2ubuntu0.3 [80.1 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgssapi-krb5-2 amd64 1.10+dfsg~beta1-2ubuntu0.3 [118 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libkrb5-3 amd64 1.10+dfsg~beta1-2ubuntu0.3 [355 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libkrb5support0 amd64 1.10+dfsg~beta1-2ubuntu0.3 [23.8 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgssrpc4 amd64 1.10+dfsg~beta1-2ubuntu0.3 [57.5 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libkadm5clnt-mit8 amd64 1.10+dfsg~beta1-2ubuntu0.3 [38.7 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libkdb5-6 amd64 1.10+dfsg~beta1-2ubuntu0.3 [37.5 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libkadm5srv-mit8 amd64 1.10+dfsg~beta1-2ubuntu0.3 [54.4 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu/ precise/main libgstreamer0.10-0 amd64 0.10.36-1ubuntu1 [781 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu/ precise/main liborc-0.4-0 amd64 1:0.4.16-1ubuntu2 [176 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libgstreamer-plugins-base0.10-0 amd64 0.10.36-1ubuntu0.1 [543 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu/ precise/universe libwxbase2.8-0 amd64 2.8.12.1-6ubuntu2 [583 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu/ precise/universe libwxgtk2.8-0 amd64 2.8.12.1-6ubuntu2 [3,328 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libxslt1.1 amd64 1.1.26-8ubuntu1.3 [167 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu/ precise/main comerr-dev amd64 2.1-1.42-1ubuntu2 [42.7 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main krb5-multidev amd64 1.10+dfsg~beta1-2ubuntu0.3 [125 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu/ precise/main libboost1.46-dev amd64 1.46.1-7ubuntu3 [7,656 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu/ precise/main libboost-dev amd64 1.48.0.2 [2,826 B]
+Get:20 http://us.archive.ubuntu.com/ubuntu/ precise/universe libboost-system1.46.1 amd64 1.46.1-7ubuntu3 [14.6 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu/ precise/universe libboost-filesystem1.46.1 amd64 1.46.1-7ubuntu3 [50.7 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu/ precise/main libboost-program-options1.46.1 amd64 1.46.1-7ubuntu3 [146 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu/ precise/universe libboost-thread1.46.1 amd64 1.46.1-7ubuntu3 [39.5 kB]
+Get:24 http://us.archive.ubuntu.com/ubuntu/ precise/main libossp-uuid16 amd64 1.6.2-1.1build3 [51.4 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libpq5 amd64 9.1.9-0ubuntu12.04 [97.6 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libkrb5-dev amd64 1.10+dfsg~beta1-2ubuntu0.3 [11.0 kB]
+Get:27 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libpq-dev amd64 9.1.9-0ubuntu12.04 [215 kB]
+Get:28 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe mongodb-clients amd64 1:2.0.4-1ubuntu2.1 [16.5 MB]
+Get:29 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe mongodb-server amd64 1:2.0.4-1ubuntu2.1 [4,167 kB]
+Get:30 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe mongodb-dev amd64 1:2.0.4-1ubuntu2.1 [1,703 kB]
+Get:31 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe mongodb amd64 1:2.0.4-1ubuntu2.1 [5,160 B]
+Get:32 http://us.archive.ubuntu.com/ubuntu/ precise/universe pgadmin3-data all 1.14.0-2 [3,959 kB]
+Get:33 http://us.archive.ubuntu.com/ubuntu/ precise/universe pgadmin3 amd64 1.14.0-2 [2,429 kB]
+Get:34 http://us.archive.ubuntu.com/ubuntu/ precise/universe pgagent amd64 3.0.1-1 [39.5 kB]
+Get:35 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main postgresql-client-common all 129ubuntu1 [25.1 kB]
+Get:36 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main postgresql-client-9.1 amd64 9.1.9-0ubuntu12.04 [958 kB]
+Get:37 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main ssl-cert all 1.0.28ubuntu0.1 [12.3 kB]
+Get:38 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main postgresql-common all 129ubuntu1 [96.5 kB]
+Get:39 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main postgresql-9.1 amd64 9.1.9-0ubuntu12.04 [4,302 kB]
+Get:40 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main postgresql all 9.1+129ubuntu1 [5,552 B]
+Get:41 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main postgresql-contrib-9.1 amd64 9.1.9-0ubuntu12.04 [460 kB]
+Get:42 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main postgresql-contrib all 9.1+129ubuntu1 [5,572 B]
+Get:43 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main sqlite3 amd64 3.7.9-2ubuntu1.1 [26.8 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 49.8 MB in 5min 47s (143 kB/s)
+(Reading database ... 65591 files and directories currently installed.)
+Preparing to replace libsqlite3-0 3.7.9-2ubuntu1 (using .../libsqlite3-0_3.7.9-2ubuntu1.1_amd64.deb) ...
+Unpacking replacement libsqlite3-0 ...
+Preparing to replace libk5crypto3 1.10+dfsg~beta1-2 (using .../libk5crypto3_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Unpacking replacement libk5crypto3 ...
+Preparing to replace libgssapi-krb5-2 1.10+dfsg~beta1-2 (using .../libgssapi-krb5-2_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Unpacking replacement libgssapi-krb5-2 ...
+Preparing to replace libkrb5-3 1.10+dfsg~beta1-2 (using .../libkrb5-3_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Unpacking replacement libkrb5-3 ...
+Preparing to replace libkrb5support0 1.10+dfsg~beta1-2 (using .../libkrb5support0_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Unpacking replacement libkrb5support0 ...
+Selecting previously unselected package libgssrpc4.
+Unpacking libgssrpc4 (from .../libgssrpc4_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Selecting previously unselected package libkadm5clnt-mit8.
+Unpacking libkadm5clnt-mit8 (from .../libkadm5clnt-mit8_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Selecting previously unselected package libkdb5-6.
+Unpacking libkdb5-6 (from .../libkdb5-6_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Selecting previously unselected package libkadm5srv-mit8.
+Unpacking libkadm5srv-mit8 (from .../libkadm5srv-mit8_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Selecting previously unselected package libgstreamer0.10-0.
+Unpacking libgstreamer0.10-0 (from .../libgstreamer0.10-0_0.10.36-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package liborc-0.4-0.
+Unpacking liborc-0.4-0 (from .../liborc-0.4-0_1%3a0.4.16-1ubuntu2_amd64.deb) ...
+Selecting previously unselected package libgstreamer-plugins-base0.10-0.
+Unpacking libgstreamer-plugins-base0.10-0 (from .../libgstreamer-plugins-base0.10-0_0.10.36-1ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libwxbase2.8-0.
+Unpacking libwxbase2.8-0 (from .../libwxbase2.8-0_2.8.12.1-6ubuntu2_amd64.deb) ...
+Selecting previously unselected package libwxgtk2.8-0.
+Unpacking libwxgtk2.8-0 (from .../libwxgtk2.8-0_2.8.12.1-6ubuntu2_amd64.deb) ...
+Selecting previously unselected package libxslt1.1.
+Unpacking libxslt1.1 (from .../libxslt1.1_1.1.26-8ubuntu1.3_amd64.deb) ...
+Selecting previously unselected package comerr-dev.
+Unpacking comerr-dev (from .../comerr-dev_2.1-1.42-1ubuntu2_amd64.deb) ...
+Selecting previously unselected package krb5-multidev.
+Unpacking krb5-multidev (from .../krb5-multidev_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Selecting previously unselected package libboost1.46-dev.
+Unpacking libboost1.46-dev (from .../libboost1.46-dev_1.46.1-7ubuntu3_amd64.deb) ...
+Selecting previously unselected package libboost-dev.
+Unpacking libboost-dev (from .../libboost-dev_1.48.0.2_amd64.deb) ...
+Selecting previously unselected package libboost-system1.46.1.
+Unpacking libboost-system1.46.1 (from .../libboost-system1.46.1_1.46.1-7ubuntu3_amd64.deb) ...
+Selecting previously unselected package libboost-filesystem1.46.1.
+Unpacking libboost-filesystem1.46.1 (from .../libboost-filesystem1.46.1_1.46.1-7ubuntu3_amd64.deb) ...
+Selecting previously unselected package libboost-program-options1.46.1.
+Unpacking libboost-program-options1.46.1 (from .../libboost-program-options1.46.1_1.46.1-7ubuntu3_amd64.deb) ...
+Selecting previously unselected package libboost-thread1.46.1.
+Unpacking libboost-thread1.46.1 (from .../libboost-thread1.46.1_1.46.1-7ubuntu3_amd64.deb) ...
+Selecting previously unselected package libossp-uuid16.
+Unpacking libossp-uuid16 (from .../libossp-uuid16_1.6.2-1.1build3_amd64.deb) ...
+Selecting previously unselected package libpq5.
+Unpacking libpq5 (from .../libpq5_9.1.9-0ubuntu12.04_amd64.deb) ...
+Selecting previously unselected package libkrb5-dev.
+Unpacking libkrb5-dev (from .../libkrb5-dev_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb) ...
+Selecting previously unselected package libpq-dev.
+Unpacking libpq-dev (from .../libpq-dev_9.1.9-0ubuntu12.04_amd64.deb) ...
+Selecting previously unselected package mongodb-clients.
+Unpacking mongodb-clients (from .../mongodb-clients_1%3a2.0.4-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package mongodb-server.
+Unpacking mongodb-server (from .../mongodb-server_1%3a2.0.4-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package mongodb-dev.
+Unpacking mongodb-dev (from .../mongodb-dev_1%3a2.0.4-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package mongodb.
+Unpacking mongodb (from .../mongodb_1%3a2.0.4-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package pgadmin3-data.
+Unpacking pgadmin3-data (from .../pgadmin3-data_1.14.0-2_all.deb) ...
+Selecting previously unselected package pgadmin3.
+Unpacking pgadmin3 (from .../pgadmin3_1.14.0-2_amd64.deb) ...
+Selecting previously unselected package pgagent.
+Unpacking pgagent (from .../pgagent_3.0.1-1_amd64.deb) ...
+Selecting previously unselected package postgresql-client-common.
+Unpacking postgresql-client-common (from .../postgresql-client-common_129ubuntu1_all.deb) ...
+Selecting previously unselected package postgresql-client-9.1.
+Unpacking postgresql-client-9.1 (from .../postgresql-client-9.1_9.1.9-0ubuntu12.04_amd64.deb) ...
+Selecting previously unselected package ssl-cert.
+Unpacking ssl-cert (from .../ssl-cert_1.0.28ubuntu0.1_all.deb) ...
+Selecting previously unselected package postgresql-common.
+Unpacking postgresql-common (from .../postgresql-common_129ubuntu1_all.deb) ...
+Adding 'diversion of /usr/bin/pg_config to /usr/bin/pg_config.libpq-dev by postgresql-common'
+Selecting previously unselected package postgresql-9.1.
+Unpacking postgresql-9.1 (from .../postgresql-9.1_9.1.9-0ubuntu12.04_amd64.deb) ...
+Selecting previously unselected package postgresql.
+Unpacking postgresql (from .../postgresql_9.1+129ubuntu1_all.deb) ...
+Selecting previously unselected package postgresql-contrib-9.1.
+Unpacking postgresql-contrib-9.1 (from .../postgresql-contrib-9.1_9.1.9-0ubuntu12.04_amd64.deb) ...
+Selecting previously unselected package postgresql-contrib.
+Unpacking postgresql-contrib (from .../postgresql-contrib_9.1+129ubuntu1_all.deb) ...
+Selecting previously unselected package sqlite3.
+Unpacking sqlite3 (from .../sqlite3_3.7.9-2ubuntu1.1_amd64.deb) ...
+Processing triggers for install-info ...
+Processing triggers for man-db ...
+Processing triggers for ureadahead ...
+Setting up libsqlite3-0 (3.7.9-2ubuntu1.1) ...
+Setting up libkrb5support0 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libk5crypto3 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libkrb5-3 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libgssapi-krb5-2 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libgssrpc4 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libkadm5clnt-mit8 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libkdb5-6 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libkadm5srv-mit8 (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libgstreamer0.10-0 (0.10.36-1ubuntu1) ...
+Setting up liborc-0.4-0 (1:0.4.16-1ubuntu2) ...
+Setting up libgstreamer-plugins-base0.10-0 (0.10.36-1ubuntu0.1) ...
+Setting up libwxbase2.8-0 (2.8.12.1-6ubuntu2) ...
+Setting up libwxgtk2.8-0 (2.8.12.1-6ubuntu2) ...
+Setting up libxslt1.1 (1.1.26-8ubuntu1.3) ...
+Setting up comerr-dev (2.1-1.42-1ubuntu2) ...
+Setting up krb5-multidev (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libboost1.46-dev (1.46.1-7ubuntu3) ...
+Setting up libboost-dev (1.48.0.2) ...
+Setting up libboost-system1.46.1 (1.46.1-7ubuntu3) ...
+Setting up libboost-filesystem1.46.1 (1.46.1-7ubuntu3) ...
+Setting up libboost-program-options1.46.1 (1.46.1-7ubuntu3) ...
+Setting up libboost-thread1.46.1 (1.46.1-7ubuntu3) ...
+Setting up libossp-uuid16 (1.6.2-1.1build3) ...
+Setting up libpq5 (9.1.9-0ubuntu12.04) ...
+Setting up libkrb5-dev (1.10+dfsg~beta1-2ubuntu0.3) ...
+Setting up libpq-dev (9.1.9-0ubuntu12.04) ...
+Setting up mongodb-clients (1:2.0.4-1ubuntu2.1) ...
+Setting up mongodb-server (1:2.0.4-1ubuntu2.1) ...
+Adding system user `mongodb' (UID 106) ...
+Adding new user `mongodb' (UID 106) with group `nogroup' ...
+Not creating home directory `/home/mongodb'.
+Adding group `mongodb' (GID 112) ...
+Done.
+Adding user `mongodb' to group `mongodb' ...
+Adding user mongodb to group mongodb
+Done.
+mongodb start/running, process 17831
+Setting up mongodb-dev (1:2.0.4-1ubuntu2.1) ...
+Setting up mongodb (1:2.0.4-1ubuntu2.1) ...
+Setting up pgadmin3-data (1.14.0-2) ...
+Setting up pgadmin3 (1.14.0-2) ...
+Setting up pgagent (3.0.1-1) ...
+Setting up postgresql-client-common (129ubuntu1) ...
+Setting up postgresql-client-9.1 (9.1.9-0ubuntu12.04) ...
+update-alternatives: using /usr/share/postgresql/9.1/man/man1/psql.1.gz to provide /usr/share/man/man1/psql.1.gz (psql.1.gz) in auto mode.
+Setting up ssl-cert (1.0.28ubuntu0.1) ...
+Setting up postgresql-common (129ubuntu1) ...
+Adding user postgres to group ssl-cert
+Building PostgreSQL dictionaries from installed myspell/hunspell packages...
+Setting up postgresql-9.1 (9.1.9-0ubuntu12.04) ...
+Creating new cluster (configuration: /etc/postgresql/9.1/main, data: /var/lib/postgresql/9.1/main)...
+Moving configuration file /var/lib/postgresql/9.1/main/postgresql.conf to /etc/postgresql/9.1/main...
+Moving configuration file /var/lib/postgresql/9.1/main/pg_hba.conf to /etc/postgresql/9.1/main...
+Moving configuration file /var/lib/postgresql/9.1/main/pg_ident.conf to /etc/postgresql/9.1/main...
+Configuring postgresql.conf to use port 5432...
+update-alternatives: using /usr/share/postgresql/9.1/man/man1/postmaster.1.gz to provide /usr/share/man/man1/postmaster.1.gz (postmaster.1.gz) in auto mode.
+ * Starting PostgreSQL 9.1 database server
+   ...done.
+Setting up postgresql (9.1+129ubuntu1) ...
+Setting up postgresql-contrib-9.1 (9.1.9-0ubuntu12.04) ...
+Setting up postgresql-contrib (9.1+129ubuntu1) ...
+Setting up sqlite3 (3.7.9-2ubuntu1.1) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Suggested packages:
+  byobu
+The following NEW packages will be installed:
+  screen
+0 upgraded, 1 newly installed, 0 to remove and 142 not upgraded.
+Need to get 611 kB of archives.
+After this operation, 1,077 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main screen amd64 4.0.3-14ubuntu8 [611 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 611 kB in 5s (103 kB/s)
+Selecting previously unselected package screen.
+(Reading database ... 75932 files and directories currently installed.)
+Unpacking screen (from .../screen_4.0.3-14ubuntu8_amd64.deb) ...
+Processing triggers for ureadahead ...
+Processing triggers for install-info ...
+Processing triggers for man-db ...
+Setting up screen (4.0.3-14ubuntu8) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  ca-certificates-java icedtea-6-jre-cacao icedtea-6-jre-jamvm icedtea-netx
+  icedtea-netx-common java-common libasyncns0 libatk-wrapper-java
+  libatk-wrapper-java-jni libflac8 libhawtjni-runtime-java libjansi-java
+  libjansi-native-java libjson0 libogg0 libpcsclite1 libpulse0 libsndfile1
+  libvorbis0a libvorbisenc2 openjdk-6-jre openjdk-6-jre-headless
+  openjdk-6-jre-lib ttf-dejavu-extra tzdata tzdata-java
+Suggested packages:
+  default-jre equivs pcscd pulseaudio icedtea-plugin libnss-mdns
+  sun-java6-fonts fonts-ipafont-gothic fonts-ipafont-mincho ttf-wqy-microhei
+  ttf-wqy-zenhei ttf-indic-fonts-core ttf-telugu-fonts ttf-oriya-fonts
+  ttf-kannada-fonts ttf-bengali-fonts
+The following NEW packages will be installed:
+  ca-certificates-java icedtea-6-jre-cacao icedtea-6-jre-jamvm icedtea-netx
+  icedtea-netx-common java-common libasyncns0 libatk-wrapper-java
+  libatk-wrapper-java-jni libflac8 libhawtjni-runtime-java libjansi-java
+  libjansi-native-java libjson0 libogg0 libpcsclite1 libpulse0 libsndfile1
+  libvorbis0a libvorbisenc2 openjdk-6-jre openjdk-6-jre-headless
+  openjdk-6-jre-lib scala ttf-dejavu-extra tzdata-java
+The following packages will be upgraded:
+  tzdata
+1 upgraded, 26 newly installed, 0 to remove and 141 not upgraded.
+Need to get 60.4 MB of archives.
+After this operation, 104 MB of additional disk space will be used.
+Get:1 http://apt.typesafe.com/ unicorn/main scala all 2.9.2-400 [21.5 MB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main libasyncns0 amd64 0.8-4 [13.2 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main openjdk-6-jre-lib all 6b27-1.12.6-1ubuntu0.12.04.2 [6,143 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main ca-certificates-java all 20110912ubuntu6 [8,186 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main tzdata all 2012e-0ubuntu0.12.04.1 [474 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main tzdata-java all 2012e-0ubuntu0.12.04.1 [140 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/main java-common all 0.43ubuntu2 [61.7 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise/main libpcsclite1 amd64 1.7.4-2ubuntu2 [23.5 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main openjdk-6-jre-headless amd64 6b27-1.12.6-1ubuntu0.12.04.2 [25.4 MB]
+Get:10 http://us.archive.ubuntu.com/ubuntu/ precise/main libjson0 amd64 0.9-1ubuntu1 [16.3 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu/ precise/main libogg0 amd64 1.2.2~dfsg-1ubuntu1 [17.2 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu/ precise/main libflac8 amd64 1.2.1-6 [144 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu/ precise/main libvorbis0a amd64 1.3.2-1ubuntu3 [103 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu/ precise/main libvorbisenc2 amd64 1.3.2-1ubuntu3 [136 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu/ precise/main libsndfile1 amd64 1.0.25-4 [163 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libpulse0 amd64 1:1.1-0ubuntu15.3 [289 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main openjdk-6-jre amd64 6b27-1.12.6-1ubuntu0.12.04.2 [233 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu/ precise/main libatk-wrapper-java all 0.30.4-0ubuntu2 [30.9 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu/ precise/main libatk-wrapper-java-jni amd64 0.30.4-0ubuntu2 [30.5 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu/ precise/universe libhawtjni-runtime-java all 1.0~+git0c502e20c4-3 [45.5 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu/ precise/universe libjansi-native-java all 1.0-3 [23.4 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu/ precise/universe libjansi-java all 1.4-3 [57.4 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu/ precise/main ttf-dejavu-extra all 2.33-2ubuntu1 [3,420 kB]
+Get:24 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main icedtea-6-jre-cacao amd64 6b27-1.12.6-1ubuntu0.12.04.2 [776 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main icedtea-6-jre-jamvm amd64 6b27-1.12.6-1ubuntu0.12.04.2 [512 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main icedtea-netx-common all 1.2.3-0ubuntu0.12.04.3 [600 kB]
+Get:27 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main icedtea-netx amd64 1.2.3-0ubuntu0.12.04.3 [16.2 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 60.4 MB in 24s (2,488 kB/s)
+Selecting previously unselected package libasyncns0.
+(Reading database ... 75986 files and directories currently installed.)
+Unpacking libasyncns0 (from .../libasyncns0_0.8-4_amd64.deb) ...
+Selecting previously unselected package openjdk-6-jre-lib.
+Unpacking openjdk-6-jre-lib (from .../openjdk-6-jre-lib_6b27-1.12.6-1ubuntu0.12.04.2_all.deb) ...
+Selecting previously unselected package ca-certificates-java.
+Unpacking ca-certificates-java (from .../ca-certificates-java_20110912ubuntu6_all.deb) ...
+Preparing to replace tzdata 2012b-1 (using .../tzdata_2012e-0ubuntu0.12.04.1_all.deb) ...
+Unpacking replacement tzdata ...
+Setting up tzdata (2012e-0ubuntu0.12.04.1) ...
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Sun Sep  8 23:59:33 UTC 2013.
+Universal Time is now:  Sun Sep  8 23:59:33 UTC 2013.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Selecting previously unselected package tzdata-java.
+(Reading database ... 76044 files and directories currently installed.)
+Unpacking tzdata-java (from .../tzdata-java_2012e-0ubuntu0.12.04.1_all.deb) ...
+Selecting previously unselected package java-common.
+Unpacking java-common (from .../java-common_0.43ubuntu2_all.deb) ...
+Selecting previously unselected package libpcsclite1.
+Unpacking libpcsclite1 (from .../libpcsclite1_1.7.4-2ubuntu2_amd64.deb) ...
+Selecting previously unselected package openjdk-6-jre-headless.
+Unpacking openjdk-6-jre-headless (from .../openjdk-6-jre-headless_6b27-1.12.6-1ubuntu0.12.04.2_amd64.deb) ...
+Selecting previously unselected package libjson0.
+Unpacking libjson0 (from .../libjson0_0.9-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package libogg0.
+Unpacking libogg0 (from .../libogg0_1.2.2~dfsg-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package libflac8.
+Unpacking libflac8 (from .../libflac8_1.2.1-6_amd64.deb) ...
+Selecting previously unselected package libvorbis0a.
+Unpacking libvorbis0a (from .../libvorbis0a_1.3.2-1ubuntu3_amd64.deb) ...
+Selecting previously unselected package libvorbisenc2.
+Unpacking libvorbisenc2 (from .../libvorbisenc2_1.3.2-1ubuntu3_amd64.deb) ...
+Selecting previously unselected package libsndfile1.
+Unpacking libsndfile1 (from .../libsndfile1_1.0.25-4_amd64.deb) ...
+Selecting previously unselected package libpulse0.
+Unpacking libpulse0 (from .../libpulse0_1%3a1.1-0ubuntu15.3_amd64.deb) ...
+Selecting previously unselected package openjdk-6-jre.
+Unpacking openjdk-6-jre (from .../openjdk-6-jre_6b27-1.12.6-1ubuntu0.12.04.2_amd64.deb) ...
+Selecting previously unselected package libatk-wrapper-java.
+Unpacking libatk-wrapper-java (from .../libatk-wrapper-java_0.30.4-0ubuntu2_all.deb) ...
+Selecting previously unselected package libatk-wrapper-java-jni.
+Unpacking libatk-wrapper-java-jni (from .../libatk-wrapper-java-jni_0.30.4-0ubuntu2_amd64.deb) ...
+Selecting previously unselected package libhawtjni-runtime-java.
+Unpacking libhawtjni-runtime-java (from .../libhawtjni-runtime-java_1.0~+git0c502e20c4-3_all.deb) ...
+Selecting previously unselected package libjansi-native-java.
+Unpacking libjansi-native-java (from .../libjansi-native-java_1.0-3_all.deb) ...
+Selecting previously unselected package libjansi-java.
+Unpacking libjansi-java (from .../libjansi-java_1.4-3_all.deb) ...
+Selecting previously unselected package scala.
+Unpacking scala (from .../scala_2.9.2-400_all.deb) ...
+Selecting previously unselected package ttf-dejavu-extra.
+Unpacking ttf-dejavu-extra (from .../ttf-dejavu-extra_2.33-2ubuntu1_all.deb) ...
+Selecting previously unselected package icedtea-6-jre-cacao.
+Unpacking icedtea-6-jre-cacao (from .../icedtea-6-jre-cacao_6b27-1.12.6-1ubuntu0.12.04.2_amd64.deb) ...
+Selecting previously unselected package icedtea-6-jre-jamvm.
+Unpacking icedtea-6-jre-jamvm (from .../icedtea-6-jre-jamvm_6b27-1.12.6-1ubuntu0.12.04.2_amd64.deb) ...
+Selecting previously unselected package icedtea-netx-common.
+Unpacking icedtea-netx-common (from .../icedtea-netx-common_1.2.3-0ubuntu0.12.04.3_all.deb) ...
+Selecting previously unselected package icedtea-netx.
+Unpacking icedtea-netx (from .../icedtea-netx_1.2.3-0ubuntu0.12.04.3_amd64.deb) ...
+Processing triggers for man-db ...
+Processing triggers for hicolor-icon-theme ...
+Processing triggers for fontconfig ...
+Setting up libasyncns0 (0.8-4) ...
+Setting up tzdata-java (2012e-0ubuntu0.12.04.1) ...
+Setting up java-common (0.43ubuntu2) ...
+Setting up libpcsclite1 (1.7.4-2ubuntu2) ...
+Setting up libjson0 (0.9-1ubuntu1) ...
+Setting up libogg0 (1.2.2~dfsg-1ubuntu1) ...
+Setting up libflac8 (1.2.1-6) ...
+Setting up libvorbis0a (1.3.2-1ubuntu3) ...
+Setting up libvorbisenc2 (1.3.2-1ubuntu3) ...
+Setting up libsndfile1 (1.0.25-4) ...
+Setting up libpulse0 (1:1.1-0ubuntu15.3) ...
+Setting up libhawtjni-runtime-java (1.0~+git0c502e20c4-3) ...
+Setting up libjansi-native-java (1.0-3) ...
+Setting up libjansi-java (1.4-3) ...
+Setting up ttf-dejavu-extra (2.33-2ubuntu1) ...
+Setting up icedtea-netx-common (1.2.3-0ubuntu0.12.04.3) ...
+Setting up openjdk-6-jre-headless (6b27-1.12.6-1ubuntu0.12.04.2) ...
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/orbd to provide /usr/bin/orbd (orbd) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/servertool to provide /usr/bin/servertool (servertool) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/tnameserv to provide /usr/bin/tnameserv (tnameserv) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode.
+Setting up ca-certificates-java (20110912ubuntu6) ...
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:ValiCert_Class_2_VA.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G3.pem
+Adding debian:Root_CA_Generalitat_Valenciana.pem
+Adding debian:ValiCert_Class_1_VA.pem
+Adding debian:Digital_Signature_Trust_Co._Global_CA_3.pem
+Adding debian:RSA_Root_Certificate_1.pem
+Adding debian:spi-cacert-2008.pem
+Adding debian:GeoTrust_Universal_CA.pem
+Adding debian:Certplus_Class_2_Primary_CA.pem
+Adding debian:Wells_Fargo_Root_CA.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:Global_Chambersign_Root_-_2008.pem
+Adding debian:AddTrust_Qualified_Certificates_Root.pem
+Adding debian:Certinomis_-_Autorité_Racine.pem
+Adding debian:Cybertrust_Global_Root.pem
+Adding debian:Camerfirma_Global_Chambersign_Root.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:ACEDICOM_Root.pem
+Adding debian:RSA_Security_2048_v3.pem
+Adding debian:ca.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:America_Online_Root_Certification_Authority_2.pem
+Adding debian:TC_TrustCenter_Class_2_CA_II.pem
+Adding debian:DST_Root_CA_X3.pem
+Adding debian:Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.pem
+Adding debian:NetLock_Notary_=Class_A=_Root.pem
+Adding debian:NetLock_Business_=Class_B=_Root.pem
+Adding debian:EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.pem
+Adding debian:NetLock_Express_=Class_C=_Root.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G2.pem
+Adding debian:Entrust.net_Secure_Server_CA.pem
+Adding debian:TC_TrustCenter_Universal_CA_III.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:Camerfirma_Chambers_of_Commerce_Root.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:thawte_Primary_Root_CA.pem
+Adding debian:thawte_Primary_Root_CA_-_G2.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G2.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.pem
+Adding debian:ApplicationCA_-_Japanese_Government.pem
+Adding debian:TURKTRUST_Certificate_Services_Provider_Root_1.pem
+Adding debian:Thawte_Premium_Server_CA.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:AddTrust_Low-Value_Services_Root.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:thawte_Primary_Root_CA_-_G3.pem
+Adding debian:Security_Communication_EV_RootCA1.pem
+Adding debian:UTN_USERFirst_Email_Root_CA.pem
+Adding debian:TDC_Internet_Root_CA.pem
+Adding debian:Verisign_Class_4_Public_Primary_Certification_Authority_-_G2.pem
+Adding debian:Deutsche_Telekom_Root_CA_2.pem
+Adding debian:QuoVadis_Root_CA.pem
+Adding debian:UTN_DATACorp_SGC_Root_CA.pem
+Adding debian:Thawte_Server_CA.pem
+Adding debian:Comodo_Secure_Services_root.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+Adding debian:TC_TrustCenter_Class_3_CA_II.pem
+Adding debian:Certigna.pem
+Adding debian:Visa_eCommerce_Root.pem
+Adding debian:GeoTrust_Global_CA.pem
+Adding debian:ComSign_CA.pem
+Adding debian:Juur-SK.pem
+Adding debian:Comodo_Trusted_Services_root.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:A-Trust-nQual-03.pem
+Adding debian:Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:Chambers_of_Commerce_Root_-_2008.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:Staat_der_Nederlanden_Root_CA.pem
+Adding debian:spi-ca-2003.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:GTE_CyberTrust_Global_Root.pem
+Adding debian:Certum_Root_CA.pem
+Adding debian:S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.pem
+Adding debian:CNNIC_ROOT.pem
+Adding debian:Microsec_e-Szigno_Root_CA.pem
+Adding debian:NetLock_Qualified_=Class_QA=_Root.pem
+Adding debian:Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:GlobalSign_Root_CA_-_R2.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+Adding debian:TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:CA_Disig.pem
+Adding debian:Network_Solutions_Certificate_Authority.pem
+Adding debian:WellsSecure_Public_Root_Certificate_Authority.pem
+Adding debian:TDC_OCES_Root_CA.pem
+Adding debian:TC_TrustCenter__Germany__Class_2_CA.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:ssl-cert-snakeoil.pem
+Adding debian:AC_Raíz_Certicámara_S.A..pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:GeoTrust_Universal_CA_2.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.pem
+Adding debian:cacert.org.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:StartCom_Certification_Authority.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:TC_TrustCenter_Universal_CA_I.pem
+Adding debian:Sonera_Class_1_Root_CA.pem
+Adding debian:Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:UTN_USERFirst_Hardware_Root_CA.pem
+Adding debian:TC_TrustCenter__Germany__Class_3_CA.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:GeoTrust_Primary_Certification_Authority.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:SwissSign_Platinum_CA_-_G2.pem
+Adding debian:TURKTRUST_Certificate_Services_Provider_Root_2.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:Sonera_Class_2_Root_CA.pem
+Adding debian:DST_ACES_CA_X6.pem
+Adding debian:E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.pem
+Adding debian:Equifax_Secure_CA.pem
+Adding debian:Taiwan_GRCA.pem
+Adding debian:OISTE_WISeKey_Global_Root_GA_CA.pem
+Adding debian:VeriSign_Universal_Root_Certification_Authority.pem
+Adding debian:Buypass_Class_3_CA_1.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:Digital_Signature_Trust_Co._Global_CA_1.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:Equifax_Secure_eBusiness_CA_2.pem
+Adding debian:AddTrust_Public_Services_Root.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:Equifax_Secure_eBusiness_CA_1.pem
+Adding debian:AddTrust_External_Root.pem
+Adding debian:GeoTrust_Global_CA_2.pem
+Adding debian:Firmaprofesional_Root_CA.pem
+Adding debian:Verisign_Class_2_Public_Primary_Certification_Authority.pem
+Adding debian:Equifax_Secure_Global_eBusiness_CA.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:Izenpe.com.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:ComSign_Secured_CA.pem
+Adding debian:Hongkong_Post_Root_CA_1.pem
+Adding debian:Verisign_Class_1_Public_Primary_Certification_Authority.pem
+Adding debian:Swisscom_Root_CA_1.pem
+Adding debian:America_Online_Root_Certification_Authority_1.pem
+Adding debian:Buypass_Class_2_CA_1.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:IGC_A.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+done.
+Setting up libatk-wrapper-java (0.30.4-0ubuntu2) ...
+Setting up icedtea-6-jre-cacao (6b27-1.12.6-1ubuntu0.12.04.2) ...
+Setting up icedtea-6-jre-jamvm (6b27-1.12.6-1ubuntu0.12.04.2) ...
+Setting up openjdk-6-jre-lib (6b27-1.12.6-1ubuntu0.12.04.2) ...
+Setting up libatk-wrapper-java-jni (0.30.4-0ubuntu2) ...
+Setting up openjdk-6-jre (6b27-1.12.6-1ubuntu0.12.04.2) ...
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/policytool to provide /usr/bin/policytool (policytool) in auto mode.
+Setting up scala (2.9.2-400) ...
+Setting up icedtea-netx (1.2.3-0ubuntu0.12.04.3) ...
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/javaws to provide /usr/bin/javaws (javaws) in auto mode.
+update-alternatives: using /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/itweb-settings to provide /usr/bin/itweb-settings (itweb-settings) in auto mode.
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  sbt
+0 upgraded, 1 newly installed, 0 to remove and 141 not upgraded.
+Need to get 930 kB of archives.
+After this operation, 1,063 kB of additional disk space will be used.
+Get:1 http://apt.typesafe.com/ unicorn/main sbt all 0.11.3-build-0100 [930 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 930 kB in 0s (1,388 kB/s)
+Selecting previously unselected package sbt.
+(Reading database ... 77110 files and directories currently installed.)
+Unpacking sbt (from .../sbt_0.11.3-build-0100_all.deb) ...
+Processing triggers for man-db ...
+Setting up sbt (0.11.3-build-0100) ...
+[default] Running provisioner: shell...
+[default] Running: /var/folders/7f/j4bh09f951l31_92b0ncpjkh0000gn/T/vagrant-shell20130908-18479-1juzlns
+stdin: is not a tty
+Installing virtualenv
+Downloading/unpacking virtualenv
+  Running setup.py egg_info for package virtualenv
+    
+    warning: no files found matching '*.egg' under directory 'virtualenv_support'
+    warning: no previously-included files matching '*' found under directory 'docs/_templates'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Installing collected packages: virtualenv
+  Running setup.py install for virtualenv
+    
+    warning: no files found matching '*.egg' under directory 'virtualenv_support'
+    warning: no previously-included files matching '*' found under directory 'docs/_templates'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    Installing virtualenv script to /usr/local/bin
+    Installing virtualenv-2.7 script to /usr/local/bin
+Successfully installed virtualenv
+Cleaning up...
+Downloading/unpacking virtualenvwrapper
+  Running setup.py egg_info for package virtualenvwrapper
+    
+    Installed /home/vagrant/build/virtualenvwrapper/pbr-0.5.21-py2.7.egg
+    [pbr] Processing SOURCES.txt
+    warning: LocalManifestMaker: standard file '-c' not found
+    
+    warning: no files found matching 'AUTHORS'
+    warning: no files found matching 'ChangeLog'
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.js' under directory 'docs'
+    warning: no files found matching '*.png' under directory 'docs'
+Requirement already satisfied (use --upgrade to upgrade): virtualenv in /usr/local/lib/python2.7/dist-packages (from virtualenvwrapper)
+Downloading/unpacking virtualenv-clone (from virtualenvwrapper)
+  Downloading virtualenv-clone-0.2.4.tar.gz
+  Running setup.py egg_info for package virtualenv-clone
+    
+Downloading/unpacking stevedore (from virtualenvwrapper)
+  Running setup.py egg_info for package stevedore
+    
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.js' under directory 'docs'
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.py' under directory 'tests'
+Installing collected packages: virtualenvwrapper, virtualenv-clone, stevedore
+  Running setup.py install for virtualenvwrapper
+    [pbr] Reusing existing SOURCES.txt
+    changing mode of build/scripts-2.7/virtualenvwrapper.sh from 644 to 755
+    changing mode of build/scripts-2.7/virtualenvwrapper_lazy.sh from 644 to 755
+    Skipping installation of /usr/local/lib/python2.7/dist-packages/virtualenvwrapper/__init__.py (namespace package)
+    Installing /usr/local/lib/python2.7/dist-packages/virtualenvwrapper-4.1.1-nspkg.pth
+    changing mode of /usr/local/bin/virtualenvwrapper_lazy.sh to 755
+    changing mode of /usr/local/bin/virtualenvwrapper.sh to 755
+  Running setup.py install for virtualenv-clone
+    
+    Installing virtualenv-clone script to /usr/local/bin
+  Running setup.py install for stevedore
+    
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.js' under directory 'docs'
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.py' under directory 'tests'
+Successfully installed virtualenvwrapper virtualenv-clone stevedore
+Cleaning up...
+Installing IPython
+/tmp/vagrant-shell: 8: /tmp/vagrant-shell: mkvirtualenv: not found
+Searching for ipython[all]
+Reading http://pypi.python.org/simple/ipython/
+Best match: ipython 1.0.0
+Downloading https://pypi.python.org/packages/source/i/ipython/ipython-1.0.0.zip#md5=931bb0cd54d83316f8e9640292496c22
+Processing ipython-1.0.0.zip
+Running ipython-1.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-3P9fa3/ipython-1.0.0/egg-dist-tmp-I4Wrw0
+Adding ipython 1.0.0 to easy-install.pth file
+Installing ipcontroller script to /usr/local/bin
+Installing iptest script to /usr/local/bin
+Installing ipcluster script to /usr/local/bin
+Installing ipython script to /usr/local/bin
+Installing pycolor script to /usr/local/bin
+Installing iplogger script to /usr/local/bin
+Installing irunner script to /usr/local/bin
+Installing ipengine script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/ipython-1.0.0-py2.7.egg
+Processing dependencies for ipython[all]
+Searching for nose>=0.10.1
+Reading http://pypi.python.org/simple/nose/
+Best match: nose 1.3.0
+Downloading https://pypi.python.org/packages/source/n/nose/nose-1.3.0.tar.gz#md5=95d6d32b9d6b029c3c65674bd9e7eabe
+Processing nose-1.3.0.tar.gz
+Running nose-1.3.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-VtrhcD/nose-1.3.0/egg-dist-tmp-c1_BV7
+no previously-included directories found matching 'doc/.build'
+Adding nose 1.3.0 to easy-install.pth file
+Installing nosetests script to /usr/local/bin
+Installing nosetests-2.7 script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/nose-1.3.0-py2.7.egg
+Searching for pyzmq>=2.1.11
+Reading http://pypi.python.org/simple/pyzmq/
+Reading http://github.com/zeromq/pyzmq
+Reading http://github.com/zeromq/pyzmq/downloads
+Best match: pyzmq 13.1.0
+Downloading https://pypi.python.org/packages/source/p/pyzmq/pyzmq-13.1.0.zip#md5=3e110cfab8b2e45d31b32ca98910b44a
+Processing pyzmq-13.1.0.zip
+Running pyzmq-13.1.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-_UY1tZ/pyzmq-13.1.0/egg-dist-tmp-o6mZYY
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'docs/gh-pages'
+warning: no directories found matching 'bundled/uuid'
+warning: no previously-included files found matching 'bundled/uuid/Makefile*'
+warning: no previously-included files found matching 'bundled/zeromq/src/Makefile*'
+warning: no previously-included files found matching 'bundled/zeromq/src/platform.hpp'
+warning: no previously-included files found matching 'setup.cfg'
+warning: no previously-included files found matching 'zmq/libzmq*'
+warning: no previously-included files matching '__pycache__/*' found anywhere in distribution
+warning: no previously-included files matching '.deps/*' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.pyd' found anywhere in distribution
+warning: no previously-included files matching '.git*' found anywhere in distribution
+warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+warning: no previously-included files matching '.mailmap' found anywhere in distribution
+Configure: Autodetecting ZMQ settings...
+    Custom ZMQ dir:       
+build/temp.linux-x86_64-2.7/scratch/tmp/easy_install-_UY1tZ/pyzmq-13.1.0/temp/timer_createRTrHoC.o: In function `main':
+timer_createRTrHoC.c:(.text+0x15): undefined reference to `timer_create'
+collect2: ld returned 1 exit status
+build/temp.linux-x86_64-2.7/scratch/vers.c:4:17: fatal error: zmq.h: No such file or directory
+compilation terminated.
+
+error: command 'gcc' failed with exit status 1
+
+Failed with default libzmq, trying again with /usr/local
+Configure: Autodetecting ZMQ settings...
+    Custom ZMQ dir:       /usr/local
+Assembler messages:
+Fatal error: can't create build/temp.linux-x86_64-2.7/scratch/tmp/easy_install-_UY1tZ/pyzmq-13.1.0/temp/timer_createF04xQL.o: No such file or directory
+build/temp.linux-x86_64-2.7/scratch/vers.c:4:17: fatal error: zmq.h: No such file or directory
+compilation terminated.
+
+error: command 'gcc' failed with exit status 1
+
+************************************************
+************************************************
+************************************************
+10...Warning: Failed to build or run libzmq detection test.
+
+If you expected pyzmq to link against an installed libzmq, please check to make sure:
+
+    * You have a C compiler installed
+    * A development version of Python is installed (including headers)
+    * A development version of ZMQ >= 2.1.4 is installed (including headers)
+    * If ZMQ is not in a default location, supply the argument --zmq=<path>
+    * If you did recently install ZMQ to a default location,
+      try rebuilding the ld cache with `sudo ldconfig`
+      or specify zmq's location with `--zmq=/usr/local`
+
+You can skip all this detection/waiting nonsense if you know
+you want pyzmq to bundle libzmq as an extension by passing:
+
+    `--zmq=bundled`
+
+I will now try to build libzmq as a Python extension
+unless you interrupt me (^C) in the next 10 seconds...
+
+ 9... 8... 7... 6... 5... 4... 3... 2... 1...
+Using bundled libzmq
+already have bundled/zeromq
+attempting ./configure to generate platform.hpp
+Warning: failed to configure libzmq:
+/bin/sh: 1: ./configure: not found
+
+staging platform.hpp from: /tmp/easy_install-_UY1tZ/pyzmq-13.1.0/buildutils/include_linux
+build/temp.linux-x86_64-2.7/tmp/easy_install-_UY1tZ/pyzmq-13.1.0/temp/timer_createKs1vbG.o: In function `main':
+timer_createKs1vbG.c:(.text+0x15): undefined reference to `timer_create'
+collect2: ld returned 1 exit status
+buildutils/initlibzmq.c:10:20: fatal error: Python.h: No such file or directory
+compilation terminated.
+************************************************
+************************************************
+error: Setup script exited with error: command 'gcc' failed with exit status 1
+Installing Scipy
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gfortran is already the newest version.
+gfortran set to manually installed.
+libblas-dev is already the newest version.
+libblas-dev set to manually installed.
+liblapack-dev is already the newest version.
+liblapack-dev set to manually installed.
+The following extra packages will be installed:
+  binfmt-support cli-common libamd2.2.0 libexpat1 libexpat1-dev
+  libisnativec-5.2-java libisnativec-java libisrt-java libjna-java
+  libmono-corlib4.0-cil libmono-i18n-west4.0-cil libmono-i18n4.0-cil
+  libmono-security4.0-cil libmono-system-configuration4.0-cil
+  libmono-system-security4.0-cil libmono-system-xml4.0-cil
+  libmono-system4.0-cil libumfpack5.4.0 mono-4.0-gac mono-gac mono-runtime
+  python python-dev python-imaging python-minimal python-numpy python2.7-dev
+Suggested packages:
+  default-jre-headless libjna-java-doc libmono-i18n4.0-all libgamin0
+  python-doc python-tk python-imaging-doc python-imaging-dbg python-numpy-doc
+  python-numpy-dbg python-nose
+The following NEW packages will be installed:
+  binfmt-support cli-common freetype2-demos libamd2.2.0 libexpat1-dev
+  libfont-freetype-perl libfreetype6-dev libisfreetype-5.2-java
+  libisfreetype-java libisfreetype-java-doc libisnativec-5.2-java
+  libisnativec-java libisrt-java libjna-java libmono-corlib4.0-cil
+  libmono-i18n-west4.0-cil libmono-i18n4.0-cil libmono-security4.0-cil
+  libmono-system-configuration4.0-cil libmono-system-security4.0-cil
+  libmono-system-xml4.0-cil libmono-system4.0-cil
+  libtaoframework-freetype-cil-dev libtaoframework-freetype2.3-cil
+  libumfpack5.4.0 mono-4.0-gac mono-gac mono-runtime python-dev python-imaging
+  python-numpy python-scipy python2.7-dev
+The following packages will be upgraded:
+  libexpat1 libfreetype6 python python-minimal
+4 upgraded, 33 newly installed, 0 to remove and 137 not upgraded.
+Need to get 46.5 MB of archives.
+After this operation, 94.6 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main python-minimal amd64 2.7.3-0ubuntu2.2 [29.7 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main python amd64 2.7.3-0ubuntu2.2 [168 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libexpat1 amd64 2.0.1-7.2ubuntu1.1 [131 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libfreetype6 amd64 2.4.8-1ubuntu2.1 [343 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main binfmt-support amd64 2.0.8 [78.3 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise/main binfmt-support amd64 2.0.8 [78.3 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/main cli-common all 0.8.2 [175 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe freetype2-demos amd64 2.4.8-1ubuntu2.1 [216 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise/universe libamd2.2.0 amd64 1:3.4.0-2ubuntu3 [26.5 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libexpat1-dev amd64 2.0.1-7.2ubuntu1.1 [216 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu/ precise/main libfont-freetype-perl amd64 0.03-1build2 [61.7 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libfreetype6-dev amd64 2.4.8-1ubuntu2.1 [796 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu/ precise/universe libjna-java amd64 3.2.7-4 [416 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-system-xml4.0-cil all 2.10.8.1-1ubuntu2.2 [441 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-system-security4.0-cil all 2.10.8.1-1ubuntu2.2 [61.3 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-system-configuration4.0-cil all 2.10.8.1-1ubuntu2.2 [58.8 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-system4.0-cil all 2.10.8.1-1ubuntu2.2 [662 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-security4.0-cil all 2.10.8.1-1ubuntu2.2 [126 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main mono-4.0-gac all 2.10.8.1-1ubuntu2.2 [19.8 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main mono-gac all 2.10.8.1-1ubuntu2.2 [13.9 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main mono-runtime amd64 2.10.8.1-1ubuntu2.2 [1,555 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-corlib4.0-cil all 2.10.8.1-1ubuntu2.2 [1,008 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-i18n4.0-cil all 2.10.8.1-1ubuntu2.2 [19.7 kB]
+Get:24 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libmono-i18n-west4.0-cil all 2.10.8.1-1ubuntu2.2 [28.0 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu/ precise/universe libtaoframework-freetype2.3-cil all 2.1.svn20090801-7 [15.2 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu/ precise/universe libtaoframework-freetype-cil-dev all 2.1.svn20090801-7 [2,786 B]
+Get:27 http://us.archive.ubuntu.com/ubuntu/ precise/universe libumfpack5.4.0 amd64 1:3.4.0-2ubuntu3 [345 kB]
+Get:28 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main python2.7-dev amd64 2.7.3-0ubuntu3.2 [29.5 MB]
+Get:29 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main python-dev amd64 2.7.3-0ubuntu2.2 [1,090 B]
+Get:30 http://us.archive.ubuntu.com/ubuntu/ precise/main python-imaging amd64 1.1.7-4 [294 kB]
+Get:31 http://us.archive.ubuntu.com/ubuntu/ precise/main python-numpy amd64 1:1.6.1-6ubuntu1 [1,850 kB]
+Get:32 http://us.archive.ubuntu.com/ubuntu/ precise/universe libisrt-java all 4.8.20100629-2 [303 kB]
+Get:33 http://us.archive.ubuntu.com/ubuntu/ precise/universe libisnativec-5.2-java all 5.2.20091102-1 [39.5 kB]
+Get:34 http://us.archive.ubuntu.com/ubuntu/ precise/universe libisnativec-java all 5.2.20091102-1 [2,448 B]
+Get:35 http://us.archive.ubuntu.com/ubuntu/ precise/universe libisfreetype-5.2-java all 5.2.20091102-2 [43.7 kB]
+Get:36 http://us.archive.ubuntu.com/ubuntu/ precise/universe libisfreetype-java all 5.2.20091102-2 [2,540 B]
+Get:37 http://us.archive.ubuntu.com/ubuntu/ precise/universe libisfreetype-java-doc all 5.2.20091102-2 [79.0 kB]
+Get:38 http://us.archive.ubuntu.com/ubuntu/ precise/universe python-scipy amd64 0.9.0+dfsg1-1ubuntu2 [7,300 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 46.5 MB in 8min 32s (90.7 kB/s)
+(Reading database ... 77121 files and directories currently installed.)
+Preparing to replace python-minimal 2.7.3-0ubuntu2 (using .../python-minimal_2.7.3-0ubuntu2.2_amd64.deb) ...
+Unpacking replacement python-minimal ...
+Processing triggers for man-db ...
+Setting up python-minimal (2.7.3-0ubuntu2.2) ...
+(Reading database ... 77121 files and directories currently installed.)
+Preparing to replace python 2.7.3-0ubuntu2 (using .../python_2.7.3-0ubuntu2.2_amd64.deb) ...
+Unpacking replacement python ...
+Preparing to replace libexpat1 2.0.1-7.2ubuntu1 (using .../libexpat1_2.0.1-7.2ubuntu1.1_amd64.deb) ...
+Unpacking replacement libexpat1 ...
+Preparing to replace libfreetype6 2.4.8-1ubuntu2 (using .../libfreetype6_2.4.8-1ubuntu2.1_amd64.deb) ...
+Unpacking replacement libfreetype6 ...
+Selecting previously unselected package binfmt-support.
+Unpacking binfmt-support (from .../binfmt-support_2.0.8_amd64.deb) ...
+Selecting previously unselected package cli-common.
+Unpacking cli-common (from .../cli-common_0.8.2_all.deb) ...
+Selecting previously unselected package freetype2-demos.
+Unpacking freetype2-demos (from .../freetype2-demos_2.4.8-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package libamd2.2.0.
+Unpacking libamd2.2.0 (from .../libamd2.2.0_1%3a3.4.0-2ubuntu3_amd64.deb) ...
+Selecting previously unselected package libexpat1-dev.
+Unpacking libexpat1-dev (from .../libexpat1-dev_2.0.1-7.2ubuntu1.1_amd64.deb) ...
+Selecting previously unselected package libfont-freetype-perl.
+Unpacking libfont-freetype-perl (from .../libfont-freetype-perl_0.03-1build2_amd64.deb) ...
+Selecting previously unselected package libfreetype6-dev.
+Unpacking libfreetype6-dev (from .../libfreetype6-dev_2.4.8-1ubuntu2.1_amd64.deb) ...
+Selecting previously unselected package libjna-java.
+Unpacking libjna-java (from .../libjna-java_3.2.7-4_amd64.deb) ...
+Selecting previously unselected package libmono-system-xml4.0-cil.
+Unpacking libmono-system-xml4.0-cil (from .../libmono-system-xml4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package libmono-system-security4.0-cil.
+Unpacking libmono-system-security4.0-cil (from .../libmono-system-security4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package libmono-system-configuration4.0-cil.
+Unpacking libmono-system-configuration4.0-cil (from .../libmono-system-configuration4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package libmono-system4.0-cil.
+Unpacking libmono-system4.0-cil (from .../libmono-system4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package libmono-security4.0-cil.
+Unpacking libmono-security4.0-cil (from .../libmono-security4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package mono-4.0-gac.
+Unpacking mono-4.0-gac (from .../mono-4.0-gac_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package mono-gac.
+Unpacking mono-gac (from .../mono-gac_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package mono-runtime.
+Unpacking mono-runtime (from .../mono-runtime_2.10.8.1-1ubuntu2.2_amd64.deb) ...
+Selecting previously unselected package libmono-corlib4.0-cil.
+Unpacking libmono-corlib4.0-cil (from .../libmono-corlib4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package libmono-i18n4.0-cil.
+Unpacking libmono-i18n4.0-cil (from .../libmono-i18n4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package libmono-i18n-west4.0-cil.
+Unpacking libmono-i18n-west4.0-cil (from .../libmono-i18n-west4.0-cil_2.10.8.1-1ubuntu2.2_all.deb) ...
+Selecting previously unselected package libtaoframework-freetype2.3-cil.
+Unpacking libtaoframework-freetype2.3-cil (from .../libtaoframework-freetype2.3-cil_2.1.svn20090801-7_all.deb) ...
+Selecting previously unselected package libtaoframework-freetype-cil-dev.
+Unpacking libtaoframework-freetype-cil-dev (from .../libtaoframework-freetype-cil-dev_2.1.svn20090801-7_all.deb) ...
+Selecting previously unselected package libumfpack5.4.0.
+Unpacking libumfpack5.4.0 (from .../libumfpack5.4.0_1%3a3.4.0-2ubuntu3_amd64.deb) ...
+Selecting previously unselected package python2.7-dev.
+Unpacking python2.7-dev (from .../python2.7-dev_2.7.3-0ubuntu3.2_amd64.deb) ...
+Selecting previously unselected package python-dev.
+Unpacking python-dev (from .../python-dev_2.7.3-0ubuntu2.2_amd64.deb) ...
+Selecting previously unselected package python-imaging.
+Unpacking python-imaging (from .../python-imaging_1.1.7-4_amd64.deb) ...
+Selecting previously unselected package python-numpy.
+Unpacking python-numpy (from .../python-numpy_1%3a1.6.1-6ubuntu1_amd64.deb) ...
+Selecting previously unselected package libisrt-java.
+Unpacking libisrt-java (from .../libisrt-java_4.8.20100629-2_all.deb) ...
+Selecting previously unselected package libisnativec-5.2-java.
+Unpacking libisnativec-5.2-java (from .../libisnativec-5.2-java_5.2.20091102-1_all.deb) ...
+Selecting previously unselected package libisnativec-java.
+Unpacking libisnativec-java (from .../libisnativec-java_5.2.20091102-1_all.deb) ...
+Selecting previously unselected package libisfreetype-5.2-java.
+Unpacking libisfreetype-5.2-java (from .../libisfreetype-5.2-java_5.2.20091102-2_all.deb) ...
+Selecting previously unselected package libisfreetype-java.
+Unpacking libisfreetype-java (from .../libisfreetype-java_5.2.20091102-2_all.deb) ...
+Selecting previously unselected package libisfreetype-java-doc.
+Unpacking libisfreetype-java-doc (from .../libisfreetype-java-doc_5.2.20091102-2_all.deb) ...
+Selecting previously unselected package python-scipy.
+Unpacking python-scipy (from .../python-scipy_0.9.0+dfsg1-1ubuntu2_amd64.deb) ...
+Processing triggers for man-db ...
+Processing triggers for ureadahead ...
+Setting up python (2.7.3-0ubuntu2.2) ...
+Setting up libexpat1 (2.0.1-7.2ubuntu1.1) ...
+Setting up libfreetype6 (2.4.8-1ubuntu2.1) ...
+Setting up binfmt-support (2.0.8) ...
+update-binfmts: warning: /usr/share/binfmts/cli: no executable /usr/bin/cli found, but continuing anyway as you request
+binfmt-support stop/waiting
+Setting up cli-common (0.8.2) ...
+Setting up freetype2-demos (2.4.8-1ubuntu2.1) ...
+Setting up libamd2.2.0 (1:3.4.0-2ubuntu3) ...
+Setting up libexpat1-dev (2.0.1-7.2ubuntu1.1) ...
+Setting up libfont-freetype-perl (0.03-1build2) ...
+Setting up libfreetype6-dev (2.4.8-1ubuntu2.1) ...
+Setting up libjna-java (3.2.7-4) ...
+Setting up libumfpack5.4.0 (1:3.4.0-2ubuntu3) ...
+Setting up python2.7-dev (2.7.3-0ubuntu3.2) ...
+Setting up python-dev (2.7.3-0ubuntu2.2) ...
+Setting up python-imaging (1.1.7-4) ...
+Setting up python-numpy (1:1.6.1-6ubuntu1) ...
+Setting up libisrt-java (4.8.20100629-2) ...
+Setting up libisnativec-5.2-java (5.2.20091102-1) ...
+Setting up libisnativec-java (5.2.20091102-1) ...
+Setting up libisfreetype-5.2-java (5.2.20091102-2) ...
+Setting up libisfreetype-java (5.2.20091102-2) ...
+Setting up libisfreetype-java-doc (5.2.20091102-2) ...
+Setting up python-scipy (0.9.0+dfsg1-1ubuntu2) ...
+Setting up libmono-security4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Setting up mono-4.0-gac (2.10.8.1-1ubuntu2.2) ...
+Setting up mono-gac (2.10.8.1-1ubuntu2.2) ...
+* Installing 1 assembly from libtaoframework-freetype2.3-cil into Mono
+update-alternatives: using /usr/bin/gacutil to provide /usr/bin/cli-gacutil (global-assembly-cache-tool) in auto mode.
+Setting up mono-runtime (2.10.8.1-1ubuntu2.2) ...
+update-alternatives: using /usr/bin/mono to provide /usr/bin/cli (cli) in auto mode.
+Setting up libmono-corlib4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Setting up libmono-i18n4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Setting up libmono-i18n-west4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Setting up libtaoframework-freetype2.3-cil (2.1.svn20090801-7) ...
+* Installing 1 assembly from libtaoframework-freetype2.3-cil into Mono
+Setting up libtaoframework-freetype-cil-dev (2.1.svn20090801-7) ...
+Setting up libmono-system4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Setting up libmono-system-xml4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Setting up libmono-system-security4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Setting up libmono-system-configuration4.0-cil (2.10.8.1-1ubuntu2.2) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Searching for distribute
+Reading http://pypi.python.org/simple/distribute/
+Best match: distribute 0.7.3
+Downloading https://pypi.python.org/packages/source/d/distribute/distribute-0.7.3.zip#md5=c6c59594a7b180af57af8a0cc0cf5b4a
+Processing distribute-0.7.3.zip
+Running distribute-0.7.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-EmKDKA/distribute-0.7.3/egg-dist-tmp-4sqR0s
+warning: install_lib: 'build/lib.linux-x86_64-2.7' does not exist -- no Python modules to install
+
+Adding distribute 0.7.3 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/distribute-0.7.3-py2.7.egg
+Processing dependencies for distribute
+Searching for setuptools>=0.7
+Reading http://pypi.python.org/simple/setuptools/
+Reading https://pypi.python.org/pypi/setuptools
+Reading http://peak.telecommunity.com/snapshots/
+Best match: setuptools 1.1.4
+Downloading https://pypi.python.org/packages/source/s/setuptools/setuptools-1.1.4.tar.gz#md5=e6712aaf91f9fe94faa5b677d343b23f
+Processing setuptools-1.1.4.tar.gz
+Running setuptools-1.1.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-6jR2K1/setuptools-1.1.4/egg-dist-tmp-5TQIks
+Adding setuptools 1.1.4 to easy-install.pth file
+Installing easy_install script to /usr/local/bin
+Installing easy_install-2.7 script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/setuptools-1.1.4-py2.7.egg
+Finished processing dependencies for distribute
+Installing Numpy
+Requirement already satisfied (use --upgrade to upgrade): numpy in /usr/lib/python2.7/dist-packages
+Cleaning up...
+Installing Matplotlib
+Downloading/unpacking matplotlib
+  Running setup.py egg_info for package matplotlib
+    ============================================================================
+    Edit setup.cfg to change the build options
+    
+    BUILDING MATPLOTLIB
+                matplotlib: yes [1.3.0]
+                    python: yes [2.7.3 (default, Apr 10 2013, 06:20:15)  [GCC
+                            4.6.3]]
+                  platform: yes [linux2]
+    
+    REQUIRED DEPENDENCIES AND EXTENSIONS
+                     numpy: yes [version 1.6.1]
+                  dateutil: yes [dateutil was not found. It is required for date
+                            axis support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                   tornado: yes [tornado was not found. It is required for the
+                            WebAgg backend. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                 pyparsing: yes [pyparsing was not found. It is required for
+                            mathtext support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                     pycxx: yes [Couldn't import.  Using local copy.]
+                    libagg: yes [pkg-config information for 'libagg' could not
+                            be found. Using local copy.]
+                  freetype: yes [version 14.0.8]
+                       png: yes [pkg-config information for 'libpng' could not
+                            be found. Using unknown version.]
+    
+    OPTIONAL SUBPACKAGES
+               sample_data: yes [installing]
+                  toolkits: yes [installing]
+                     tests: yes [using nose version 1.3.0]
+    
+    OPTIONAL BACKEND EXTENSIONS
+                    macosx: no  [Mac OS-X only]
+                    qt4agg: no  [PyQt4 not found]
+                   gtk3agg: no  [Requires gtk3 development files to be
+                            installed.]
+                 gtk3cairo: no  [Requires cairo to be installed.]
+                    gtkagg: no  [Requires pygtk]
+                     tkagg: no  [TKAgg requires Tkinter.]
+                     wxagg: no  [requires wxPython]
+                       gtk: no  [Requires pygtk]
+                       agg: yes [installing]
+                     cairo: no  [cairo not found]
+                 windowing: no  [Microsoft Windows only]
+    
+    OPTIONAL LATEX DEPENDENCIES
+                    dvipng: no
+               ghostscript: yes [version 9.05]
+                     latex: no
+                   pdftops: no
+    
+    
+Downloading/unpacking python-dateutil (from matplotlib)
+  Running setup.py egg_info for package python-dateutil
+    
+Downloading/unpacking tornado (from matplotlib)
+  Running setup.py egg_info for package tornado
+    
+    warning: no previously-included files matching '_auto2to3*' found anywhere in distribution
+Downloading/unpacking pyparsing>=1.5.6,!=2.0.0 (from matplotlib)
+  Running setup.py egg_info for package pyparsing
+    
+Requirement already satisfied (use --upgrade to upgrade): nose in /usr/local/lib/python2.7/dist-packages/nose-1.3.0-py2.7.egg (from matplotlib)
+Downloading/unpacking six (from python-dateutil->matplotlib)
+  Downloading six-1.4.1.tar.gz
+  Running setup.py egg_info for package six
+    
+Installing collected packages: matplotlib, python-dateutil, tornado, pyparsing, six
+  Running setup.py install for matplotlib
+    ============================================================================
+    Edit setup.cfg to change the build options
+    
+    BUILDING MATPLOTLIB
+                matplotlib: yes [1.3.0]
+                    python: yes [2.7.3 (default, Apr 10 2013, 06:20:15)  [GCC
+                            4.6.3]]
+                  platform: yes [linux2]
+    
+    REQUIRED DEPENDENCIES AND EXTENSIONS
+                     numpy: yes [version 1.6.1]
+                  dateutil: yes [dateutil was not found. It is required for date
+                            axis support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                   tornado: yes [tornado was not found. It is required for the
+                            WebAgg backend. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                 pyparsing: yes [pyparsing was not found. It is required for
+                            mathtext support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                     pycxx: yes [Couldn't import.  Using local copy.]
+                    libagg: yes [pkg-config information for 'libagg' could not
+                            be found. Using local copy.]
+                  freetype: yes [version 14.0.8]
+                       png: yes [pkg-config information for 'libpng' could not
+                            be found. Using unknown version.]
+    
+    OPTIONAL SUBPACKAGES
+               sample_data: yes [installing]
+                  toolkits: yes [installing]
+                     tests: yes [using nose version 1.3.0]
+    
+    OPTIONAL BACKEND EXTENSIONS
+                    macosx: no  [Mac OS-X only]
+                    qt4agg: no  [PyQt4 not found]
+                   gtk3agg: no  [Requires gtk3 development files to be
+                            installed.]
+                 gtk3cairo: no  [Requires cairo to be installed.]
+                    gtkagg: no  [Requires pygtk]
+                     tkagg: no  [TKAgg requires Tkinter.]
+                     wxagg: no  [requires wxPython]
+                       gtk: no  [Requires pygtk]
+                       agg: yes [installing]
+                     cairo: no  [cairo not found]
+                 windowing: no  [Microsoft Windows only]
+    
+    OPTIONAL LATEX DEPENDENCIES
+                    dvipng: no
+               ghostscript: yes [version 9.05]
+                     latex: no
+                   pdftops: no
+    
+    building 'matplotlib.ft2font' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/include/freetype2 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c src/ft2font.cpp -o build/temp.linux-x86_64-2.7/src/ft2font.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/include/freetype2 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-x86_64-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:164:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:166:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/include/freetype2 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/IndirectPythonInterface.cxx -o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/include/freetype2 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/include/freetype2 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/include/freetype2 -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/ft2font.o build/temp.linux-x86_64-2.7/src/mplutils.o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -lfreetype -lz -lstdc++ -lm -o build/lib.linux-x86_64-2.7/matplotlib/ft2font.so
+    building 'matplotlib._png' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c src/_png.cpp -o build/temp.linux-x86_64-2.7/src/_png.o
+    In file included from src/file_compat.h:4:0,
+                     from src/_png.cpp:31:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h: In function 'PyObject* npy_PyFile_OpenFile(PyObject*, char*)':
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h:258:60: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+    In file included from src/_png.cpp:31:0:
+    src/file_compat.h: In function 'int npy_PyFile_CloseFile(PyObject*)':
+    src/file_compat.h:125:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+    src/_png.cpp: In function 'void init_png()':
+    src/_png.cpp:631:25: warning: variable '_png' set but not used [-Wunused-but-set-variable]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h: At global scope:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h:391:1: warning: 'void simple_capsule_dtor(void*)' defined but not used [-Wunused-function]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-x86_64-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:164:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:166:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/IndirectPythonInterface.cxx -o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/_png.o build/temp.linux-x86_64-2.7/src/mplutils.o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o -L/usr/local/lib -lpng -lz -lstdc++ -lm -o build/lib.linux-x86_64-2.7/matplotlib/_png.so
+    building 'matplotlib._image' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c src/_image.cpp -o build/temp.linux-x86_64-2.7/src/_image.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-x86_64-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:164:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:166:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_bezier_arc.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_bezier_arc.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_curves.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_curves.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_image_filters.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_image_filters.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_trans_affine.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_trans_affine.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vcgen_contour.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_contour.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vcgen_dash.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_dash.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vcgen_stroke.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_stroke.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vpgen_segmentator.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vpgen_segmentator.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/IndirectPythonInterface.cxx -o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/_image.o build/temp.linux-x86_64-2.7/src/mplutils.o build/temp.linux-x86_64-2.7/agg24/src/agg_bezier_arc.o build/temp.linux-x86_64-2.7/agg24/src/agg_curves.o build/temp.linux-x86_64-2.7/agg24/src/agg_image_filters.o build/temp.linux-x86_64-2.7/agg24/src/agg_trans_affine.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_contour.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_dash.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_stroke.o build/temp.linux-x86_64-2.7/agg24/src/agg_vpgen_segmentator.o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-x86_64-2.7/matplotlib/_image.so
+    building 'matplotlib.ttconv' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c src/_ttconv.cpp -o build/temp.linux-x86_64-2.7/src/_ttconv.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c ttconv/pprdrv_tt.cpp -o build/temp.linux-x86_64-2.7/ttconv/pprdrv_tt.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from ttconv/pprdrv_tt.cpp:34:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:164:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:166:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c ttconv/pprdrv_tt2.cpp -o build/temp.linux-x86_64-2.7/ttconv/pprdrv_tt2.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c ttconv/ttutil.cpp -o build/temp.linux-x86_64-2.7/ttconv/ttutil.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/IndirectPythonInterface.cxx -o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/_ttconv.o build/temp.linux-x86_64-2.7/ttconv/pprdrv_tt.o build/temp.linux-x86_64-2.7/ttconv/pprdrv_tt2.o build/temp.linux-x86_64-2.7/ttconv/ttutil.o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-x86_64-2.7/matplotlib/ttconv.so
+    building 'matplotlib._path' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c src/_path.cpp -o build/temp.linux-x86_64-2.7/src/_path.o
+    src/_path.cpp: In function 'void init_path()':
+    src/_path.cpp:1759:26: warning: variable '_path' set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c src/path_cleanup.cpp -o build/temp.linux-x86_64-2.7/src/path_cleanup.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c src/agg_py_transforms.cpp -o build/temp.linux-x86_64-2.7/src/agg_py_transforms.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_bezier_arc.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_bezier_arc.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_curves.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_curves.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_image_filters.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_image_filters.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_trans_affine.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_trans_affine.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vcgen_contour.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_contour.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vcgen_dash.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_dash.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vcgen_stroke.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_stroke.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c agg24/src/agg_vpgen_segmentator.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vpgen_segmentator.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/IndirectPythonInterface.cxx -o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/_path.o build/temp.linux-x86_64-2.7/src/path_cleanup.o build/temp.linux-x86_64-2.7/src/agg_py_transforms.o build/temp.linux-x86_64-2.7/agg24/src/agg_bezier_arc.o build/temp.linux-x86_64-2.7/agg24/src/agg_curves.o build/temp.linux-x86_64-2.7/agg24/src/agg_image_filters.o build/temp.linux-x86_64-2.7/agg24/src/agg_trans_affine.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_contour.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_dash.o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_stroke.o build/temp.linux-x86_64-2.7/agg24/src/agg_vpgen_segmentator.o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-x86_64-2.7/matplotlib/_path.so
+    building 'matplotlib._cntr' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__cntr_ARRAY_API -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c src/cntr.c -o build/temp.linux-x86_64-2.7/src/cntr.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/cntr.o -L/usr/local/lib -o build/lib.linux-x86_64-2.7/matplotlib/_cntr.so
+    building 'matplotlib._delaunay' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c lib/matplotlib/delaunay/_delaunay.cpp -o build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/_delaunay.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c lib/matplotlib/delaunay/VoronoiDiagramGenerator.cpp -o build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/VoronoiDiagramGenerator.o
+    lib/matplotlib/delaunay/VoronoiDiagramGenerator.cpp: In member function 'bool VoronoiDiagramGenerator::voronoi(int)':
+    lib/matplotlib/delaunay/VoronoiDiagramGenerator.cpp:946:9: warning: 'newintstar.Point::y' may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c lib/matplotlib/delaunay/delaunay_utils.cpp -o build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/delaunay_utils.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c lib/matplotlib/delaunay/natneighbors.cpp -o build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/natneighbors.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/_delaunay.o build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/VoronoiDiagramGenerator.o build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/delaunay_utils.o build/temp.linux-x86_64-2.7/lib/matplotlib/delaunay/natneighbors.o -L/usr/local/lib -o build/lib.linux-x86_64-2.7/matplotlib/_delaunay.so
+    building 'matplotlib._tri' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c lib/matplotlib/tri/_tri.cpp -o build/temp.linux-x86_64-2.7/lib/matplotlib/tri/_tri.o
+    lib/matplotlib/tri/_tri.cpp: In function 'void init_tri()':
+    lib/matplotlib/tri/_tri.cpp:2204:23: warning: variable 'triModule' set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-x86_64-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:164:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:166:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/IndirectPythonInterface.cxx -o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/lib/matplotlib/tri/_tri.o build/temp.linux-x86_64-2.7/src/mplutils.o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-x86_64-2.7/matplotlib/_tri.so
+    building 'matplotlib.backends._backend_agg' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-x86_64-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:164:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:166:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c src/agg_py_transforms.cpp -o build/temp.linux-x86_64-2.7/src/agg_py_transforms.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c src/_backend_agg.cpp -o build/temp.linux-x86_64-2.7/src/_backend_agg.o
+    In file included from src/file_compat.h:4:0,
+                     from src/_backend_agg.cpp:44:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h: In function 'PyObject* npy_PyFile_OpenFile(PyObject*, char*)':
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h:258:60: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+    In file included from src/_backend_agg.cpp:44:0:
+    src/file_compat.h: In function 'int npy_PyFile_CloseFile(PyObject*)':
+    src/file_compat.h:125:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+    src/_backend_agg.cpp: In function 'void init_backend_agg()':
+    src/_backend_agg.cpp:2602:33: warning: variable '_backend_agg' set but not used [-Wunused-but-set-variable]
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h: At global scope:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_3kcompat.h:391:1: warning: 'void simple_capsule_dtor(void*)' defined but not used [-Wunused-function]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_bezier_arc.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_bezier_arc.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_curves.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_curves.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_image_filters.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_image_filters.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_trans_affine.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_trans_affine.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_vcgen_contour.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_contour.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_vcgen_dash.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_dash.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_vcgen_stroke.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vcgen_stroke.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c agg24/src/agg_vpgen_segmentator.cpp -o build/temp.linux-x86_64-2.7/agg24/src/agg_vpgen_segmentator.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c CXX/IndirectPythonInterface.cxx -o build/temp.linux-x86_64-2.7/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c CXX/cxxsupport.cxx -o build/temp.linux-x86_64-2.7/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c CXX/cxx_extensions.cxx -o build/temp.linux-x86_64-2.7/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/local/include -I/usr/include -I. -I/usr/lib/python2.7/dist-packages/numpy/core/include -Iagg24/include -I/usr/include/freetype2 -I/usr/include/python2.7 -c CXX/cxxextensions.c -o build/temp.linux-x86_64-2.7/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/src/mplutils.o build/temp.linux-x86_64-2.7/src/agg_py_transforms.o build/temp.linux-x86_64-2.7/src/_backend_agg.o build/temp.linux-x86_64-2.7/agg2
