@@ -188,6 +188,7 @@ For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.
 ## Road map (In no particular order)
 
 * Convert shell scripts to use [Chef](http://www.opscode.com/chef/) or [Puppet](http://puppetlabs.com/) for increased portability of the individual scripts.
+* Configure Hadoop ecosystem libraries to start on boot (HDFS, oozie, Hue, etc.)
 * Write documentation/tutorials on how to run specific non-standard library installs (i.e. Spark). 
 * Add R packages and [R studio](http://www.rstudio.com/)
 * Add [Cascading](http://www.cascading.org/)

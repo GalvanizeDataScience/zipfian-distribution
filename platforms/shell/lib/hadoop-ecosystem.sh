@@ -21,13 +21,16 @@ sudo apt-get install -y bigtop-utils
 sudo apt-get install -f
 
 # install hadoop core and management frameworks
-sudo apt-get install -y hadoop hue zookeeper whirr-*
+sudo apt-get install -y hadoop hue zookeeper whirr
 
 # install highlevel mapreduce abstraction languages
-sudo apt-get install -y mahout hive pig pig-udf-datafu mahout giraph crunch 
+sudo apt-get install -y mahout hive pig pig-udf-datafu giraph crunch 
   
 # install hadoop utility frameworks
 sudo apt-get install -y flume-* hbase sqoop solr oozie hcatalog
+
+# alias hue
+echo "alias hue=\"/usr/lib/hue/build/env/bin/hue\"" >> ~/.profile
 
 # download and build spark and pyspark
 
