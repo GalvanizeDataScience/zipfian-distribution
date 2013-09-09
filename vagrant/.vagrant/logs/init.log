@@ -5780,3 +5780,5 @@ Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main libgcj-bc amd64 4.6.3-1u
 Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main libxml-commons-resolver1.1-java all 1.2-7 [91.3 kB]
 Get:6 http://us.archive.ubuntu.com/ubuntu/ precise/main libxml-commons-external-java all 1.4.01-2 [245 kB]
 Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/main libxerces2-java all 2.11.0-4 [1,446 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise/main ant all 1.8.2-4build1 [1,837 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise/main ant-optional all 1.8.2-4build1 [326 kB]
