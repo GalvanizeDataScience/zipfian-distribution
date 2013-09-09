@@ -107,7 +107,9 @@ _NOTE: The Vagrant Box has X11 forwarding enabled, allowing you to run graphical
 
 ### Customizing your Box!
 
+Any changes to the configuration of your VM that are put in the [Vagrantfile](vagrant/Vagrantfile) will overwrite the default box configuration. 
 
+Please see the official Vagrant [documentation](http://docs.vagrantup.com/v2/getting-started/index.html) if you would like to customize the VM.
 
 ## Package List
 
