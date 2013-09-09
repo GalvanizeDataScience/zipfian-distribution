@@ -132,7 +132,7 @@ Please see the official Vagrant [documentation](http://docs.vagrantup.com/v2/get
 ### Python
 
 #### Scientific Packages
-* [IPython](http://ipython.org/)
+* [IPython 1.0.0](http://ipython.org/)
 * [numpy](http://www.numpy.org/)
 * [matplotlib](http://matplotlib.org/)
 * [scipy](http://www.scipy.org/)
@@ -188,21 +188,13 @@ For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.
 ## Road map (In no particular order)
 
 * Convert shell scripts to use [Chef](http://www.opscode.com/chef/) or [Puppet](http://puppetlabs.com/) for increased portability of the individual scripts.
-
 * Write documentation/tutorials on how to run specific non-standard library installs (i.e. Spark). 
-
 * Add R packages and [R studio](http://www.rstudio.com/)
-
 * Add [Cascading](http://www.cascading.org/)
-
 * Add [Storm](http://storm-project.net/)
-
 * Write automated tests for cross library compatibility
-
 * Create [Homebrew](http://brew.sh/) package for single line install
-
 * Create [Cygwin](http://cygwin.com/packages/) package
-
 * Create Linux packages for the common package managers
 
 ## Contributing
@@ -231,29 +223,17 @@ Email jonathan __[AT]__ zipfianacademy __[DOT]__ com
 Here are a list of great sites and tutorials that inspired this project:
 
 * [Scientific Python on Mac OSX](http://www.lowindata.com/2013/installing-scientific-python-on-mac-os-x/)
-
 * [Installing the Scipy stack](http://www.scipy.org/install.html)
-
 * [conda: think pip + virtualenv](http://docs.continuum.io/conda/intro.html)
-
 * [Kaggle: Getting started with Python for Data Science](https://www.kaggle.com/wiki/GettingStartedWithPythonForDataScience)
-
 * [Data Community DC: Getting started with Python for Data Scientists](http://datacommunitydc.org/blog/2013/03/getting-started-with-python-for-data-scientists/)
-
 * [Anaconda Packages](http://docs.continuum.io/anaconda/pkgs.html): great list of relevant Python packages.
-
 * [Scipy Superpack](http://fonnesbeck.github.io/ScipySuperpack): Script to build scientific Python libraries on OSX.
-
 * [Testing that it all works](http://www.pythonbootcamp.info/preparation/testing-that-it-all-works)
-
 * [Apache Bigtop](http://blog.cloudera.com/blog/2013/06/apache-bigtop-the-fedora-of-hadoop-built-on-hadoop2/)
-
 * [Apache Spark Guide](http://spark.incubator.apache.org/docs/latest/)
-
 * [R and RStudio in Ubuntu](http://blog.cloud-mes.com/2012/09/16/install-r-and-rstudio-in-ubuntu/)
-
 * [Putty Tutorial](http://lyle.smu.edu/support/contents/index.php/tutorials/49-remote-access/101-putty-tutorial)
-
 * [pydata-science.sh](https://gist.github.com/hdemers/5337229)
 
 ## Author

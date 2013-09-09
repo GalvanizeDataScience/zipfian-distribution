@@ -42,3 +42,5 @@ sbt/sbt package
 # create an alias to run spark from anywhere in the directory tree
 CUR_DIR=$(pwd)
 echo "alias spark-repl=\"${CUR_DIR}/spark-shell\"" >> ~/.profile
+
+. ~/.profile

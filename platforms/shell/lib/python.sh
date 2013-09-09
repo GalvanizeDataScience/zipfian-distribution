@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# meta updates
+pip install --upgrade pip
+
 # setup virtualenv and the wrapper
 echo "Installing virtualenv"
 pip install virtualenv
@@ -8,18 +11,16 @@ pip install virtualenvwrapper
 # configure virtualenvwrapper
 echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
 echo "export PROJECT_HOME=$HOME/Devel" >> ~/.profile
-echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
-source ~/.profile
+echo ". /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
+. ~/.profile
 
 # create a virtual environment for the zipfian distribution
 mkvirtualenv zipfian-dist
 
-# install pyzmq for ipython
-easy_install pyzmq
-
 # install IPython and IPython notebook and dependencies
 echo "Installing IPython"
 easy_install ipython[all]
+#sudo apt-get install -y ipython-notebook
 
 # test if the IPython install was successful
 if [ ! iptest ]
@@ -61,6 +62,8 @@ sudo python -m nltk.downloader -d /usr/share/nltk_data all
 # install other Python libraries
 echo "Installing Flask"
 pip install flask
+echo "Installing Jinja2"
+pip install jinja2
 echo "Installing Requests"
 pip install requests
 echo "Installing Beautiful Soup 4"

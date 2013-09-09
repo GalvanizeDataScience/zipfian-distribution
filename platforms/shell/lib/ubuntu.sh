@@ -16,7 +16,8 @@ wget http://apt.typesafe.com/repo-deb-build-0002.deb
 sudo dpkg -i repo-deb-build-0002.deb
 
 # install R using apt-get
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update -y 
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade
 sudo apt-get install -y r-base
 
 # install Chromium for IPython notebooks and web development
@@ -40,6 +41,9 @@ sudo apt-get install -y vim emacs
 # install databases
 sudo apt-get install -y sqlite3 mongodb postgresql postgresql-contrib pgadmin3 libpq-dev
 
+# alias psql to to login with default postgres user
+echo "alias psql-root=\"sudo -u postgres psql\"" >> ~/.profile
+
 # install screen
 sudo apt-get install -y screen
 
@@ -49,3 +53,7 @@ sudo apt-get install -y scala
 # install sbt
 sudo apt-get install -y sbt
 
+# install 0mq
+sudo apt-get install -y libzmq1
+sudo apt-get install -y python-zmq
+sudo apt-get install -y libyaml-dev

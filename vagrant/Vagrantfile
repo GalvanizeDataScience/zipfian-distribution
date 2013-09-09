@@ -61,7 +61,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Shell script provisioning
   config.vm.provision :shell, :path => "../platforms/shell/lib/ubuntu.sh"
   config.vm.provision :shell, :path => "../platforms/shell/lib/python.sh"
-  config.vm.provision :shell, :path => "../platforms/shell/lib/hadoop-ecosystem.sh"
+  #config.vm.provision :shell, :path => "../platforms/shell/lib/hadoop-ecosystem.sh"
 
   # Enable provisioning with Puppet stand alone.  Puppet manifests
   # are contained in a directory path relative to this Vagrantfile.

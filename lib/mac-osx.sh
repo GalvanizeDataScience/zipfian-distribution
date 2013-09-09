@@ -4,7 +4,7 @@ echo "Welcome to the Mac OSX quickstart!"
 echo "Installing Mac OSX specific dependencies..."
 
 # VirtualBox
-echo "Would you like to install Virtual Box: [Y/n]?"
+echo "Would you like to install VirtualBox: [Y/n]?"
 read ANSWER
 
 if [ $ANSWER == 'Y' ]
