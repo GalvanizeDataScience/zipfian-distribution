@@ -63,6 +63,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :path => "../platforms/shell/lib/python.sh"
   config.vm.provision :shell, :path => "../platforms/shell/lib/hadoop-ecosystem.sh"
 
+
+  # Virtual box specific parameters
+
+  config.vm.provider "virtualbox" do |v|
+    v.customize ["modifyvm", :id, "--memory", "1000"]
+  end
+  
   # Enable provisioning with Puppet stand alone.  Puppet manifests
   # are contained in a directory path relative to this Vagrantfile.
   # You will need to create the manifests directory and a manifest in
