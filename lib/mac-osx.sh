@@ -89,4 +89,4 @@ fi
 
 # Now that dependencies should be installed, download the Vagrant files/Box
 echo "Downloading Zipfian Distribution Vagrantfile"
-wget 
+wget "http://zipfianacademy.com/downloads/zipfian-distribution/vagrant/Vagrantfile"

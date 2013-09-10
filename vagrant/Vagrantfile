@@ -1,3 +1,10 @@
+# This is a Vagrantfile to build the zipfian64 box.
+#
+# This can also be used to build instances that use
+# other providers such as AWS or Rackspace to spin
+# up instances in the cloud.
+
+
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -67,7 +74,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Virtual box specific parameters
 
   config.vm.provider "virtualbox" do |v|
-    v.customize ["modifyvm", :id, "--memory", "1000"]
+    v.customize ["modifyvm", :id, "--memory", "2000"]
   end
   
   # Enable provisioning with Puppet stand alone.  Puppet manifests

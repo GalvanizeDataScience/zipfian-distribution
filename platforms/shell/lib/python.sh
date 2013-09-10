@@ -34,8 +34,8 @@ fi
 echo "Installing Scipy"
 sudo apt-get install -y python-scipy libblas-dev liblapack-dev gfortran freetype*
 sudo easy_install -U distribute
-echo "export BLAS=/usr/local/lib/libblas.so" >> ~/.profile
-echo "export LAPACK=/usr/local/lib/liblapack.so" >> ~/.profile
+#echo "export BLAS=/usr/local/lib/libblas.so" >> ~/.profile
+#echo "export LAPACK=/usr/local/lib/liblapack.so" >> ~/.profile
 
 echo "Installing Numpy"
 pip install numpy
