@@ -25,6 +25,9 @@ Once the script is done running you should have VirtualBox, Vagrant, and XQuartz
 
 1. Initialize the VM: `vagrant up`
 2. Login into the guest machine: `vagrant ssh`
+3. Change into the synced directory: `cd /vagrant`
+4. Make sure all your files are there: `ls -larth`
+5. Play!
 
 Thats it!  You should be logged into the guest machine and have all the python/R/Hadoop goodness at your fingertips... try `ipython notebook`
 
@@ -102,6 +105,11 @@ _This Vagrant VM contains approximately XXX of additional files/libraries and ta
 `vagrant ssh`
 
 _NOTE: The Vagrant Box has X11 forwarding enabled, allowing you to run graphical applications (i.e. browser, IPython notebooks, R Studio, etc.) in the VM and have the windows run on the host machine_  
+
+
+### Synced Files
+
+By default Vagrant syncs the host directory in which the Vagrantfile resides with the `/vagrant` folder on the guest VM.  This is where you will be doing most of your work.  If you would like to change this, modify the Vagrant file [accordingly](http://docs.vagrantup.com/v2/synced-folders/basic_usage.html).
 
 ## Vagrant
 

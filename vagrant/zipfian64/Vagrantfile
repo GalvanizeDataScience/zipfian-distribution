@@ -1,3 +1,10 @@
+# This is a Vagrantfile to build the zipfian64 box.
+#
+# This can also be used to build instances that use
+# other providers such as AWS or Rackspace to spin
+# up instances in the cloud.
+
+
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -10,11 +17,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "zipfian64"
+  config.vm.box = "precise64"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://zipfianacademy.com/downloads/zipfian-distribution/boxes/zipfian64"
+  # config.vm.box_url = "http://domain.com/path/to/above.box"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
@@ -41,7 +48,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  # config.vm.synced_folder "./", "~/"
+  # config.vm.synced_folder "../data", "~/shared"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -58,6 +65,18 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # View the documentation for the provider you're using for more
   # information on available options.
 
+  # Shell script provisioning
+  config.vm.provision :shell, :path => "../platforms/shell/lib/ubuntu.sh"
+  config.vm.provision :shell, :path => "../platforms/shell/lib/python.sh"
+  config.vm.provision :shell, :path => "../platforms/shell/lib/hadoop-ecosystem.sh"
+
+
+  # Virtual box specific parameters
+
+  config.vm.provider "virtualbox" do |v|
+    v.customize ["modifyvm", :id, "--memory", "2000"]
+  end
+  
   # Enable provisioning with Puppet stand alone.  Puppet manifests
   # are contained in a directory path relative to this Vagrantfile.
   # You will need to create the manifests directory and a manifest in
