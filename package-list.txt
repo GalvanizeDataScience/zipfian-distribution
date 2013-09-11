@@ -5,7 +5,7 @@
 * Chromium Stable
 
 * fortran 
-* sublie text 2
+* sublime text 2
 * git
 * gitk
 

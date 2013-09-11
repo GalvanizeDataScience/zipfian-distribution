@@ -15,19 +15,28 @@ sudo echo "deb http://cran.ma.imperial.ac.uk/bin/linux/ubuntu precise/" >> /etc/
 wget http://apt.typesafe.com/repo-deb-build-0002.deb
 sudo dpkg -i repo-deb-build-0002.deb
 
+rm repo-deb-build-0002.deb
+
 # install R using apt-get
 sudo apt-get update -y 
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade
 sudo apt-get install -y r-base
 
-# install Chromium for IPython notebooks and web development
+# install browsers for IPython notebooks and web development
+sudo apt-get install -y firefox
 sudo apt-get install -y chromium-browser
 
 # install pip for python packages
 sudo apt-get install -y python-pip
 
 # install git
-sudo apt-get install -y git gitk
+sudo apt-get install -y git gitk git-man
+
+# install a calculator!
+sudo apt-get install -y bc
+
+# Yay Sparklines!
+sudo wget -O /usr/bin/spark "https://raw.github.com/holman/spark/master/spark"
 
 # install curl
 sudo apt-get install -y curl
@@ -46,6 +55,13 @@ echo "alias psql-root=\"sudo -u postgres psql\"" >> ~/.profile
 
 # install screen
 sudo apt-get install -y screen
+
+# Urchin lets you tests shell scripts with shell
+# install it: https://github.com/scraperwiki/urchin
+cd /usr/local/bin
+sudo wget https://raw.github.com/scraperwiki/urchin/master/urchin
+sudo chmod +x urchin
+cd ~/
 
 # install scala
 sudo apt-get install -y scala
