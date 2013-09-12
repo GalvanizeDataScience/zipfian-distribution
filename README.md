@@ -10,6 +10,10 @@ The shell scripts are all written for Ubuntu and utilize `apt-get`, which makes 
 
 Read [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) docs for a more advanced treatment of customizing the box.
 
+This is a product of [Zipfian Academy](http://zipfianacademy.com).  If this is the kind of stuff that excites you, we are always looking for passionate people to be [instructors](http://zipfianacademy.com/getinvolved/), to give guest [lectures](http://zipfianacademy.com/getinvolved/) or work with us on [projects](http://zipfianacademy.com/getinvolved/).  If you would like to learn about data science in a faced paced environment with other awesome students, I encourage you to [apply](http://zipfiancollective.wufoo.com/forms/m7x3z9/) to our 12-week immersive program.
+
+If you would just like to stay up to date with things, we do participate in Twitter [@zipfianacademy](http://twitter.com/zipfianacademy) and [the Facebook](http://facebook.com/zipfianacademy).
+
 __NOTE: Python 2.7 is the default version for this distribution__
 
 <a name="quickstart"></a>

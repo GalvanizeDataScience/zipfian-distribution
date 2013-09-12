@@ -11,7 +11,7 @@ pip install virtualenvwrapper
 # configure virtualenvwrapper
 echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
 echo "export PROJECT_HOME=$HOME/Devel" >> ~/.profile
-echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
+echo ". /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
 . ~/.profile
 
 # create a virtual environment for the zipfian distribution

@@ -3,6 +3,9 @@
 # This can also be used to build instances that use
 # other providers such as AWS or Rackspace to spin
 # up instances in the cloud.
+#
+# Takes around 2.5 hours to build unfortunately...
+# And is a 4GB VM
 
 
 # -*- mode: ruby -*-
@@ -66,9 +69,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # information on available options.
 
   # Shell script provisioning
-  config.vm.provision :shell, :path => "../platforms/shell/lib/ubuntu.sh"
-  config.vm.provision :shell, :path => "../platforms/shell/lib/python.sh"
-  config.vm.provision :shell, :path => "../platforms/shell/lib/hadoop-ecosystem.sh"
+  config.vm.provision :shell, :path => "../../platforms/shell/lib/ubuntu.sh"
+  config.vm.provision :shell, :path => "../../platforms/shell/lib/python.sh"
+  config.vm.provision :shell, :path => "../../platforms/shell/lib/hadoop-ecosystem.sh"
 
 
   # Virtual box specific parameters
