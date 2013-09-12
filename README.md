@@ -127,18 +127,20 @@ Please see the official Vagrant [documentation](http://docs.vagrantup.com/v2/get
 
 ### Ubuntu
 
-* [R](http://www.r-project.org/) (R Studio optional)
-* [Python 2.7](http://docs.python.org/2.7/)
+* [R](http://www.r-project.org/) (R Studio optional): `R`
+* [Python 2.7](http://docs.python.org/2.7/): `python`
+* [Scala 2.9.2](http://www.scala-lang.org/): `scala`
 * [pip](https://pypi.python.org/pypi/pip) and [easy_install](http://pythonhosted.org/distribute/easy_install.html)
-* [Chromium](http://www.chromium.org/Home)
-* [git](http://git-scm.com/) and [gitk](http://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
-* [curl](http://curl.haxx.se/)
-* [imagemagick](http://www.imagemagick.org/script/index.php)
-* [SQLite3](http://www.sqlite.org/)
-* [Postgres](http://www.postgresql.org/)
-* [MongoDB](http://www.mongodb.org/)
+* [Firefox](http://www.mozilla.org/en-US/firefox/fx/): `firefox`
+* [Chromium](http://www.chromium.org/Home): `chromium-browser`
+* [git](http://git-scm.com/) and [gitk](http://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/): `git --help`
+* [curl](http://curl.haxx.se/): `curl --help`
+* [imagemagick](http://www.imagemagick.org/script/index.php): `convert --help`
+* [SQLite3](http://www.sqlite.org/): `sqlite3`
+* [Postgres](http://www.postgresql.org/): `psql-root` (for unadulterated root login)
+* [MongoDB](http://www.mongodb.org/): `mongo`
 * [Vim](http://www.vim.org/)
-* [Emacs](http://www.gnu.org/software/emacs/)
+* [Emacs](http://www.gnu.org/software/emacs/): `emacs`
 * [screen](http://www.gnu.org/software/screen/)
 
 ### Python
@@ -179,19 +181,19 @@ For the associated Hadoop components, we leverage [Apache Bigtop](http://bigtop.
 * [Apache Zookeeper 3.4.5](http://zookeeper.apache.org/)
 * [Apache Flume 1.3.1](http://flume.apache.org/)
 * [Apache HBase 0.94.5](http://hbase.apache.org/)
-* [Apache Pig 0.11.1](http://pig.apache.org/)
-* [Apache Hive 0.10.0](http://hive.apache.org/)
+* [Apache Pig 0.11.1](http://pig.apache.org/): `pig -x local`
+* [Apache Hive 0.10.0](http://hive.apache.org/): `hive`
 * [Apache Sqoop 2 (AKA 1.99.2)](http://sqoop.apache.org/)
 * [Apache Oozie 3.3.2](http://oozie.apache.org/)
 * [Apache Whirr 0.8.2](http://whirr.apache.org/)
-* [Apache Mahout 0.7](http://mahout.apache.org/)
+* [Apache Mahout 0.7](http://mahout.apache.org/): `mahout 
 * [Apache Solr](http://lucene.apache.org/solr/) ([SolrCloud](http://wiki.apache.org/solr/SolrCloud)) 4.2.1
 * [Apache Crunch (incubating) 0.5.0](http://crunch.apache.org/)
 * [Apache HCatalog 0.5.0](http://hive.apache.org/hcatalog/)
 * [Apache Giraph 1.0.0](http://giraph.apache.org/)
 * [LinkedIn DataFu 0.0.6](http://data.linkedin.com/opensource/datafu)
-* [Cloudera Hue 2.3.0](http://cloudera.github.io/hue/)
-* [Apache Spark 7.3](http://spark.incubator.apache.org/)
+* [Cloudera Hue 2.3.0](http://cloudera.github.io/hue/): `hue`
+* [Apache Spark 7.3](http://spark.incubator.apache.org/): `spark-repl`
 * Cascading (Coming Soon)
 * Pycascading (Coming Soon)
 * Storm (Coming Soon)
