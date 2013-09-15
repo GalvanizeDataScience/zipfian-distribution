@@ -12,7 +12,7 @@ then
 	echo "Installing VirtualBox:"
 
 	# install VirtualBox: https://www.virtualbox.org/
-	wget -O ~/Downloads/VirtualBox-4.2.18-88780-OSX.dmg http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88780-OSX.dmg
+	curl -L http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88780-OSX.dmg > ~/Downloads/VirtualBox-4.2.18-88780-OSX.dmg
 
 	# Mount image
 	hdiutil attach -mountpoint /Volumes/VirtualBox ~/Downloads/VirtualBox-4.2.18-88780-OSX.dmg
@@ -40,7 +40,7 @@ then
 	echo "Installing Vagrant:"
 
 	# install Vagrant: http://www.vagrantup.com/
-	wget -O ~/Downloads/Vagrant-1.3.1.dmg http://files.vagrantup.com/packages/b12c7e8814171c1295ef82416ffe51e8a168a244/Vagrant-1.3.1.dmg
+	curl -L http://files.vagrantup.com/packages/b12c7e8814171c1295ef82416ffe51e8a168a244/Vagrant-1.3.1.dmg > ~/Downloads/Vagrant-1.3.1.dmg
 
 	# Mount image
 	hdiutil attach -mountpoint /Volumes/Vagrant ~/Downloads/Vagrant-1.3.1.dmg
@@ -68,7 +68,7 @@ then
 	echo "Installing XQuartz:"
 
 	# install XQuartz: http://xquartz.macosforge.org/landing/ 
-	wget -O ~/Downloads/XQuartz-2.7.4.dmg http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.4.dmg 
+	curl -L http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.4.dmg > ~/Downloads/XQuartz-2.7.4.dmg
 
 	# Mount image
 	hdiutil attach -mountpoint /Volumes/XQuartz-2.7.4 ~/Downloads/XQuartz-2.7.4.dmg 
@@ -89,4 +89,4 @@ fi
 
 # Now that dependencies should be installed, download the Vagrant files/Box
 echo "Downloading Zipfian Distribution Vagrantfile"
-wget "http://zipfianacademy.com/downloads/zipfian-distribution/vagrant/Vagrantfile"
+curl -O http://zipfianacademy.com/downloads/zipfian-distribution/vagrant/Vagrantfile

@@ -56,6 +56,9 @@ echo "alias psql-root=\"sudo -u postgres psql\"" >> ~/.profile
 # install screen
 sudo apt-get install -y screen
 
+# install pandoc for nbconvert
+sudo apt-get install -y pandoc
+
 # Urchin lets you tests shell scripts with shell
 # install it: https://github.com/scraperwiki/urchin
 cd /usr/local/bin
